@@ -1,0 +1,224 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 0.95,
+	"name": "Boyfriend (GEEK OFF)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/geek_bf",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "bf",
+		"flipX": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf idle",
+			"name": "idle",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-18,
+				3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-70,
+				-30
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-79,
+				62
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-106,
+				2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-5,
+				4
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf miss left",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-71,
+				-34
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf miss down",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-99,
+				76
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf miss up",
+			"name": "singUPmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-10,
+				-4
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf miss right",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-3,
+				12
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf hey",
+			"name": "hey",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				13,
+				11
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf dead",
+			"name": "firstDeath",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-167,
+				-165
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf death loop",
+			"looped": true,
+			"name": "deathLoop",
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-5,
+				-1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf confirm death",
+			"name": "deathConfirm",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				25,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf smash hit",
+			"name": "smashhit",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				381,
+				22
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf yeah",
+			"name": "yeah",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				20,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf grossed out",
+			"name": "ewww",
+			"looped": false,
+			"flipX": false
+		}
+	]
+}

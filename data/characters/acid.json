@@ -1,0 +1,428 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Acid",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/acid",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "acid"
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "acid idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "acid idle",
+			"frameIndices": [
+				11,
+				12
+			],
+			"flipX": false,
+			"name": "idle-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				22,
+				18
+			],
+			"frameRate": 24,
+			"prefix": "acid left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				22,
+				17
+			],
+			"frameRate": 24,
+			"prefix": "acid left",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singLEFT-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				-50
+			],
+			"frameRate": 24,
+			"prefix": "acid down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				-50
+			],
+			"frameRate": 24,
+			"prefix": "acid down",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singDOWN-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-19,
+				83
+			],
+			"frameRate": 24,
+			"prefix": "acid up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-19,
+				83
+			],
+			"frameRate": 24,
+			"prefix": "acid up",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singUP-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-35,
+				-13
+			],
+			"frameRate": 24,
+			"prefix": "acid right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-31,
+				-11
+			],
+			"frameRate": 24,
+			"prefix": "acid right",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singRIGHT-hold",
+			"looped": true
+		},
+		{
+			"offsets": [
+				32,
+				11
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "acid alt left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				31,
+				11
+			],
+			"frameRate": 24,
+			"prefix": "acid alt left",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singLEFT-alt-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-3,
+				-51
+			],
+			"frameRate": 24,
+			"prefix": "acid alt down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-3,
+				-51
+			],
+			"frameRate": 24,
+			"prefix": "acid alt down",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singDOWN-alt-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				51,
+				62
+			],
+			"frameRate": 24,
+			"prefix": "acid alt up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				51,
+				62
+			],
+			"frameRate": 24,
+			"prefix": "acid alt up",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singUP-alt-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-35,
+				-13
+			],
+			"frameRate": 24,
+			"prefix": "acid alt right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-35,
+				-13
+			],
+			"frameRate": 24,
+			"prefix": "acid alt right",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singRIGHT-alt-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-9,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "acid brap",
+			"flipX": false,
+			"looped": false,
+			"name": "burp"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-2,
+				13
+			],
+			"frameRate": 24,
+			"prefix": "acid giggle",
+			"flipX": false,
+			"looped": false,
+			"name": "giggle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				90,
+				16
+			],
+			"frameRate": 24,
+			"prefix": "acid hey",
+			"flipX": false,
+			"looped": false,
+			"name": "hey"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				9,
+				4
+			],
+			"frameRate": 24,
+			"prefix": "acid die",
+			"flipX": false,
+			"looped": false,
+			"name": "vomit"
+		}
+	]
+}

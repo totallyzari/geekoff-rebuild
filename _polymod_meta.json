@@ -1,0 +1,69 @@
+{
+    "title": "GEEK OFF (REBUILD)",
+    "description": "a mod about grunts seeing who can get more fried than the other, nothin tooooooo crazy",
+     "contributors": [
+    {
+      "name": "[whos.eli]",
+      "role": "did a bit of everything, but mostly main artist"
+    },
+    {
+      "name": "26B",
+      "role": "owner of 26b OC"
+    },
+    {
+      "name": "acidm2rage",
+      "role": "owner of acid OC"
+    },
+    {
+      "name": "iggybleegy",
+      "role": "Musician, art and animation"
+    },
+    {
+      "name": "Dashee",
+      "role": "Musician"
+    },
+    {
+      "name": "xerovgm",
+      "role": "Musician"
+    },
+    {
+      "name": "Lucy4Realz",
+      "role": "Musician, owner of 4EVA (GO PLAY IT)"
+    },
+    {
+      "name": "Under Hunter",
+      "role": "Additional coding + art"
+    },
+    {
+      "name": "bug",
+      "role": "Pixel art"
+    },
+    {
+      "name": "luvvvbunny",
+      "role": "hi wife<333"
+    },
+    {
+      "name": "terminalangst",
+      "role": "hi terminal"
+    },
+    {
+      "name": "Nebula S. Nova",
+      "role": "Programming help"
+    },
+    {
+      "name": "MAZside",
+      "role": "Programming help + literally made the extra events mod we used :sob:"
+    },
+    {
+      "name": "TotallyZari",
+      "role": "Programming"
+    }
+  ],
+    "api_version": "0.8.0",
+    "mod_version": "1.2.0",
+    "id": "geek-off-rebuild",
+    "dependencies": {
+	  "extra-events": ">=1.0.0"
+    },
+    "license": "CC BY 4.0,MIT"
+}

@@ -1,0 +1,358 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "26b",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"offsets": [
+			0,
+			15
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "26b"
+	},
+	"assetPath": "characters/26b",
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "26b idle",
+			"flipX": false,
+			"looped": true,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "26b idle",
+			"frameIndices": [
+				10,
+				11,
+				12,
+				13
+			],
+			"flipX": false,
+			"name": "idle-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				71,
+				6
+			],
+			"frameRate": 24,
+			"prefix": "26b left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				60,
+				-17
+			],
+			"frameRate": 24,
+			"prefix": "26b left",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"flipX": false,
+			"name": "singLEFT-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				3,
+				26
+			],
+			"frameRate": 24,
+			"prefix": "26b down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				3,
+				23
+			],
+			"frameRate": 24,
+			"prefix": "26b down",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"flipX": false,
+			"name": "singDOWN-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				42,
+				55
+			],
+			"frameRate": 24,
+			"prefix": "26b up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				40,
+				55
+			],
+			"frameRate": 24,
+			"prefix": "26b up",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"flipX": false,
+			"name": "singUP-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				28,
+				-2
+			],
+			"frameRate": 24,
+			"prefix": "26b right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				28,
+				-2
+			],
+			"frameRate": 24,
+			"prefix": "26b right",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"flipX": false,
+			"name": "singRIGHT-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				120,
+				-10
+			],
+			"frameRate": 24,
+			"prefix": "26b alt left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				123,
+				-12
+			],
+			"frameRate": 24,
+			"prefix": "26b alt left",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"flipX": false,
+			"name": "singLEFT-alt-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-10,
+				15
+			],
+			"frameRate": 24,
+			"prefix": "26b alt down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-13,
+				14
+			],
+			"frameRate": 24,
+			"prefix": "26b alt down",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"flipX": false,
+			"name": "singDOWN-alt-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				96,
+				53
+			],
+			"frameRate": 24,
+			"prefix": "26b alt up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				96,
+				53
+			],
+			"frameRate": 24,
+			"prefix": "26b alt up",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"flipX": false,
+			"name": "singUP-alt-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-19,
+				22
+			],
+			"frameRate": 24,
+			"prefix": "26b alt right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT-alt"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-20,
+				22
+			],
+			"frameRate": 24,
+			"prefix": "26b alt right",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"flipX": false,
+			"name": "singRIGHT-alt-hold",
+			"looped": true
+		}
+	]
+}

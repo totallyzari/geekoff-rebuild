@@ -1,0 +1,136 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Girlfriend (GEEK OFF)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/geek_gf",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "gf"
+	},
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "gf idle",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": true,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				70,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "gf cry",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "sad"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				13,
+				2
+			],
+			"frameRate": 24,
+			"prefix": "gf cheer",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "cheer"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				5,
+				5
+			],
+			"frameRate": 24,
+			"prefix": "gf stop hollup",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "stop"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				5,
+				15
+			],
+			"frameRate": 24,
+			"prefix": "gf grossed out",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "eugh"
+		},
+		{
+			"offsets": [
+				3,
+				14
+			],
+			"prefix": "gf shock",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "shock",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				3,
+				14
+			],
+			"prefix": "gf shock",
+			"frameIndices": [
+				15,
+				16,
+				17
+			],
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": true,
+			"name": "shock-hold",
+			"flipY": false,
+			"frameRate": 24
+		}
+	]
+}

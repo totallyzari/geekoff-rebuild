@@ -1,0 +1,205 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 0.95,
+	"name": "Boyfriend (JEETER JUICE)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraZoom": 0.9,
+		"preTransitionDelay": 0,
+		"cameraOffsets": [
+			-420,
+			-170
+		]
+	},
+	"isPixel": false,
+	"assetPath": "characters/jj_bf",
+	"healthIcon": {
+		"offsets": [
+			-20,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "bf"
+	},
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				10
+			],
+			"frameRate": 24,
+			"prefix": "bf idle",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-18,
+				3
+			],
+			"frameRate": 24,
+			"prefix": "bf left",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-70,
+				-30
+			],
+			"frameRate": 24,
+			"prefix": "bf down",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-79,
+				62
+			],
+			"frameRate": 24,
+			"prefix": "bf up",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-106,
+				2
+			],
+			"frameRate": 24,
+			"prefix": "bf right",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-5,
+				4
+			],
+			"frameRate": 24,
+			"prefix": "bf miss left",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-71,
+				-34
+			],
+			"frameRate": 24,
+			"prefix": "bf miss down",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-99,
+				76
+			],
+			"frameRate": 24,
+			"prefix": "bf miss up",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-10,
+				-4
+			],
+			"frameRate": 24,
+			"prefix": "bf miss right",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-3,
+				12
+			],
+			"frameRate": 24,
+			"prefix": "bf hey",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "hey"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				355,
+				107
+			],
+			"frameRate": 24,
+			"prefix": "bf found dead",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "firstDeath"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				381,
+				22
+			],
+			"frameRate": 24,
+			"prefix": "bf yeah",
+			"animType": "framelabel",
+			"flipX": false,
+			"looped": false,
+			"name": "yeah"
+		}
+	]
+}

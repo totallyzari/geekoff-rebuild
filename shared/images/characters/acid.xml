@@ -1,0 +1,858 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="geek_acid.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="acid alt down0000" x="0" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0001" x="0" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0002" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0003" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0004" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0005" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0006" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0007" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0008" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0009" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0010" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0011" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0012" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0013" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0014" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0015" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0016" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0017" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0018" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0019" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0020" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0021" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0022" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0023" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0024" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0025" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0026" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0027" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0028" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0029" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0030" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0031" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0032" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0033" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0034" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0035" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0036" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0037" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0038" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0039" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0040" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0041" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0042" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0043" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt down0044" x="462" y="0" width="462" height="569"/>
+	<SubTexture name="acid alt left0000" x="924" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0001" x="924" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0002" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0003" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0004" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0005" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0006" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0007" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0008" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0009" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0010" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0011" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0012" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0013" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0014" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0015" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0016" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0017" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0018" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0019" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0020" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0021" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0022" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0023" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0024" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0025" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0026" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0027" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0028" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0029" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0030" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0031" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0032" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0033" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0034" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0035" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0036" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0037" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0038" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0039" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0040" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0041" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0042" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0043" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt left0044" x="1338" y="0" width="414" height="620"/>
+	<SubTexture name="acid alt right0000" x="1752" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0001" x="1752" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0002" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0003" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0004" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0005" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0006" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0007" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0008" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0009" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0010" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0011" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0012" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0013" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0014" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0015" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0016" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0017" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0018" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0019" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0020" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0021" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0022" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0023" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0024" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0025" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0026" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0027" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0028" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0029" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0030" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0031" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0032" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0033" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0034" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0035" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0036" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0037" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0038" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0039" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0040" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0041" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0042" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0043" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt right0044" x="2200" y="0" width="448" height="599"/>
+	<SubTexture name="acid alt up0000" x="2648" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0001" x="2648" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0002" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0003" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0004" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0005" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0006" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0007" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0008" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0009" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0010" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0011" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0012" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0013" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0014" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0015" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0016" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0017" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0018" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0019" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0020" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0021" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0022" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0023" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0024" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0025" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0026" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0027" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0028" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0029" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0030" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0031" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0032" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0033" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0034" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0035" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0036" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0037" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0038" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0039" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0040" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0041" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0042" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0043" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid alt up0044" x="3117" y="0" width="469" height="668"/>
+	<SubTexture name="acid brap0000" x="3586" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0001" x="3586" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0002" x="4033" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0003" x="4480" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0004" x="4480" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0005" x="4927" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0006" x="4927" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0007" x="5374" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0008" x="5374" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0009" x="5821" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0010" x="5821" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0011" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0012" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0013" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0014" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0015" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0016" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0017" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0018" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0019" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0020" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0021" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0022" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0023" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0024" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0025" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0026" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0027" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0028" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0029" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0030" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0031" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0032" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0033" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0034" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0035" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0036" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0037" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0038" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0039" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0040" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0041" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0042" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0043" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid brap0044" x="6268" y="0" width="447" height="609"/>
+	<SubTexture name="acid die0000" x="6715" y="0" width="583" height="647"/>
+	<SubTexture name="acid die0001" x="6715" y="0" width="583" height="647"/>
+	<SubTexture name="acid die0002" x="7298" y="0" width="583" height="647"/>
+	<SubTexture name="acid die0003" x="7298" y="0" width="583" height="647"/>
+	<SubTexture name="acid die0004" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0005" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0006" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0007" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0008" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0009" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0010" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0011" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0012" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0013" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0014" x="0" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0015" x="583" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0016" x="583" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0017" x="1166" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0018" x="1166" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0019" x="1749" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0020" x="1749" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0021" x="2332" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0022" x="2332" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0023" x="2915" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0024" x="3498" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0025" x="3498" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0026" x="4081" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0027" x="4081" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0028" x="4664" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0029" x="4664" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0030" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0031" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0032" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0033" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0034" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0035" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0036" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0037" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0038" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0039" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0040" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0041" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0042" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0043" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0044" x="5830" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0045" x="5830" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0046" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0047" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0048" x="6413" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0049" x="5830" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0050" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0051" x="5247" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0052" x="6996" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0053" x="6996" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0054" x="7579" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0055" x="7579" y="668" width="583" height="647"/>
+	<SubTexture name="acid die0056" x="0" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0057" x="0" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0058" x="583" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0059" x="583" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0060" x="1166" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0061" x="1166" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0062" x="1749" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0063" x="1749" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0064" x="2332" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0065" x="2332" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0066" x="2915" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0067" x="2915" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0068" x="3498" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0069" x="3498" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0070" x="4081" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0071" x="4664" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0072" x="5247" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0073" x="5830" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0074" x="6413" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0075" x="6996" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0076" x="7579" y="1315" width="583" height="647"/>
+	<SubTexture name="acid die0077" x="0" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0078" x="583" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0079" x="1166" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0080" x="1749" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0081" x="2332" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0082" x="2915" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0083" x="3498" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0084" x="4081" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0085" x="4664" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0086" x="5247" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0087" x="5830" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0088" x="6413" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0089" x="6413" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0090" x="6996" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0091" x="6996" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0092" x="7579" y="1962" width="583" height="647"/>
+	<SubTexture name="acid die0093" x="0" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0094" x="583" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0095" x="1166" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0096" x="1749" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0097" x="2332" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0098" x="2915" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0099" x="3498" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0100" x="4081" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0101" x="4664" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0102" x="5247" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0103" x="5830" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0104" x="6413" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0105" x="6996" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0106" x="7579" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0107" x="7579" y="2609" width="583" height="647"/>
+	<SubTexture name="acid die0108" x="0" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0109" x="0" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0110" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0111" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0112" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0113" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0114" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0115" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0116" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0117" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0118" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0119" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0120" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0121" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0122" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0123" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0124" x="583" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0125" x="1166" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0126" x="1166" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0127" x="1749" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0128" x="1749" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0129" x="2332" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0130" x="2332" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0131" x="2915" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0132" x="2915" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0133" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0134" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0135" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0136" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0137" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0138" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0139" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0140" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0141" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0142" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0143" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0144" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0145" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0146" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0147" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0148" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0149" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0150" x="3498" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0151" x="4081" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0152" x="4081" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0153" x="4664" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0154" x="4664" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0155" x="5247" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0156" x="5247" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0157" x="5830" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0158" x="5830" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0159" x="6413" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0160" x="6413" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0161" x="6996" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0162" x="6996" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0163" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0164" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0165" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0166" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0167" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0168" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0169" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0170" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0171" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0172" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0173" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0174" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0175" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0176" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0177" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0178" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0179" x="7579" y="3256" width="583" height="647"/>
+	<SubTexture name="acid die0180" x="0" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0181" x="0" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0182" x="583" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0183" x="583" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0184" x="1166" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0185" x="1166" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0186" x="1749" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0187" x="1749" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0188" x="2332" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0189" x="2332" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0190" x="1749" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0191" x="1749" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0192" x="2332" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0193" x="2332" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0194" x="1749" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0195" x="1749" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0196" x="2332" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0197" x="2332" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0198" x="2915" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0199" x="2915" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0200" x="3498" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0201" x="3498" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0202" x="4081" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0203" x="4081" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0204" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0205" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0206" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0207" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0208" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0209" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0210" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0211" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0212" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0213" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0214" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0215" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0216" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0217" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0218" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0219" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0220" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0221" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0222" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0223" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0224" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0225" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0226" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0227" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0228" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0229" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0230" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0231" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0232" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0233" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0234" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0235" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0236" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0237" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0238" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0239" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0240" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0241" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0242" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0243" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0244" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0245" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0246" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0247" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0248" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0249" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0250" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0251" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0252" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0253" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0254" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0255" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0256" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0257" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0258" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0259" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0260" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0261" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0262" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0263" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0264" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0265" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0266" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0267" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0268" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0269" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0270" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0271" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0272" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0273" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0274" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0275" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0276" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0277" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0278" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0279" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0280" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0281" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0282" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0283" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0284" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0285" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0286" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0287" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0288" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0289" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0290" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0291" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0292" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0293" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0294" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0295" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0296" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0297" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0298" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0299" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0300" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0301" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0302" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0303" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0304" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0305" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0306" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0307" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0308" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0309" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0310" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0311" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0312" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0313" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0314" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0315" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0316" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0317" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0318" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0319" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0320" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0321" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0322" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0323" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0324" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0325" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0326" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0327" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0328" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0329" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0330" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0331" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0332" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0333" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0334" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0335" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0336" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0337" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0338" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0339" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0340" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0341" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0342" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0343" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0344" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0345" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0346" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0347" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0348" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0349" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0350" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0351" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0352" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0353" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0354" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0355" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0356" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0357" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0358" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0359" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0360" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0361" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0362" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0363" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0364" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0365" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0366" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0367" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0368" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0369" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0370" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0371" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0372" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0373" x="4664" y="3903" width="583" height="647"/>
+	<SubTexture name="acid die0374" x="5247" y="3903" width="583" height="647"/>
+	<SubTexture name="acid down0000" x="5830" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0001" x="5830" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0002" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0003" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0004" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0005" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0006" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0007" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0008" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0009" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0010" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0011" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0012" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0013" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0014" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0015" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0016" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0017" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0018" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0019" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0020" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0021" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0022" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0023" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0024" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0025" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0026" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0027" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0028" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0029" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0030" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0031" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0032" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0033" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0034" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0035" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0036" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0037" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0038" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0039" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0040" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0041" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0042" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0043" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid down0044" x="6292" y="3903" width="462" height="569"/>
+	<SubTexture name="acid giggle0000" x="6754" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0001" x="6754" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0002" x="7186" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0003" x="7186" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0004" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0005" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0006" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0007" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0008" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0009" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0010" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0011" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0012" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid giggle0013" x="7618" y="3903" width="432" height="622"/>
+	<SubTexture name="acid hey0000" x="0" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0001" x="0" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0002" x="539" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0003" x="539" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0004" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0005" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0006" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0007" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0008" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0009" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0010" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0011" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0012" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0013" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0014" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0015" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0016" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0017" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0018" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0019" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0020" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0021" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0022" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0023" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0024" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0025" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0026" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0027" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0028" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0029" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0030" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0031" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0032" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0033" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0034" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0035" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0036" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0037" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0038" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0039" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0040" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0041" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0042" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0043" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid hey0044" x="1078" y="4550" width="539" height="632"/>
+	<SubTexture name="acid idle0000" x="1617" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0001" x="1617" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0002" x="2061" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0003" x="2061" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0004" x="2505" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0005" x="2505" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0006" x="2949" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0007" x="2949" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0008" x="3393" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0009" x="3393" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0010" x="3837" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0011" x="3837" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0012" x="3837" y="4550" width="444" height="610"/>
+	<SubTexture name="acid idle0013" x="3837" y="4550" width="444" height="610"/>
+	<SubTexture name="acid left0000" x="4281" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0001" x="4281" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0002" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0003" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0004" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0005" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0006" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0007" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0008" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0009" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0010" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0011" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0012" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0013" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0014" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0015" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0016" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0017" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0018" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0019" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0020" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0021" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0022" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0023" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0024" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0025" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0026" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0027" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0028" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0029" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0030" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0031" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0032" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0033" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0034" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0035" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0036" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0037" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0038" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0039" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0040" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0041" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0042" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0043" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid left0044" x="4685" y="4550" width="404" height="626"/>
+	<SubTexture name="acid right0000" x="5089" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0001" x="5089" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0002" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0003" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0004" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0005" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0006" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0007" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0008" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0009" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0010" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0011" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0012" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0013" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0014" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0015" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0016" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0017" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0018" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0019" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0020" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0021" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0022" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0023" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0024" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0025" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0026" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0027" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0028" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0029" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0030" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0031" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0032" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0033" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0034" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0035" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0036" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0037" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0038" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0039" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0040" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0041" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0042" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0043" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid right0044" x="5539" y="4550" width="450" height="599"/>
+	<SubTexture name="acid up0000" x="5989" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0001" x="5989" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0002" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0003" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0004" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0005" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0006" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0007" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0008" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0009" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0010" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0011" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0012" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0013" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0014" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0015" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0016" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0017" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0018" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0019" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0020" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0021" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0022" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0023" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0024" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0025" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0026" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0027" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0028" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0029" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0030" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0031" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0032" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0033" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0034" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0035" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0036" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0037" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0038" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0039" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0040" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0041" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0042" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0043" x="6424" y="4550" width="435" height="688"/>
+	<SubTexture name="acid up0044" x="6424" y="4550" width="435" height="688"/>
+</TextureAtlas>

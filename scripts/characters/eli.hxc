@@ -1,0 +1,33 @@
+import funkin.play.character.AnimateAtlasCharacter;
+import funkin.play.character.MultiAnimateAtlasCharacter;
+import funkin.play.character.CharacterType;
+import flixel.util.FlxTimer;
+import flixel.tweens.FlxEase;
+import funkin.graphics.FunkinSprite;
+import flixel.tweens.FlxTween;
+import funkin.play.PlayState;
+import funkin.play.GameOverSubState;
+import flixel.tweens.FlxTween;
+import flixel.effects.FlxFlicker;
+
+class EliCharacter extends MultiAnimateAtlasCharacter
+{
+  function new()
+  {
+    super('eli');
+  }
+
+  function onNoteHit(event:HitNoteScriptEvent)
+  {
+    // Override the hit note animation.
+    switch (event.note.kind)
+    {
+      case "elimain-alt":
+        holdTimer = 0;
+        this.playSingAnimation(event.note.noteData.getDirection(), false, 'alt');
+        return;
+    }
+
+    super.onNoteHit(event);
+  }
+}

@@ -1,0 +1,118 @@
+import funkin.play.song.Song;
+import funkin.modding.module.Module;
+import funkin.play.PlayState;
+import flixel.FlxG;
+import funkin.modding.events.ScriptEvent;
+import flixel.util.FlxTimer;
+import flixel.FlxSprite;
+import flixel.math.FlxBasePoint;
+import funkin.play.GameOverSubState;
+import flixel.tweens.FlxEase;
+import funkin.modding.events.ScriptEvent;
+import flixel.tweens.FlxTween;
+import funkin.graphics.FunkinSprite;
+import funkin.Paths;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.graphics.video.FunkinVideoSprite;
+import funkin.play.PlayStatePlaylist;
+import flixel.text.FlxText;
+import flixel.text.FlxTextFormat;
+import flixel.text.FlxTextBorderStyle;
+import flixel.util.FlxColor;
+import funkin.Preferences;
+import funkin.ui.options.PreferencesMenu;
+
+class JeeterJuiceSong extends Song {
+
+	public var mandatoryJCsection:FunkinVideoSprite;
+	public var endCutscene:FunkinVideoSprite;
+
+	public function new() {
+		super("jeeter-juice");
+	}
+
+	public override function onCreate(event:ScriptEvent) {
+		super.onCreate(event);
+
+		var isCopyrightEnabled:Bool = false; // find a way to re-implement options menu
+
+		if (isCopyrightEnabled) {
+			trace('Replacing instrumental...');
+			PlayState.instance.currentInstrumental = "copyrightfree";
+
+			// below is the code for the disclaimer for when you enter the song with copyrightOption on.
+
+			//controls the y value of the text based of if you're on upscroll or downscroll
+			var Yvalue;
+			if (Preferences.downscroll) {
+				Yvalue = 130;
+			} else {
+				Yvalue = 550;
+			}
+
+			copyrightNotice = new FlxText(0, Yvalue, FlxG.width, "Copyright Friendly Mode is enabled for this song.", 15);
+			copyrightNotice.zIndex = 100000;
+			copyrightNotice.cameras = [PlayState.instance.camHUD];
+			copyrightNotice.scrollFactor.set(0, 0);
+			copyrightNotice.setFormat(Paths.font("vcr.ttf"), 15.9, FlxColor.YELLOW, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+			FlxG.state.add(copyrightNotice);
+
+			//tweening it to disappear after a couple seconds
+		}
+	}
+
+	public override function onSongLoaded(e) {
+		super.onSongLoaded(e);
+
+		mandatoryJCsection = new FunkinVideoSprite(-200, -90);
+		mandatoryJCsection.zIndex = 25;
+		mandatoryJCsection.bitmap.volumeAdjust = 0;
+		mandatoryJCsection.load(Paths.videos('mandatoryjcsection-jeeterjuice.mp4'));
+		mandatoryJCsection.scrollFactor.set(0, 0);
+		mandatoryJCsection.scale.set(1.15, 1.15);
+
+		endCutscene = new FunkinVideoSprite(0, 0);
+		endCutscene.zIndex = 25;
+		endCutscene.bitmap.volumeAdjust = 0;
+		endCutscene.load(Paths.videos('endcutscene-jeeterjuice.mp4'));
+		endCutscene.scrollFactor.set(0, 0);
+		endCutscene.scale.set(1.15, 1.15);
+	}
+
+	public function onStepHit(event:ScriptEvent) {
+		super.onStepHit(event);
+		var random:Int = FlxG.random.int(0, 20);  // lowered for testing | 90000
+
+		if (random == 0) {
+			// PlayState.instance.health -= 100;
+		}
+
+		if (event.step == 1008) {
+			// mandatory jersey club section
+			mandatoryJCsection.play();
+			PlayState.instance.currentStage.add(mandatoryJCsection);
+			PlayState.instance.currentStage.refresh();
+		}
+
+		if (event.step == 1568) {
+			// end cutscene
+			endCutscene.play();
+			PlayState.instance.currentStage.add(endCutscene);
+			PlayState.instance.currentStage.refresh();
+		}
+
+		if (event.step == 1552) FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 0.1);
+	}
+
+	function onGameOver(e) {
+		super.onGameOver(e);
+		PlayState.instance.currentStage.getDad().playAnimation('kill', 24, false, false, true);
+		PlayState.instance.currentStage.getGirlfriend().playAnimation('shock', 24, false, false, true);
+	}
+
+	public function onSongRetry(event:ScriptEvent) {
+		super.onSongRetry(event);
+
+		FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.1);
+	}
+}
