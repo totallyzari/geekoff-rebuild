@@ -1,0 +1,497 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="fried_dashee.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dashee confirm death0000" x="0" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0001" x="474" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0002" x="948" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0003" x="1422" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0004" x="1896" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0005" x="2370" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0006" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0007" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0008" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0009" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0010" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0011" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0012" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0013" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0014" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0015" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0016" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0017" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0018" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0019" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0020" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0021" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0022" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0023" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0024" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0025" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0026" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0027" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0028" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0029" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0030" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0031" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0032" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0033" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0034" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0035" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0036" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0037" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0038" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0039" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0040" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0041" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0042" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0043" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0044" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0045" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0046" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0047" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0048" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0049" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0050" x="2844" y="0" width="474" height="431"/>
+	<SubTexture name="dashee confirm death0051" x="3318" y="0" width="474" height="431"/>
+	<SubTexture name="dashee death loop0000" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0001" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0002" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0003" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0004" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0005" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0006" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0007" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0008" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0009" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0010" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0011" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0012" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0013" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0014" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0015" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0016" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0017" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0018" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0019" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0020" x="3792" y="0" width="445" height="367"/>
+	<SubTexture name="dashee death loop0021" x="4237" y="0" width="445" height="367"/>
+	<SubTexture name="dashee die0000" x="4682" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0001" x="4682" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0002" x="4682" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0003" x="4682" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0004" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0005" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0006" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0007" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0008" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0009" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0010" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0011" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0012" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0013" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0014" x="5254" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0015" x="5826" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0016" x="5826" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0017" x="6398" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0018" x="6398" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0019" x="6970" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0020" x="6970" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0021" x="7542" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0022" x="7542" y="0" width="572" height="663"/>
+	<SubTexture name="dashee die0023" x="0" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0024" x="0" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0025" x="572" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0026" x="572" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0027" x="1144" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0028" x="1716" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0029" x="2288" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0030" x="2860" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0031" x="3432" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0032" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0033" x="4576" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0034" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0035" x="4576" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0036" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0037" x="4576" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0038" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0039" x="4576" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0040" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0041" x="4576" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0042" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0043" x="4576" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0044" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0045" x="4576" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0046" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0047" x="4576" y="663" width="572" height="663"/>
+	<SubTexture name="dashee die0048" x="4004" y="663" width="572" height="663"/>
+	<SubTexture name="dashee down0000" x="5148" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0001" x="5148" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0002" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0003" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0004" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0005" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0006" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0007" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0008" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0009" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0010" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0011" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0012" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0013" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0014" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0015" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0016" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0017" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0018" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0019" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0020" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0021" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0022" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0023" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0024" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0025" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0026" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0027" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0028" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0029" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0030" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0031" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0032" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0033" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0034" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0035" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0036" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0037" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0038" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0039" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0040" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0041" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0042" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0043" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee down0044" x="5649" y="663" width="501" height="642"/>
+	<SubTexture name="dashee idle0000" x="6150" y="663" width="468" height="660"/>
+	<SubTexture name="dashee idle0001" x="6150" y="663" width="468" height="660"/>
+	<SubTexture name="dashee idle0002" x="6150" y="663" width="468" height="660"/>
+	<SubTexture name="dashee idle0003" x="6618" y="663" width="468" height="660"/>
+	<SubTexture name="dashee idle0004" x="6618" y="663" width="468" height="660"/>
+	<SubTexture name="dashee idle0005" x="6618" y="663" width="468" height="660"/>
+	<SubTexture name="dashee idle0006" x="7086" y="663" width="468" height="660"/>
+	<SubTexture name="dashee idle0007" x="7086" y="663" width="468" height="660"/>
+	<SubTexture name="dashee idle0008" x="7086" y="663" width="468" height="660"/>
+	<SubTexture name="dashee left0000" x="7554" y="663" width="519" height="673"/>
+	<SubTexture name="dashee left0001" x="7554" y="663" width="519" height="673"/>
+	<SubTexture name="dashee left0002" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0003" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0004" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0005" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0006" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0007" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0008" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0009" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0010" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0011" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0012" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0013" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0014" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0015" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0016" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0017" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0018" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0019" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0020" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0021" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0022" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0023" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0024" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0025" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0026" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0027" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0028" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0029" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0030" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0031" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0032" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0033" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0034" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0035" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0036" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0037" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0038" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0039" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0040" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0041" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0042" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0043" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee left0044" x="0" y="1336" width="519" height="673"/>
+	<SubTexture name="dashee miss down0000" x="519" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0001" x="1085" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0002" x="1085" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0003" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0004" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0005" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0006" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0007" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0008" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0009" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0010" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0011" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0012" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0013" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0014" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0015" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0016" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0017" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0018" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0019" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0020" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0021" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0022" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0023" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0024" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0025" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0026" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0027" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0028" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0029" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0030" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0031" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0032" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0033" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0034" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0035" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0036" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0037" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0038" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0039" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0040" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0041" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0042" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0043" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss down0044" x="1651" y="1336" width="566" height="641"/>
+	<SubTexture name="dashee miss left0000" x="2217" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0001" x="2741" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0002" x="2741" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0003" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0004" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0005" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0006" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0007" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0008" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0009" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0010" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0011" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0012" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0013" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0014" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0015" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0016" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0017" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0018" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0019" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0020" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0021" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0022" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0023" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0024" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0025" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0026" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0027" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0028" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0029" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0030" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0031" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0032" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0033" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0034" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0035" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0036" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0037" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0038" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0039" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0040" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0041" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0042" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0043" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss left0044" x="3265" y="1336" width="524" height="680"/>
+	<SubTexture name="dashee miss right0000" x="3789" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0001" x="4340" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0002" x="4340" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0003" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0004" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0005" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0006" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0007" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0008" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0009" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0010" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0011" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0012" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0013" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0014" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0015" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0016" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0017" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0018" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0019" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0020" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0021" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0022" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0023" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0024" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0025" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0026" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0027" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0028" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0029" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0030" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0031" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0032" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0033" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0034" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0035" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0036" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0037" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0038" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0039" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0040" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0041" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0042" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0043" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss right0044" x="4891" y="1336" width="551" height="668"/>
+	<SubTexture name="dashee miss up0000" x="5442" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0001" x="5968" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0002" x="5968" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0003" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0004" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0005" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0006" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0007" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0008" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0009" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0010" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0011" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0012" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0013" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0014" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0015" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0016" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0017" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0018" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0019" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0020" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0021" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0022" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0023" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0024" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0025" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0026" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0027" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0028" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0029" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0030" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0031" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0032" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0033" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0034" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0035" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0036" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0037" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0038" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0039" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0040" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0041" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0042" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0043" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee miss up0044" x="6494" y="1336" width="526" height="704"/>
+	<SubTexture name="dashee right0000" x="7020" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0001" x="7020" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0002" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0003" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0004" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0005" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0006" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0007" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0008" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0009" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0010" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0011" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0012" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0013" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0014" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0015" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0016" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0017" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0018" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0019" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0020" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0021" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0022" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0023" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0024" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0025" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0026" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0027" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0028" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0029" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0030" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0031" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0032" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0033" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0034" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0035" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0036" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0037" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0038" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0039" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0040" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0041" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0042" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0043" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee right0044" x="7533" y="1336" width="513" height="668"/>
+	<SubTexture name="dashee up0000" x="0" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0001" x="0" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0002" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0003" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0004" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0005" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0006" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0007" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0008" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0009" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0010" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0011" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0012" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0013" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0014" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0015" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0016" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0017" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0018" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0019" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0020" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0021" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0022" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0023" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0024" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0025" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0026" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0027" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0028" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0029" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0030" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0031" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0032" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0033" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0034" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0035" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0036" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0037" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0038" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0039" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0040" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0041" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0042" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0043" x="476" y="2040" width="476" height="689"/>
+	<SubTexture name="dashee up0044" x="476" y="2040" width="476" height="689"/>
+</TextureAtlas>

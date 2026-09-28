@@ -1,0 +1,9 @@
+{
+  "version": "1.0.0",
+  "name": "GEEK OFF EXTRAS",
+  "titleAsset": "storymenu/titles/geek1",
+  "visible": false,
+  "props": [{"assetPath": "storymenu/props/geeksquad", "offsets": [100, 60], "animations": [{"name": "idle", "prefix": "geek menu", "frameRate": 24}]}],
+  "songs": ["afterthegeek"],
+  "capsule": {"name": "GEEK OFF"}
+}

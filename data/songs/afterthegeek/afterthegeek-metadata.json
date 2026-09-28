@@ -1,0 +1,54 @@
+{
+ "version": "2.2.4",
+ "songName": "AFTERTHEGEEK",
+ "artist": "xerovgm, Dashee",
+ "charter": "observed",
+ "offsets": { },
+ "playData": {
+  "songVariations": [
+   "pico"
+  ],
+  "difficulties": [
+   "normal"
+  ],
+  "characters": {
+   "player": "dashee",
+   "opponent": "xero",
+   "opponentVocals": [
+    "xero"
+   ],
+   "playerVocals": [
+    "dashee"
+   ]
+  },
+  "stage": "dollartree",
+  "noteStyle": "funkin",
+  "ratings": {
+   "normal": 0,
+   "hard": 0
+  },
+  "album": "volume1",
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 170,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 28299.7059,
+   "b": 80.1825,
+   "bpm": 190,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 99014.6332,
+   "b": 304.1131,
+   "bpm": 91,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

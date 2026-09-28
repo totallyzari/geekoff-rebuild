@@ -1,0 +1,238 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		77,
+		10
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Xero (Fried)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/xero_fried",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "xero",
+		"flipX": false
+	},
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "xero idle",
+			"name": "idle",
+			"looped": true,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "xero idle",
+			"frameIndices": [
+				11,
+				12
+			],
+			"looped": true,
+			"name": "idle-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				22,
+				-7
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "xero left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				22,
+				-7
+			],
+			"prefix": "xero left",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"looped": true,
+			"name": "singLEFT-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-31
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "xero down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				0,
+				-31
+			],
+			"prefix": "xero down",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"looped": true,
+			"name": "singDOWN-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				5,
+				54
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "xero up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				5,
+				54
+			],
+			"prefix": "xero up",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"looped": true,
+			"name": "singUP-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-2,
+				12
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "xero right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-2,
+				12
+			],
+			"prefix": "xero right",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"looped": true,
+			"name": "singRIGHT-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		}
+	]
+}

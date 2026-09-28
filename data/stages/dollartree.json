@@ -1,0 +1,112 @@
+{
+ "version": "1.0.2",
+ "name": "Dollar Tree",
+ "props": [
+  {
+   "alpha": 1,
+   "angle": 0,
+   "animType": "sparrow",
+   "animations": [],
+   "assetPath": "stages/dollartree/dollatree",
+   "atlasSettings": null,
+   "blend": "",
+   "color": "#FFFFFF",
+   "danceEvery": 0,
+   "flipX": false,
+   "flipY": false,
+   "isPixel": false,
+   "name": "dollatree",
+   "position": [-1530, -1063],
+   "scale": 1.15,
+   "scroll": [1, 1],
+   "startingAnimation": "",
+   "zIndex": 10
+  },
+  {
+   "alpha": 1,
+   "angle": 0,
+   "animType": "sparrow",
+   "animations": [
+    {
+     "animType": null,
+     "assetPath": null,
+     "flipX": false,
+     "flipY": false,
+     "frameIndices": [],
+     "frameRate": 24,
+     "looped": true,
+     "name": "bg chars",
+     "offsets": [0, 0],
+     "prefix": "bg chars"
+    }
+   ],
+   "assetPath": "stages/dollartree/crowd",
+   "atlasSettings": null,
+   "blend": "",
+   "color": "#FFFFFF",
+   "danceEvery": 0,
+   "flipX": false,
+   "flipY": false,
+   "isPixel": false,
+   "name": "crowd",
+   "position": [-951, -31],
+   "scale": 1,
+   "scroll": [1, 1],
+   "startingAnimation": "bg chars",
+   "zIndex": 20
+  },
+  {
+   "alpha": 0.6,
+   "angle": 0,
+   "animType": "sparrow",
+   "animations": [],
+   "assetPath": "overlays/overlayafterthegeek",
+   "atlasSettings": null,
+   "blend": "",
+   "color": "#2B2B2B",
+   "danceEvery": 0,
+   "flipX": false,
+   "flipY": false,
+   "isPixel": false,
+   "name": "overlayafterthegeek",
+   "position": [-1906, -1160],
+   "scale": [
+	1.25,
+	1.2
+],
+   "scroll": [0, 0],
+   "startingAnimation": "",
+   "zIndex": 240
+  }
+ ],
+ "characters": {
+  "bf": {
+   "alpha": 1,
+   "angle": 0,
+   "cameraOffsets": [-60, -50],
+   "position": [992.5, 930],
+   "scale": 1,
+   "scroll": [1, 1],
+   "zIndex": 150
+  },
+  "dad": {
+   "alpha": 1,
+   "angle": 0,
+   "cameraOffsets": [150, -100],
+   "position": [170, 901],
+   "scale": 1,
+   "scroll": [1, 1],
+   "zIndex": 130
+  },
+  "gf": {
+   "alpha": 1,
+   "angle": 0,
+   "cameraOffsets": [0, 0],
+   "position": [739.5, 791],
+   "scale": 1,
+   "scroll": [1, 1],
+   "zIndex": 100
+  }
+ },
+ "cameraZoom": 0.8
+}

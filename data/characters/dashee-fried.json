@@ -1,0 +1,203 @@
+{
+	"renderType": "multisparrow",
+	"offsets": [
+		-160,
+		0
+	],
+	"applyStageMatrix": false,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraZoom": 1,
+		"cameraOffsets": [
+			10,
+			-40
+		]
+	},
+	"assetPath": "characters/dashee_fried",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			-10,
+			25
+		],
+		"scale": 1,
+		"id": "dashee",
+		"flipX": false
+	},
+	"version": "1.0.0",
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Dashee (Fried)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"isPixel": false,
+	"singTime": 8,
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "dashee idle",
+			"flipX": false,
+			"looped": true,
+			"name": "idle",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-16,
+				10
+			],
+			"frameRate": 24,
+			"prefix": "dashee right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-1,
+				-20
+			],
+			"frameRate": 24,
+			"prefix": "dashee down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-24,
+				31
+			],
+			"frameRate": 24,
+			"prefix": "dashee up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				64,
+				12
+			],
+			"frameRate": 24,
+			"prefix": "dashee left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				83,
+				4
+			],
+			"frameRate": 24,
+			"prefix": "dashee miss left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				34,
+				-24
+			],
+			"frameRate": 24,
+			"prefix": "dashee miss down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				19,
+				42
+			],
+			"frameRate": 24,
+			"prefix": "dashee miss up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-30,
+				9
+			],
+			"frameRate": 24,
+			"prefix": "dashee miss right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				143,
+				-10
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "dashee die",
+			"looped": false,
+			"flipX": false,
+			"name": "firstDeath",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				78,
+				-306
+			],
+			"frameRate": 24,
+			"prefix": "dashee death loop",
+			"looped": true,
+			"name": "deathLoop",
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				90,
+				-245
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "dashee confirm death",
+			"looped": false,
+			"flipX": false,
+			"name": "deathConfirm",
+			"animType": "framelabel"
+		}
+	]
+}

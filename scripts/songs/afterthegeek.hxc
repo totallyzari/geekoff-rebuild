@@ -1,0 +1,86 @@
+import funkin.play.song.Song;
+import funkin.modding.module.ModuleHandler;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.math.FlxBasePoint;
+import funkin.graphics.FunkinSprite;
+import funkin.play.GameOverSubState;
+import funkin.play.PlayState;
+import funkin.Paths;
+import flixel.util.FlxColor;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.VideoCutscene.CutsceneType;
+import funkin.graphics.video.FunkinVideoSprite;
+
+import funkin.play.PlayStatePlaylist;
+
+class AfterTheGeekSong extends Song {
+  
+  public function new() {
+		super('afterthegeek');
+  }
+
+  function onSongLoaded(e) {
+    super.onSongLoaded(e);
+
+    video1 = new FunkinVideoSprite(300, 200);
+    video1.zIndex = 35;
+    video1.bitmap.volumeAdjust = 0;
+    video1.load(Paths.videos('weedbg-afterthegeek.mp4'));
+    video1.scrollFactor.set(0, 0);
+    video1.scale.set(2.50, 2.50);
+
+    {
+        super.onSongLoaded(e);
+        FlxG.camera.fade(0xFF000000, 0);
+    } 
+  }
+
+  function onSongStart(e:Dynamic)
+    {
+        super.onSongStart(e);
+
+        VideoCutscene.play(Paths.videos('cutscene-afterthegeek.mp4'), CutsceneType.MIDSONG);
+        PlayState.instance.remove(VideoCutscene.blackScreen);
+        PlayState.instance.camHUD.visible = false;
+
+        FlxG.camera.fade(0xFF000000, 1, true);
+    }
+
+  public function onStepHit(event:ScriptEvent)
+  {
+    super.onStepHit(event);
+    if (event.step == 272) PlayState.instance.isInCutscene = false;
+    if (event.step == 1216)
+    {
+      video1.play();
+      PlayState.instance.currentStage.add(video1);
+      PlayState.instance.currentStage.refresh();
+      FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 0.01);
+    }
+
+    if (event.step == 1239) FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.7);
+  }
+
+  /**
+   * Replay the cutscene after leaving the song.
+   */
+  function onCreate(event:ScriptEvent):Void
+  {
+    super.onCreate(event);
+
+    hasPlayedCutscene = false; // We reset the cutscene "state", so that we can play the cutscene again (after leaving the song and reentering for example)
+  }
+
+  public function onSongRetry(event:SongRetryEvent)
+  {
+    super.onSongRetry(event);
+    hasPlayedCutscene = true; // Skips the cutscene if you retry the song through pause menu or after a gameover
+
+    PlayState.instance.currentStage.remove(video1); // Removes the video to avoid duplicating it
+    PlayState.instance.currentStage.refresh();
+  }
+}
