@@ -13,6 +13,7 @@ import flixel.tweens.FlxTween;
 import funkin.graphics.FunkinSprite;
 import funkin.Paths;
 import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.VideoCutscene.CutsceneType;
 import funkin.graphics.video.FunkinVideoSprite;
 import funkin.play.PlayStatePlaylist;
 import flixel.text.FlxText;
@@ -21,12 +22,9 @@ import flixel.text.FlxTextBorderStyle;
 import flixel.util.FlxColor;
 import funkin.Preferences;
 import funkin.ui.options.PreferencesMenu;
+import funkin.graphics.video.FlxVideo;
 
 class JeeterJuiceSong extends Song {
-
-	public var mandatoryJCsection:FunkinVideoSprite;
-	public var endCutscene:FunkinVideoSprite;
-
 	public function new() {
 		super("jeeter-juice");
 	}
@@ -35,6 +33,7 @@ class JeeterJuiceSong extends Song {
 		super.onCreate(event);
 
 		var isCopyrightEnabled:Bool = false; // find a way to re-implement options menu
+		PlayState.instance.currentStage.getNamedProp("eli bg").visible = false;
 
 		if (isCopyrightEnabled) {
 			trace('Replacing instrumental...');
@@ -61,44 +60,48 @@ class JeeterJuiceSong extends Song {
 		}
 	}
 
-	public override function onSongLoaded(e) {
-		super.onSongLoaded(e);
-
-		mandatoryJCsection = new FunkinVideoSprite(-200, -90);
-		mandatoryJCsection.zIndex = 25;
-		mandatoryJCsection.bitmap.volumeAdjust = 0;
-		mandatoryJCsection.load(Paths.videos('mandatoryjcsection-jeeterjuice.mp4'));
-		mandatoryJCsection.scrollFactor.set(0, 0);
-		mandatoryJCsection.scale.set(1.15, 1.15);
-
-		endCutscene = new FunkinVideoSprite(0, 0);
-		endCutscene.zIndex = 25;
-		endCutscene.bitmap.volumeAdjust = 0;
-		endCutscene.load(Paths.videos('endcutscene-jeeterjuice.mp4'));
-		endCutscene.scrollFactor.set(0, 0);
-		endCutscene.scale.set(1.15, 1.15);
-	}
-
 	public function onStepHit(event:ScriptEvent) {
 		super.onStepHit(event);
-		var random:Int = FlxG.random.int(0, 20);  // lowered for testing | 90000
+		var random:Int = FlxG.random.int(0, 90000);  // lowered for testing | 90000
 
 		if (random == 0) {
-			// PlayState.instance.health -= 100;
+			PlayState.instance.health -= 100;
 		}
 
 		if (event.step == 1008) {
 			// mandatory jersey club section
-			mandatoryJCsection.play();
-			PlayState.instance.currentStage.add(mandatoryJCsection);
-			PlayState.instance.currentStage.refresh();
+			VideoCutscene.play(Paths.videos('mandatoryjcsection-jeeterjuice.mp4'), CutsceneType.MIDSONG);
+			PlayState.instance.isInCutscene = false;
+			PlayState.instance.playerStrumline.camera = PlayState.instance.camCutscene;
+			PlayState.instance.opponentStrumline.camera = PlayState.instance.camCutscene;
+			PlayState.instance.healthBar.camera = PlayState.instance.camCutscene;
+			PlayState.instance.healthBarBG.camera = PlayState.instance.camCutscene;
+			PlayState.instance.scoreText.camera = PlayState.instance.camCutscene;
+			PlayState.instance.iconP1.camera = PlayState.instance.camCutscene;
+			PlayState.instance.iconP2.camera = PlayState.instance.camCutscene;
+
+			PlayState.instance.remove(VideoCutscene.blackScreen);
+		}
+
+		if (event.step == 1024) {
+			// after MJCS video ends !!
+			if (VideoCutscene.isPlaying) VideoCutscene.destroyVideo;
+		}
+
+		if (event.step == 1148) {
+			// put the hud elements back on camHUD
+			PlayState.instance.playerStrumline.camera = PlayState.instance.camHUD;
+			PlayState.instance.opponentStrumline.camera = PlayState.instance.camHUD;
+			PlayState.instance.healthBar.camera = PlayState.instance.camHUD;
+			PlayState.instance.healthBarBG.camera = PlayState.instance.camHUD;
+			PlayState.instance.scoreText.camera = PlayState.instance.camHUD;
+			PlayState.instance.iconP1.camera = PlayState.instance.camHUD;
+			PlayState.instance.iconP2.camera = PlayState.instance.camHUD;
 		}
 
 		if (event.step == 1568) {
 			// end cutscene
-			endCutscene.play();
-			PlayState.instance.currentStage.add(endCutscene);
-			PlayState.instance.currentStage.refresh();
+			VideoCutscene.play(Paths.videos('endcutscene-jeeterjuice.mp4'), CutsceneType.ENDING);
 		}
 
 		if (event.step == 1552) FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 0.1);

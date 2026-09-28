@@ -1,61 +1,43 @@
 {
-  "version": "2.2.4",
-  "songName": "JEETER JUICE",
-  "artist": "[whos.eli]",
-  "charter": "[whos.eli]",
-  "divisions": 96,
-  "looped": false,
-  "offsets": {
-    "instrumental": 0,
-    "altInstrumentals": { },
-    "vocals": {    },
-    "altVocals": {    }
+ "version": "2.2.4",
+ "songName": "JEETER JUICE",
+ "artist": "[whos.eli]",
+ "charter": "[whos.eli]",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "normal"
+  ],
+  "characters": {
+   "player": "bf-geekjeeter",
+   "girlfriend": "gf-geek",
+   "opponent": "eli",
+   "opponentVocals": [
+    "eli"
+   ],
+   "playerVocals": [
+    "bf-geekjeeter"
+   ]
   },
-  "playData": {
-    "songVariations": [],
-    "difficulties": [
-      "normal"
-    ],
-    "characters": {
-      "player": "bf-geekjeeter",
-      "girlfriend": "gf-geek",
-      "opponent": "eli",
-      "instrumental": "",
-      "altInstrumentals": [],
-      "opponentVocals": [
-        "eli"
-      ],
-      "playerVocals": [
-        "bf"
-      ]
-    },
-    "stage": "mainStage",
-    "album": "",
-    "stickerPack": "standard",
-    "noteStyle": "funkin",
-    "ratings": {
-      "easy": 0,
-      "normal": 0,
-      "hard": 0
-    },
-    "previewStart": 23812,
-    "previewEnd": 57748
+  "stage": "restroom",
+  "noteStyle": "funkintemple",
+  "ratings": {
+   "easy": 0,
+   "normal": 0,
+   "hard": 0
   },
-  "generatedBy": "Friday Night Funkin' - v0.7.5",
-  "timeFormat": "ms",
-  "timeChanges": [
-    {
-      "t": 0,
-      "b": 0,
-      "bpm": 155,
-      "n": 4,
-      "d": 4,
-      "bt": [
-        4,
-        4,
-        4,
-        4
-      ]
-    }
-  ]
+  "album": "volume1",
+  "stickerPack": "default",
+  "previewStart": 0.13730877165363,
+  "previewEnd": 0.33299626009801
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.6",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 155,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
 }

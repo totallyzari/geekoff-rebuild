@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="unc_bg.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="26b_bg0000" x="0" y="0" width="318" height="500"/>
+	<SubTexture name="26b_bg0001" x="0" y="0" width="318" height="500"/>
+	<SubTexture name="26b_bg0002" x="318" y="0" width="318" height="500"/>
+	<SubTexture name="26b_bg0003" x="318" y="0" width="318" height="500"/>
+</TextureAtlas>

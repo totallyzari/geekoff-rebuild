@@ -1,0 +1,273 @@
+{
+  "version": "1.0.2",
+  "name": "Restroom",
+  "props": [
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [      ],
+      "assetPath": "stages/restroom/therestroom",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "restroom",
+      "position": [
+        -441,
+        -297
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 0
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [      ],
+      "assetPath": "overlays/graineffect",
+      "blend": "overlay",
+      "color": "#707070",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "grain filter",
+      "position": [
+        -745,
+        -428
+      ],
+      "scale": 1,
+      "scroll": [
+        0,
+        0
+      ],
+      "startingAnimation": "",
+      "zIndex": 41
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [
+        {
+          "assetPath": "stages/restroom/bystanders/unc_bg",
+          "flipX": false,
+          "flipY": false,
+          "frameIndices": [          ],
+          "frameRate": 24,
+          "looped": true,
+          "name": "26b_bg",
+          "offsets": [
+            0,
+            0
+          ],
+          "prefix": "26b_bg"
+        }
+      ],
+      "assetPath": "stages/restroom/bystanders/unc_bg",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "26b bg",
+      "position": [
+        298,
+        227
+      ],
+      "scale": 0.9,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 21
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [
+        {
+          "assetPath": "stages/restroom/bystanders/acid_bg",
+          "flipX": false,
+          "flipY": false,
+          "frameIndices": [          ],
+          "frameRate": 24,
+          "looped": true,
+          "name": "acid_bg",
+          "offsets": [
+            0,
+            0
+          ],
+          "prefix": "acid_bg"
+        }
+      ],
+      "assetPath": "stages/restroom/bystanders/acid_bg",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "acid bg",
+      "position": [
+        -200,
+        493
+      ],
+      "scale": 1.05,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 19
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [
+        {
+          "assetPath": "stages/restroom/bystanders/eli_bg",
+          "flipX": false,
+          "flipY": false,
+          "frameIndices": [          ],
+          "frameRate": 24,
+          "looped": true,
+          "name": "eli_bg",
+          "offsets": [
+            0,
+            0
+          ],
+          "prefix": "eli_bg0000"
+        }
+      ],
+      "assetPath": "stages/restroom/bystanders/eli_bg",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "eli bg",
+      "position": [
+        1242,
+        276
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 24
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [
+        {
+          "assetPath": "stages/restroom/bystanders/jim_bg",
+          "flipX": false,
+          "flipY": false,
+          "frameIndices": [          ],
+          "frameRate": 24,
+          "looped": true,
+          "name": "jim_bg",
+          "offsets": [
+            0,
+            0
+          ],
+          "prefix": "jim_bg"
+        }
+      ],
+      "assetPath": "stages/restroom/bystanders/jim_bg",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "jim bg",
+      "position": [
+        1080,
+        145
+      ],
+      "scale": 0.95,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 20
+    }
+  ],
+  "characters": {
+    "bf": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        -270,
+        -99
+      ],
+      "position": [
+        1121,
+        914
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 30
+    },
+    "dad": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        270,
+        -60
+      ],
+      "position": [
+        328,
+        925
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 31
+    },
+    "gf": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        -77,
+        30
+      ],
+      "position": [
+        770.2,
+        642
+      ],
+      "scale": 0.8,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 29
+    }
+  },
+  "cameraZoom": 0.8
+}

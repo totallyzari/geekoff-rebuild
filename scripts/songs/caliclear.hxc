@@ -1,3 +1,6 @@
+import funkin.modding.events.ScriptEvent;
+import funkin.modding.events.ScriptEvent.PauseScriptEvent;
+import funkin.play.PlayStatePlaylist;
 import funkin.play.song.Song;
 import funkin.play.PlayState;
 import funkin.Paths;
@@ -20,6 +23,15 @@ class CaliClearSong extends Song {
 		super.onCountdownStart(event);
 
     if (!PlayStatePlaylist.isStoryMode) hasPlayedCutscene = true; // Skip cutscene if you're playing the song from freeplay
+    if (PlayStatePlaylist.isStoryMode && hasPlayedCutscene) {
+        event.cancel();
+
+        PlayState.instance.mayPauseGame = true;
+
+        PlayState.instance.isInCutscene = false;
+        
+        PlayState.instance.startSong();
+    }
 
     if (!hasPlayedCutscene) {
       trace('Pausing countdown to play a video cutscene (`cali-clear`)');
@@ -47,13 +59,45 @@ class CaliClearSong extends Song {
   public function onStepHit(event:ScriptEvent)
   {
     super.onStepHit(event);
-
-    if (event.step == 959)
-    {
+    if (event.step == 956) PlayState.instance.camHUD.visible = false;
+    if (event.step == 959) {
       video1.play();
       PlayState.instance.currentStage.add(video1);
       PlayState.instance.currentStage.refresh();
     }
+    if (event.step == 960)
+    {
+      PlayState.instance.camHUD.visible = true;
+
+      PlayState.instance.healthBar.visible = false;
+			PlayState.instance.healthBarBG.visible = false;
+			PlayState.instance.scoreText.visible = false;
+			PlayState.instance.iconP1.visible = false;
+			PlayState.instance.iconP2.visible = false;
+
+      PlayState.instance.playerStrumline.visible = false;
+    }
+
+    if (event.step == 1024) {
+      PlayState.instance.opponentStrumline.visible = false;
+      PlayState.instance.playerStrumline.visible = true;
+    }
+
+    if (event.step == 1088) {
+      PlayState.instance.opponentStrumline.visible = true;
+      PlayState.instance.playerStrumline.visible = false;
+    }
+
+    if (event.step == 1152) {
+      PlayState.instance.opponentStrumline.visible = false;
+      PlayState.instance.playerStrumline.visible = true;
+    }
+
+    if (event.step == 1216) {
+      PlayState.instance.playerStrumline.visible = false;
+    }
+
+
   }
 
   /**
@@ -63,8 +107,19 @@ class CaliClearSong extends Song {
   {
     super.onCreate(event);
 
+    PlayState.instance.currentStage.getNamedProp("26b bg").visible = false;
     hasPlayedCutscene = false; // We reset the cutscene "state", so that we can play the cutscene again (after leaving the song and reentering for example)
   }
+
+   override function onPause(event:PauseScriptEvent) {
+      super.onPause(event);
+      video1.pause();
+   }
+
+   override function onResume(event:ScriptEvent) {
+      super.onResume(event);
+      video1.resume();
+   }
 
   public function onSongRetry(event:SongRetryEvent)
   {

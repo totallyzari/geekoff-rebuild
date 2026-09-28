@@ -1,0 +1,75 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.math.FlxAngle;
+import flixel.addons.display.FlxRuntimeShader;
+import funkin.Conductor;
+import funkin.Paths;
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+import funkin.graphics.shaders.AdjustColorShader;
+import funkin.play.stage.Stage;
+import funkin.graphics.FunkinSprite;
+import funkin.play.PlayStatePlaylist;
+import funkin.modding.base.ScriptedFlxSpriteGroup;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.character.CharacterType;
+import flixel.util.FlxTimer;
+
+class RestroomStage extends Stage
+{
+	function new()
+	{
+		super('restroom');
+	}
+
+	var colorShader:AdjustColorShader;
+  	
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		super.onCountdownStart(event);
+		if (FlxG.width > 1280) {
+			FlxG.camera.zoom = PlayState.instance.currentCameraZoom = (PlayState.instance.stageZoom * 1.06);
+		}
+	}
+
+	public override function onSongRetry(event:ScriptEvent):Void {
+		super.onSongRetry(event);
+		if (FlxG.width > 1280) {
+			new FlxTimer().start(0.000001, _ -> { // Technically not needed, just makes the zoom increase less obvious
+				FlxG.camera.zoom = PlayState.instance.currentCameraZoom = (PlayState.instance.stageZoom * 1.06);
+			});
+		}
+	}
+	override public function onSongLoaded(ev) {
+		super.onSongLoaded(ev);
+
+		var stage = PlayState.instance.currentStage;
+
+		stage.getGirlfriend().x = 600;
+		stage.getGirlfriend().y = 200;
+		PlayState.instance.comboPopUps.offsets = [500, 300];	
+    }
+
+	public override function onSongEvent(scriptEvent:SongEventScriptEvent) {
+		super.onSongEvent(scriptEvent);
+		if (scriptEvent.eventData.eventKind == "ZoomCamera") {
+			var eventProps = scriptEvent.eventData.value;
+			if (FlxG.width > 1280) {
+				if (eventProps.zoom == PlayState.instance.stageZoom && eventProps.mode == 'direct')
+					eventProps.zoom = PlayState.instance.stageZoom * 1.06;
+				else if (eventProps.zoom == 1 && eventProps.mode == 'stage') 
+					eventProps.zoom = 1.06;
+					
+			}
+		}
+	}	
+
+	override public function onSubStateOpenEnd(event:SubStateScriptEvent) {
+		if (!(event.targetState is GameOverSubState)) return;
+		var state:GameOverSubState = GameOverSubState.instance;
+		state.remove(state.members[2]);
+		state.parentPlayState.persistentDraw = true;
+		state.parentPlayState.camHUD.visible = false;
+		state.parentPlayState.currentStage.getGirlfriend().visible = false;
+		state.parentPlayState.currentStage.getDad().visible = false;
+  }
+}
