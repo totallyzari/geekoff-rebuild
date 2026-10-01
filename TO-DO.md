@@ -7,3 +7,5 @@
 3. Import Game Over themes
 4. Import all the other characters
 5. Fix game over screens
+6. Import albums (find a better way to replace the album art..?)
+7. Import stickers
