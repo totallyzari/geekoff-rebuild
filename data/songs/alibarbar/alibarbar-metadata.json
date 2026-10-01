@@ -27,9 +27,9 @@
         "bf"
       ]
     },
-    "stage": "mainStage",
+    "stage": "restroom",
     "noteStyle": "funkin",
-     "album": "",
+     "album": "volume1",
     "stickerPack": "default",
     "ratings": {
       "easy": 0,

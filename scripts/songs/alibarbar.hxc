@@ -1,0 +1,14 @@
+import funkin.modding.events.ScriptEvent;
+import funkin.play.song.Song;
+import funkin.play.PlayState;
+
+class AlibarbarSong extends Song {
+    public function new() {
+        super('alibarbar');
+    }
+
+    function onCreate(event:ScriptEvent) {
+        super.onCreate(event);
+        PlayState.instance.currentStage.getNamedProp("acid bg").visible = false;
+    }
+}
