@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="gageobserved.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="gage and obser instance 10000" x="0" y="0" width="810" height="630"/>
+	<SubTexture name="gage and obser instance 10001" x="0" y="0" width="810" height="630"/>
+	<SubTexture name="gage and obser instance 10002" x="810" y="0" width="810" height="630"/>
+	<SubTexture name="gage and obser instance 10003" x="810" y="0" width="810" height="630"/>
+</TextureAtlas>

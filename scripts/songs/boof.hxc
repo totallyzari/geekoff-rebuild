@@ -1,0 +1,43 @@
+import funkin.play.song.Song;
+import funkin.modding.module.ModuleHandler;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import flixel.util.FlxTimer;
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.math.FlxBasePoint;
+import funkin.graphics.FunkinSprite;
+import funkin.play.GameOverSubState;
+import funkin.play.PlayState;
+import funkin.Paths;
+import flixel.util.FlxColor;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.graphics.video.FunkinVideoSprite;
+
+import funkin.play.PlayStatePlaylist;
+
+class BoofSong extends Song {
+  
+  public function new() {
+		super('boof');
+  }
+  function onSongLoaded(e) {
+    {
+        super.onSongLoaded(e);
+        FlxG.camera.fade(0xFF000000, 0);
+    } 
+  }
+
+  function onSongStart(e:Dynamic)
+    {
+        super.onSongStart(e);
+        FlxG.camera.fade(0xFF000000, 1, true);
+    }
+
+     function onGameOver(e)
+    {
+      super.onGameOver(e);
+      PlayState.instance.currentStage.getDad().playAnimation('pumped', 24, false, false, true);
+    }
+
+}

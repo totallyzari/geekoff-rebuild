@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="pcgrevvie.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="revviepcgbg instance 10000" x="0" y="0" width="881" height="678"/>
+	<SubTexture name="revviepcgbg instance 10001" x="0" y="0" width="881" height="678"/>
+	<SubTexture name="revviepcgbg instance 10002" x="881" y="0" width="881" height="678"/>
+	<SubTexture name="revviepcgbg instance 10003" x="881" y="0" width="881" height="678"/>
+</TextureAtlas>

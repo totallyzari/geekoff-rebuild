@@ -1,0 +1,48 @@
+{
+ "version": "2.2.4",
+ "songName": "BOOF",
+ "artist": "[whos.eli]",
+ "charter": "[whos.eli]",
+ "offsets": { },
+ "playData": {
+  "difficulties": [
+   "normal"
+  ],
+  "characters": {
+   "player": "sniper",
+   "girlfriend": "darnell-ninevicious",
+   "opponent": "dopehank",
+   "opponentVocals": [
+    "dopehank"
+   ],
+   "playerVocals": [
+    "sniper"
+   ]
+  },
+  "stage": "gasstation",
+  "album": "volume1",
+  "stickerPack": "default",
+  "noteStyle": "funkin",
+  "ratings": {
+   "easy": 0,
+   "normal": 0,
+   "hard": 0
+  },
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 150,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 54405,
+   "b": 136.0125,
+   "bpm": 110,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

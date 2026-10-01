@@ -1,0 +1,345 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		-90,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Dope Hank",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"offsets": [
+			12,
+			15
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "dopehank"
+	},
+	"assetPath": "characters/dopehank",
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "dopehank idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				13
+			],
+			"prefix": "dopehank idle",
+			"flipX": false,
+			"name": "idle-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				89,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "dopehank left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				89,
+				0
+			],
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"prefix": "dopehank left",
+			"flipX": false,
+			"name": "singLEFT-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				83,
+				-193
+			],
+			"frameRate": 24,
+			"prefix": "dopehank down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				83,
+				-193
+			],
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"prefix": "dopehank down",
+			"flipX": false,
+			"name": "singDOWN-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				18,
+				15
+			],
+			"frameRate": 24,
+			"prefix": "dopehank up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				18,
+				15
+			],
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"prefix": "dopehank up",
+			"flipX": false,
+			"name": "singUP-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-95,
+				-47
+			],
+			"frameRate": 24,
+			"prefix": "dopehank right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-91,
+				-47
+			],
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"prefix": "dopehank right",
+			"flipX": false,
+			"name": "singRIGHT-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-4,
+				-12
+			],
+			"frameRate": 24,
+			"prefix": "dopehank hey",
+			"flipX": false,
+			"looped": false,
+			"name": "hey",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-7,
+				25
+			],
+			"frameRate": 24,
+			"prefix": "dopehank kill",
+			"flipX": false,
+			"looped": false,
+			"name": "pumped",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				80,
+				27
+			],
+			"frameIndices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65
+			],
+			"frameRate": 24,
+			"prefix": "dopehank dance",
+			"flipX": false,
+			"looped": true,
+			"name": "pumped-hold",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				78,
+				12
+			],
+			"frameRate": 24,
+			"prefix": "dopehank miss left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"animType": "framelabel"
+		}
+	]
+}

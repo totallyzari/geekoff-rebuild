@@ -1,0 +1,183 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Boyfriend (HOW2ROLL)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"death": {
+		"cameraZoom": 1,
+		"cameraOffsets": [
+			10,
+			-40
+		]
+	},
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "bf"
+	},
+	"assetPath": "characters/h2r_bf",
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf idle",
+			"name": "idle",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-6,
+				-10
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-6,
+				-17
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				1,
+				8
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				19,
+				2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				28,
+				20
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf miss left",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				10,
+				-21
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf miss down",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				4,
+				20
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf miss up",
+			"name": "singUPmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-10,
+				35
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf miss right",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				22,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "bf die",
+			"name": "firstDeath",
+			"flipX": false,
+			"looped": false
+		},
+		{
+			"offsets": [
+				-16,
+				-2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "bf death loop",
+			"flipX": false,
+			"name": "deathLoop",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				15,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "bf confirm death",
+			"name": "deathConfirm",
+			"flipX": false,
+			"looped": false
+		}
+	]
+}

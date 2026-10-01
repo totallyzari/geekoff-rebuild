@@ -1,0 +1,184 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.math.FlxAngle;
+import flixel.addons.display.FlxRuntimeShader;
+import funkin.Conductor;
+import funkin.Paths;
+import funkin.play.song.Song;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.FlxObject;
+import flixel.util.FlxColor;
+import funkin.play.PlayState;
+import funkin.graphics.shaders.AdjustColorShader;
+import funkin.play.stage.Stage;
+import funkin.graphics.FunkinSprite;
+import funkin.play.PlayStatePlaylist;
+import funkin.modding.base.ScriptedFlxSpriteGroup;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.character.CharacterType;
+import flixel.util.FlxTimer;
+
+class MallStage extends Stage
+{
+
+	var meandbae:FlxSprite;
+	var dashee:FlxSprite;
+	var grx:FlxSprite;
+	var bug:FlxSprite;
+	var acid:FlxSprite;
+	var griggley:FlxSprite;
+
+
+	function new()
+	{
+		super('mall');
+	}
+
+	override public function onSongLoaded(ev) {
+		super.onSongLoaded(ev);
+		PlayState.instance.comboPopUps.offsets = [500, 300];
+	
+    }
+
+	override function buildStage()
+    {
+        super.buildStage();
+
+        // 2. Initialize the sprite
+        // We set the initial X to FlxG.width so it starts just off-screen to the right
+        meandbae = new FlxSprite(2500, 700); 
+        meandbae.frames = Paths.getSparrowAtlas("stages/mall/walkers/us");
+		meandbae.animation.addByPrefix("idle", "eliminerva", 24, true);
+        meandbae.scrollFactor.set(1, 1);
+		meandbae.scale.set(1.15, 1.15);
+		meandbae.zIndex = 170;
+        add(meandbae);
+
+		dashee = new FlxSprite(2500, 700); 
+        dashee.frames = Paths.getSparrowAtlas("stages/mall/walkers/bgdash");
+		dashee.animation.addByPrefix("idle", "dasheebg", 24, true);
+        dashee.scrollFactor.set(1, 1);
+		dashee.scale.set(1.15, 1.15);
+		dashee.zIndex = 170;
+        add(dashee);
+
+		grx = new FlxSprite(2500, 700); 
+        grx.frames = Paths.getSparrowAtlas("stages/mall/walkers/gageobserved");
+		grx.animation.addByPrefix("idle", "gage and obser", 24, true);
+        grx.scrollFactor.set(1, 1);
+		grx.scale.set(1.15, 1.15);
+		grx.zIndex = 170;
+        add(grx);
+
+		bug = new FlxSprite(2500, 600); 
+        bug.frames = Paths.getSparrowAtlas("stages/mall/walkers/bugger");
+		bug.animation.addByPrefix("idle", "bug", 24, true);
+        bug.scrollFactor.set(1, 1);
+		bug.scale.set(1.15, 1.15);
+		bug.zIndex = 170;
+        add(bug);
+
+		acid = new FlxSprite(2500, 700); 
+        acid.frames = Paths.getSparrowAtlas("stages/mall/walkers/accy _waccy");
+		acid.animation.addByPrefix("idle", "bgacid", 24, true);
+        acid.scrollFactor.set(1, 1);
+		acid.scale.set(1.15, 1.15);
+		acid.zIndex = 170;
+        add(acid);
+
+		griggley = new FlxSprite(2500, 700); 
+        griggley.frames = Paths.getSparrowAtlas("stages/mall/walkers/grig");
+		griggley.animation.addByPrefix("idle", "griggleybg", 24, true);
+        griggley.scrollFactor.set(1, 1);
+		griggley.scale.set(1.15, 1.15);
+		griggley.zIndex = 170;
+        add(griggley);
+    }
+
+	
+
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		super.onCountdownStart(event);
+		if (FlxG.width > 1280) {
+			FlxG.camera.zoom = PlayState.instance.currentCameraZoom = (PlayState.instance.stageZoom * 1.06);
+		}
+	}
+
+	override function onStepHit(event:SongTimeScriptEvent)
+    {
+        super.onStepHit(event);
+
+        if (event.step == 290)
+        {
+            FlxTween.tween(meandbae, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 570)
+        {
+            FlxTween.tween(dashee, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 1050)
+        {
+            FlxTween.tween(grx, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 1479)
+        {
+            FlxTween.tween(bug, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 1782)
+        {
+            FlxTween.tween(acid, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 2096)
+        {
+            FlxTween.tween(griggley, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+    }
+
+	public override function onSongRetry(event:ScriptEvent):Void {
+		super.onSongRetry(event);
+
+		meandbae.x = 2500;
+		bug.x = 2500;
+		grx.x = 2500;
+		dashee.x = 2500;
+		acid.x = 2500;
+		FlxTween.cancelTweensOf(meandbae);
+		FlxTween.cancelTweensOf(acid);
+		FlxTween.cancelTweensOf(dashee);
+		FlxTween.cancelTweensOf(grx);
+		FlxTween.cancelTweensOf(bug);
+		if (FlxG.width > 1280) {
+			new FlxTimer().start(0.000001, _ -> { // Technically not needed, just makes the zoom increase less obvious
+				FlxG.camera.zoom = PlayState.instance.currentCameraZoom = (PlayState.instance.stageZoom * 1.06);
+			});
+		}
+	} 
+
+	public override function onSongEvent(scriptEvent:SongEventScriptEvent) {
+		super.onSongEvent(scriptEvent);
+		if (scriptEvent.eventData.eventKind == "ZoomCamera") {
+			var eventProps = scriptEvent.eventData.value;
+			if (FlxG.width > 1280) {
+				if (eventProps.zoom == PlayState.instance.stageZoom && eventProps.mode == 'direct')
+					eventProps.zoom = PlayState.instance.stageZoom * 1.06;
+				else if (eventProps.zoom == 1 && eventProps.mode == 'stage') 
+					eventProps.zoom = 1.06;
+					
+			}
+		}
+	}	
+
+	override public function onSubStateOpenEnd(event:SubStateScriptEvent) {
+    if (!(event.targetState is GameOverSubState)) return;
+    var state:GameOverSubState = GameOverSubState.instance;
+    state.remove(state.members[2]);
+    state.parentPlayState.persistentDraw = true;
+    state.parentPlayState.camHUD.visible = false;
+  }
+}

@@ -1,9 +1,9 @@
 {
   "version": "1.0.0",
-  "name": "GEEK OFF EXTRAS",
+  "name": "GEEK OFF",
   "titleAsset": "storymenu/titles/geek1",
-  "visible": false,
   "props": [{"assetPath": "storymenu/props/geeksquad", "offsets": [100, 60], "animations": [{"name": "idle", "prefix": "geek menu", "frameRate": 24}]}],
-  "songs": ["afterthegeek"],
-  "capsule": {"name": "GEEK OFF"}
+  "background": "#32776D",
+  "capsule": {"name": "GEEK 1"},
+  "songs": ["cali-clear", "alibarbar", "jeeter-juice"]
 }

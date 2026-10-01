@@ -1,0 +1,216 @@
+{
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"applyStageMatrix": false,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraZoom": 1,
+		"cameraOffsets": [
+			10,
+			-5
+		]
+	},
+	"assetPath": "characters/vivi",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			-10,
+			6
+		],
+		"scale": 1,
+		"id": "vivi",
+		"flipX": false
+	},
+	"version": "1.0.0",
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Vivi",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"isPixel": false,
+	"singTime": 8,
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "lucy idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-76,
+				4
+			],
+			"frameRate": 24,
+			"prefix": "lucy right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				19,
+				-120
+			],
+			"frameRate": 24,
+			"prefix": "lucy down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-29,
+				81
+			],
+			"frameRate": 24,
+			"prefix": "lucy up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				59,
+				-18
+			],
+			"frameRate": 24,
+			"prefix": "lucy left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				53,
+				-21
+			],
+			"frameRate": 24,
+			"prefix": "lucy miss left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				29,
+				-129
+			],
+			"frameRate": 24,
+			"prefix": "lucy miss down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-21,
+				87
+			],
+			"frameRate": 24,
+			"prefix": "lucy miss up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-60,
+				4
+			],
+			"frameRate": 24,
+			"prefix": "lucy miss right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				428,
+				5
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "lucy die",
+			"looped": false,
+			"flipX": false,
+			"name": "firstDeath",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				216,
+				-273
+			],
+			"frameRate": 24,
+			"prefix": "lucy death loop",
+			"looped": true,
+			"name": "deathLoop",
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				219,
+				12
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "lucy confirm death",
+			"looped": false,
+			"flipX": false,
+			"name": "deathConfirm",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-22,
+				13
+			],
+			"frameRate": 24,
+			"prefix": "lucy hey",
+			"flipX": false,
+			"looped": false,
+			"name": "hey",
+			"animType": "framelabel"
+		}
+	]
+}

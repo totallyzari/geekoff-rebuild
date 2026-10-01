@@ -1,0 +1,578 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="geek_sniper.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="sniper die0000" x="0" y="0" width="1200" height="709"/>
+	<SubTexture name="sniper die0001" x="1200" y="0" width="1200" height="709"/>
+	<SubTexture name="sniper die0002" x="2400" y="0" width="1200" height="709"/>
+	<SubTexture name="sniper die0003" x="3600" y="0" width="1200" height="709"/>
+	<SubTexture name="sniper die0004" x="4800" y="0" width="1200" height="709"/>
+	<SubTexture name="sniper die0005" x="4800" y="0" width="1200" height="709"/>
+	<SubTexture name="sniper die0006" x="6000" y="0" width="1200" height="709"/>
+	<SubTexture name="sniper die0007" x="6000" y="0" width="1200" height="709"/>
+	<SubTexture name="sniper die0008" x="0" y="709" width="1200" height="709"/>
+	<SubTexture name="sniper die0009" x="1200" y="709" width="1200" height="709"/>
+	<SubTexture name="sniper die0010" x="2400" y="709" width="1200" height="709"/>
+	<SubTexture name="sniper die0011" x="3600" y="709" width="1200" height="709"/>
+	<SubTexture name="sniper die0012" x="4800" y="709" width="1200" height="709"/>
+	<SubTexture name="sniper die0013" x="6000" y="709" width="1200" height="709"/>
+	<SubTexture name="sniper die0014" x="0" y="1418" width="1200" height="709"/>
+	<SubTexture name="sniper die0015" x="1200" y="1418" width="1200" height="709"/>
+	<SubTexture name="sniper die0016" x="2400" y="1418" width="1200" height="709"/>
+	<SubTexture name="sniper die0017" x="3600" y="1418" width="1200" height="709"/>
+	<SubTexture name="sniper die0018" x="4800" y="1418" width="1200" height="709"/>
+	<SubTexture name="sniper die0019" x="6000" y="1418" width="1200" height="709"/>
+	<SubTexture name="sniper die0020" x="6000" y="1418" width="1200" height="709"/>
+	<SubTexture name="sniper die0021" x="0" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0022" x="0" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0023" x="1200" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0024" x="1200" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0025" x="2400" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0026" x="2400" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0027" x="3600" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0028" x="3600" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0029" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0030" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0031" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0032" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0033" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0034" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0035" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0036" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0037" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0038" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0039" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0040" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0041" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0042" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0043" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0044" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0045" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0046" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0047" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0048" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0049" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0050" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0051" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0052" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0053" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0054" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0055" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0056" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0057" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0058" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0059" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0060" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0061" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0062" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0063" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0064" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0065" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0066" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0067" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0068" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0069" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0070" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0071" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0072" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0073" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0074" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0075" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0076" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0077" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0078" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0079" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0080" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0081" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0082" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0083" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0084" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper die0085" x="4800" y="2127" width="1200" height="709"/>
+	<SubTexture name="sniper down0000" x="6000" y="2127" width="733" height="556"/>
+	<SubTexture name="sniper down0001" x="6000" y="2127" width="733" height="556"/>
+	<SubTexture name="sniper down0002" x="6733" y="2127" width="733" height="556"/>
+	<SubTexture name="sniper down0003" x="6733" y="2127" width="733" height="556"/>
+	<SubTexture name="sniper down0004" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0005" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0006" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0007" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0008" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0009" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0010" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0011" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0012" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0013" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0014" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0015" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0016" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0017" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0018" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0019" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0020" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0021" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0022" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0023" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0024" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0025" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0026" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0027" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0028" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0029" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0030" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0031" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0032" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0033" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0034" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0035" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0036" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0037" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0038" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0039" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0040" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0041" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0042" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0043" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper down0044" x="0" y="2836" width="733" height="556"/>
+	<SubTexture name="sniper hey0000" x="733" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0001" x="733" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0002" x="1437" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0003" x="1437" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0004" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0005" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0006" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0007" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0008" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0009" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0010" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0011" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0012" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0013" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0014" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0015" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0016" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0017" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0018" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0019" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0020" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0021" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0022" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0023" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0024" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0025" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0026" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0027" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0028" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0029" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0030" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0031" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0032" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0033" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0034" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0035" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0036" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0037" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0038" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0039" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0040" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0041" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0042" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0043" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper hey0044" x="2141" y="2836" width="704" height="674"/>
+	<SubTexture name="sniper idle0000" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0001" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0002" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0003" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0004" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0005" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0006" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0007" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0008" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0009" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0010" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0011" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0012" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0013" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0014" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0015" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0016" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0017" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0018" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0019" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0020" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0021" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0022" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0023" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0024" x="3464" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0025" x="3464" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0026" x="4083" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0027" x="4083" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0028" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0029" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0030" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0031" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0032" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0033" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0034" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0035" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0036" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0037" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0038" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0039" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper idle0040" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper left0000" x="4702" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0001" x="4702" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0002" x="5407" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0003" x="5407" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0004" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0005" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0006" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0007" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0008" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0009" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0010" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0011" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0012" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0013" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0014" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0015" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0016" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0017" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0018" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0019" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0020" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0021" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0022" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0023" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0024" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0025" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0026" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0027" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0028" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0029" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0030" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0031" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0032" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0033" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0034" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0035" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0036" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0037" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0038" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0039" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0040" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0041" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0042" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0043" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper left0044" x="6112" y="2836" width="705" height="668"/>
+	<SubTexture name="sniper miss down0000" x="6817" y="2836" width="734" height="552"/>
+	<SubTexture name="sniper miss down0001" x="0" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0002" x="0" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0003" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0004" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0005" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0006" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0007" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0008" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0009" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0010" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0011" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0012" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0013" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0014" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0015" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0016" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0017" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0018" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0019" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0020" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0021" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0022" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0023" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0024" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0025" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0026" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0027" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0028" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0029" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0030" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0031" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0032" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0033" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0034" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0035" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0036" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0037" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0038" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0039" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0040" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0041" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0042" x="1468" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0043" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss down0044" x="734" y="3510" width="734" height="552"/>
+	<SubTexture name="sniper miss left0000" x="2202" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0001" x="2858" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0002" x="2858" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0003" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0004" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0005" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0006" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0007" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0008" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0009" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0010" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0011" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0012" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0013" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0014" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0015" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0016" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0017" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0018" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0019" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0020" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0021" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0022" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0023" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0024" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0025" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0026" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0027" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0028" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0029" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0030" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0031" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0032" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0033" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0034" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0035" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0036" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0037" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0038" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0039" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0040" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0041" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0042" x="4170" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0043" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss left0044" x="3514" y="3510" width="656" height="672"/>
+	<SubTexture name="sniper miss right0000" x="4826" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0001" x="5531" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0002" x="5531" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0003" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0004" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0005" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0006" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0007" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0008" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0009" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0010" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0011" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0012" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0013" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0014" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0015" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0016" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0017" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0018" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0019" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0020" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0021" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0022" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0023" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0024" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0025" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0026" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0027" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0028" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0029" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0030" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0031" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0032" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0033" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0034" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0035" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0036" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0037" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0038" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0039" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0040" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0041" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0042" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0043" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss right0044" x="6236" y="3510" width="705" height="655"/>
+	<SubTexture name="sniper miss up0000" x="6941" y="3510" width="610" height="773"/>
+	<SubTexture name="sniper miss up0001" x="7551" y="3510" width="610" height="773"/>
+	<SubTexture name="sniper miss up0002" x="7551" y="3510" width="610" height="773"/>
+	<SubTexture name="sniper miss up0003" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0004" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0005" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0006" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0007" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0008" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0009" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0010" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0011" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0012" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0013" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0014" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0015" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0016" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0017" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0018" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0019" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0020" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0021" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0022" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0023" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0024" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0025" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0026" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0027" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0028" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0029" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0030" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0031" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0032" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0033" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0034" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0035" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0036" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0037" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0038" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0039" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0040" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0041" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0042" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0043" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper miss up0044" x="0" y="4283" width="610" height="773"/>
+	<SubTexture name="sniper right0000" x="610" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0001" x="610" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0002" x="1290" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0003" x="1290" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0004" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0005" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0006" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0007" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0008" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0009" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0010" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0011" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0012" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0013" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0014" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0015" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0016" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0017" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0018" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0019" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0020" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0021" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0022" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0023" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0024" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0025" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0026" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0027" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0028" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0029" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0030" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0031" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0032" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0033" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0034" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0035" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0036" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0037" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0038" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0039" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0040" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0041" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0042" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0043" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper right0044" x="1970" y="4283" width="680" height="687"/>
+	<SubTexture name="sniper up0000" x="2650" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0001" x="2650" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0002" x="3246" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0003" x="3246" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0004" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0005" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0006" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0007" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0008" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0009" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0010" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0011" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0012" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0013" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0014" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0015" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0016" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0017" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0018" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0019" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0020" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0021" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0022" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0023" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0024" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0025" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0026" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0027" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0028" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0029" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0030" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0031" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0032" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0033" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0034" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0035" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0036" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0037" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0038" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0039" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0040" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0041" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0042" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0043" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper up0044" x="3842" y="4283" width="596" height="753"/>
+	<SubTexture name="sniper wtf0000" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0001" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0002" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0003" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0004" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0005" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0006" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0007" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0008" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0009" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0010" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0011" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0012" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0013" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0014" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0015" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0016" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0017" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0018" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0019" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0020" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0021" x="4438" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0022" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0023" x="5057" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0024" x="5676" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0025" x="5676" y="4283" width="619" height="670"/>
+	<SubTexture name="sniper wtf0026" x="4083" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0027" x="4083" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0028" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0029" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0030" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0031" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0032" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0033" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0034" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0035" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0036" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0037" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0038" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0039" x="2845" y="2836" width="619" height="670"/>
+	<SubTexture name="sniper wtf0040" x="2845" y="2836" width="619" height="670"/>
+</TextureAtlas>

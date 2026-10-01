@@ -1,0 +1,498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="dopehank.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="dopehank dance0000" x="0" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0001" x="0" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0002" x="645" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0003" x="645" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0004" x="1290" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0005" x="1290" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0006" x="1935" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0007" x="2580" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0008" x="2580" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0009" x="3225" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0010" x="3225" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0011" x="3870" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0012" x="3870" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0013" x="4515" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0014" x="5160" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0015" x="5160" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0016" x="5805" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0017" x="6450" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0018" x="6450" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0019" x="7095" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0020" x="7095" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0021" x="0" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0022" x="0" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0023" x="645" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0024" x="1290" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0025" x="3225" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0026" x="3225" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0027" x="1935" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0028" x="1935" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0029" x="4515" y="0" width="645" height="713"/>
+	<SubTexture name="dopehank dance0030" x="2580" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0031" x="2580" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0032" x="3225" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0033" x="3870" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0034" x="3870" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0035" x="4515" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0036" x="4515" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0037" x="5160" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0038" x="5160" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0039" x="5805" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0040" x="6450" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0041" x="7095" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0042" x="7095" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0043" x="0" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0044" x="0" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0045" x="645" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0046" x="1290" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0047" x="1290" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0048" x="1935" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0049" x="3870" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0050" x="3870" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0051" x="4515" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0052" x="4515" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0053" x="5160" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0054" x="5160" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0055" x="5805" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0056" x="2580" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0057" x="7095" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0058" x="7095" y="713" width="645" height="713"/>
+	<SubTexture name="dopehank dance0059" x="0" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0060" x="0" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0061" x="645" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0062" x="1290" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0063" x="1290" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank dance0064" x="3225" y="1426" width="645" height="713"/>
+	<SubTexture name="dopehank down0000" x="3870" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0001" x="3870" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0002" x="4651" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0003" x="4651" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0004" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0005" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0006" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0007" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0008" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0009" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0010" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0011" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0012" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0013" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0014" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0015" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0016" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0017" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0018" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0019" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0020" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0021" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0022" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0023" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0024" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0025" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0026" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0027" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0028" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0029" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0030" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0031" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0032" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0033" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0034" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0035" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0036" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0037" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0038" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0039" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0040" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0041" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0042" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0043" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank down0044" x="5432" y="1426" width="781" height="500"/>
+	<SubTexture name="dopehank hey0000" x="6213" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0001" x="6213" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0002" x="6830" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0003" x="6830" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0004" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0005" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0006" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0007" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0008" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0009" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0010" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0011" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0012" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0013" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0014" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0015" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0016" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0017" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0018" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0019" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0020" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0021" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0022" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0023" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0024" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0025" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0026" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0027" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0028" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0029" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0030" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0031" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0032" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0033" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0034" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0035" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0036" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0037" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0038" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0039" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0040" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0041" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0042" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0043" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank hey0044" x="7447" y="1426" width="617" height="691"/>
+	<SubTexture name="dopehank idle0000" x="0" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0001" x="0" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0002" x="596" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0003" x="596" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0004" x="1192" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0005" x="1192" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0006" x="1788" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0007" x="1788" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0008" x="2384" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0009" x="2384" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0010" x="2980" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0011" x="2980" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0012" x="3576" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank idle0013" x="3576" y="2139" width="596" height="690"/>
+	<SubTexture name="dopehank kill0000" x="4172" y="2139" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0001" x="4172" y="2139" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0002" x="5565" y="2139" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0003" x="5565" y="2139" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0004" x="0" y="2853" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0005" x="1393" y="2853" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0006" x="2786" y="2853" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0007" x="2786" y="2853" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0008" x="4179" y="2853" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0009" x="4179" y="2853" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0010" x="5572" y="2853" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0011" x="0" y="3567" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0012" x="0" y="3567" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0013" x="1393" y="3567" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0014" x="2786" y="3567" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0015" x="4179" y="3567" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0016" x="5572" y="3567" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0017" x="0" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0018" x="0" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0019" x="1393" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0020" x="1393" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0021" x="2786" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0022" x="2786" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0023" x="4179" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0024" x="4179" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0025" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0026" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0027" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0028" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0029" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0030" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0031" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0032" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0033" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0034" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0035" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0036" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0037" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0038" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0039" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0040" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0041" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0042" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0043" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0044" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0045" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0046" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0047" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0048" x="5572" y="4281" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0049" x="0" y="4995" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0050" x="0" y="4995" width="1393" height="714"/>
+	<SubTexture name="dopehank kill0051" x="0" y="4995" width="1393" height="714"/>
+	<SubTexture name="dopehank left0000" x="1393" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0001" x="1393" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0002" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0003" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0004" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0005" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0006" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0007" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0008" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0009" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0010" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0011" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0012" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0013" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0014" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0015" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0016" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0017" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0018" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0019" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0020" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0021" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0022" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0023" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0024" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0025" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0026" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0027" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0028" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0029" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0030" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0031" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0032" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0033" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0034" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0035" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0036" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0037" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0038" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0039" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0040" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0041" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0042" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0043" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank left0044" x="2029" y="4995" width="636" height="692"/>
+	<SubTexture name="dopehank miss left0000" x="2665" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0001" x="3474" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0002" x="3474" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0003" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0004" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0005" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0006" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0007" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0008" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0009" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0010" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0011" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0012" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0013" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0014" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0015" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0016" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0017" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0018" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0019" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0020" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0021" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0022" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0023" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0024" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0025" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0026" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0027" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0028" x="4283" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0029" x="5092" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0030" x="5092" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0031" x="5901" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0032" x="5901" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0033" x="5901" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0034" x="6710" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0035" x="6710" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0036" x="6710" y="4995" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0037" x="0" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0038" x="0" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0039" x="0" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0040" x="809" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0041" x="809" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0042" x="809" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0043" x="1618" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0044" x="1618" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0045" x="2427" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0046" x="3236" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0047" x="3236" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0048" x="4045" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0049" x="4045" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0050" x="4854" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0051" x="4854" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0052" x="5663" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0053" x="5663" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0054" x="6472" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0055" x="6472" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0056" x="7281" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0057" x="7281" y="5709" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0058" x="0" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0059" x="0" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0060" x="809" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0061" x="809" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0062" x="1618" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0063" x="1618" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0064" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0065" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0066" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0067" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0068" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0069" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0070" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0071" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0072" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0073" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0074" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0075" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0076" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0077" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0078" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0079" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0080" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0081" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0082" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0083" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0084" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0085" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0086" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0087" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0088" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0089" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0090" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0091" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0092" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0093" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0094" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0095" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0096" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0097" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0098" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0099" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0100" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0101" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0102" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0103" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0104" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0105" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0106" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0107" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0108" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0109" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0110" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0111" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0112" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0113" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0114" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0115" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0116" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0117" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0118" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0119" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0120" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0121" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0122" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0123" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0124" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0125" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0126" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0127" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0128" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0129" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0130" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0131" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0132" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0133" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0134" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0135" x="2427" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank miss left0136" x="3236" y="6418" width="809" height="709"/>
+	<SubTexture name="dopehank right0000" x="4045" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0001" x="4045" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0002" x="4680" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0003" x="4680" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0004" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0005" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0006" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0007" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0008" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0009" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0010" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0011" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0012" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0013" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0014" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0015" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0016" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0017" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0018" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0019" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0020" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0021" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0022" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0023" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0024" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0025" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0026" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0027" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0028" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0029" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0030" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0031" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0032" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0033" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0034" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0035" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0036" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0037" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0038" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0039" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0040" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0041" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0042" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0043" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank right0044" x="5315" y="6418" width="635" height="643"/>
+	<SubTexture name="dopehank up0000" x="5950" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0001" x="5950" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0002" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0003" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0004" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0005" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0006" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0007" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0008" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0009" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0010" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0011" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0012" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0013" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0014" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0015" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0016" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0017" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0018" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0019" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0020" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0021" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0022" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0023" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0024" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0025" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0026" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0027" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0028" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0029" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0030" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0031" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0032" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0033" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0034" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0035" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0036" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0037" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0038" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0039" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0040" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0041" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0042" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0043" x="6529" y="6418" width="579" height="705"/>
+	<SubTexture name="dopehank up0044" x="6529" y="6418" width="579" height="705"/>
+</TextureAtlas>

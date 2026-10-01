@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="geek_melody.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="melody alt down0000" x="0" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0001" x="0" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0002" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0003" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0004" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0005" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0006" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0007" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0008" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0009" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0010" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0011" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0012" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0013" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0014" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0015" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0016" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0017" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0018" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0019" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0020" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0021" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0022" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0023" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0024" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0025" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0026" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0027" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0028" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0029" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0030" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0031" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0032" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0033" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0034" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0035" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0036" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0037" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0038" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0039" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0040" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0041" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0042" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0043" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt down0044" x="469" y="0" width="469" height="556"/>
+	<SubTexture name="melody alt left0000" x="938" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0001" x="938" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0002" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0003" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0004" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0005" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0006" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0007" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0008" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0009" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0010" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0011" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0012" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0013" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0014" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0015" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0016" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0017" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0018" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0019" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0020" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0021" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0022" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0023" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0024" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0025" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0026" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0027" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0028" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0029" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0030" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0031" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0032" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0033" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0034" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0035" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0036" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0037" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0038" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0039" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0040" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0041" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0042" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0043" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt left0044" x="1407" y="0" width="469" height="596"/>
+	<SubTexture name="melody alt right0000" x="1876" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0001" x="1876" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0002" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0003" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0004" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0005" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0006" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0007" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0008" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0009" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0010" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0011" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0012" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0013" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0014" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0015" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0016" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0017" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0018" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0019" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0020" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0021" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0022" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0023" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0024" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0025" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0026" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0027" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0028" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0029" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0030" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0031" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0032" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0033" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0034" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0035" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0036" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0037" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0038" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0039" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0040" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0041" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0042" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0043" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt right0044" x="2343" y="0" width="467" height="599"/>
+	<SubTexture name="melody alt up0000" x="2810" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0001" x="2810" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0002" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0003" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0004" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0005" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0006" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0007" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0008" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0009" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0010" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0011" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0012" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0013" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0014" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0015" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0016" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0017" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0018" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0019" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0020" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0021" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0022" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0023" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0024" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0025" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0026" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0027" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0028" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0029" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0030" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0031" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0032" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0033" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0034" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0035" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0036" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0037" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0038" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0039" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0040" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0041" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0042" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0043" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody alt up0044" x="3273" y="0" width="463" height="670"/>
+	<SubTexture name="melody down0000" x="0" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0001" x="0" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0002" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0003" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0004" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0005" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0006" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0007" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0008" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0009" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0010" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0011" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0012" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0013" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0014" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0015" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0016" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0017" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0018" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0019" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0020" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0021" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0022" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0023" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0024" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0025" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0026" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0027" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0028" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0029" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0030" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0031" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0032" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0033" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0034" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0035" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0036" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0037" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0038" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0039" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0040" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0041" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0042" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0043" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody down0044" x="522" y="670" width="522" height="556"/>
+	<SubTexture name="melody hey0000" x="1044" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0001" x="1044" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0002" x="1504" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0003" x="1504" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0004" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0005" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0006" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0007" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0008" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0009" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0010" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0011" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0012" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0013" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0014" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0015" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0016" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0017" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0018" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0019" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0020" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0021" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0022" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0023" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0024" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0025" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0026" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0027" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0028" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0029" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0030" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0031" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0032" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0033" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0034" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0035" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0036" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0037" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0038" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0039" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0040" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0041" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0042" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0043" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody hey0044" x="1964" y="670" width="460" height="579"/>
+	<SubTexture name="melody idle0000" x="2424" y="670" width="513" height="611"/>
+	<SubTexture name="melody idle0001" x="2424" y="670" width="513" height="611"/>
+	<SubTexture name="melody idle0002" x="2937" y="670" width="513" height="611"/>
+	<SubTexture name="melody idle0003" x="2937" y="670" width="513" height="611"/>
+	<SubTexture name="melody idle0004" x="3450" y="670" width="513" height="611"/>
+	<SubTexture name="melody idle0005" x="3450" y="670" width="513" height="611"/>
+	<SubTexture name="melody idle0006" x="0" y="1281" width="513" height="611"/>
+	<SubTexture name="melody idle0007" x="0" y="1281" width="513" height="611"/>
+	<SubTexture name="melody idle0008" x="513" y="1281" width="513" height="611"/>
+	<SubTexture name="melody idle0009" x="513" y="1281" width="513" height="611"/>
+	<SubTexture name="melody idle0010" x="1026" y="1281" width="513" height="611"/>
+	<SubTexture name="melody idle0011" x="1026" y="1281" width="513" height="611"/>
+	<SubTexture name="melody idle0012" x="1539" y="1281" width="513" height="611"/>
+	<SubTexture name="melody idle0013" x="1539" y="1281" width="513" height="611"/>
+	<SubTexture name="melody left0000" x="2052" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0001" x="2052" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0002" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0003" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0004" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0005" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0006" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0007" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0008" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0009" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0010" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0011" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0012" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0013" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0014" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0015" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0016" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0017" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0018" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0019" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0020" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0021" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0022" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0023" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0024" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0025" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0026" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0027" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0028" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0029" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0030" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0031" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0032" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0033" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0034" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0035" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0036" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0037" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0038" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0039" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0040" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0041" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0042" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0043" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody left0044" x="2544" y="1281" width="492" height="596"/>
+	<SubTexture name="melody right0000" x="3036" y="1281" width="568" height="599"/>
+	<SubTexture name="melody right0001" x="3036" y="1281" width="568" height="599"/>
+	<SubTexture name="melody right0002" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0003" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0004" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0005" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0006" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0007" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0008" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0009" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0010" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0011" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0012" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0013" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0014" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0015" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0016" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0017" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0018" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0019" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0020" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0021" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0022" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0023" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0024" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0025" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0026" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0027" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0028" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0029" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0030" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0031" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0032" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0033" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0034" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0035" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0036" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0037" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0038" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0039" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0040" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0041" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0042" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0043" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody right0044" x="0" y="1892" width="568" height="599"/>
+	<SubTexture name="melody up0000" x="568" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0001" x="568" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0002" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0003" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0004" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0005" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0006" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0007" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0008" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0009" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0010" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0011" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0012" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0013" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0014" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0015" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0016" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0017" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0018" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0019" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0020" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0021" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0022" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0023" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0024" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0025" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0026" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0027" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0028" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0029" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0030" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0031" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0032" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0033" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0034" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0035" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0036" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0037" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0038" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0039" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0040" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0041" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0042" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0043" x="1064" y="1892" width="496" height="670"/>
+	<SubTexture name="melody up0044" x="1064" y="1892" width="496" height="670"/>
+</TextureAtlas>
