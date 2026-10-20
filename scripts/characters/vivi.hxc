@@ -1,14 +1,14 @@
 import funkin.graphics.adobeanimate.FlxAtlasSprite;
 import flixel.FlxG;
 import funkin.audio.FunkinSound;
-import funkin.play.character.SparrowCharacter;
+import funkin.play.character.MultiAnimateAtlasCharacter;
 import funkin.play.GameOverSubState;
 import funkin.play.PlayState;
 import funkin.Preferences;
 import funkin.util.Constants;
 import funkin.util.HapticUtil;
 
-class ViviCharacter extends SparrowCharacter
+class ViviCharacter extends MultiAnimateAtlasCharacter
 {
 
   function new()
@@ -18,8 +18,8 @@ class ViviCharacter extends SparrowCharacter
 
    function onCreate()
   {
-    //GameOverSubState.blueBallSuffix = "-lucy";
-    //GameOverSubState.musicSuffix = '-nobf';
+    GameOverSubState.blueBallSuffix = "-vivi";
+    GameOverSubState.musicSuffix = '-nobf';
     super.onCreate();
   }
 

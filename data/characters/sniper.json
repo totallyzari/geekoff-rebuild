@@ -1,196 +1,193 @@
 {
-	"version": "1.0.0",
-	"renderType": "sparrow",
-	"offsets": [
-		40,
-		0
-	],
-	"danceEvery": 1,
+	"renderType": "animateatlas",
 	"applyStageMatrix": false,
+	"death": {
+		"cameraZoom": 0.65,
+		"cameraOffsets": [
+			-270,
+			-230
+		],
+		"preTransitionDelay": 0
+	},
+	"startingAnimation": "idle",
+	"healthIcon": {
+		"shouldBop": true,
+		"isPixel": false,
+		"offsets": [
+			-14,
+			0
+		],
+		"scale": 0.85,
+		"id": "sniper",
+		"flipX": false
+	},
+	"assetPath": "shared:characters/geeksniper",
+	"version": "1.0.0",
+	"danceEvery": 1,
 	"scale": 0.95,
-	"name": "Sniper",
+	"name": "Sniper (Geek Off)",
 	"flipX": true,
 	"cameraOffsets": [
 		0,
 		0
 	],
 	"singTime": 8,
-	"startingAnimation": "idle",
-	"death": {
-		"cameraZoom": 0.65,
-		"preTransitionDelay": 0,
-		"cameraOffsets": [
-			-270,
-			-230
-		]
-	},
 	"isPixel": false,
-	"assetPath": "characters/sniper",
-	"healthIcon": {
-		"offsets": [
-			-14,
-			0
-		],
-		"isPixel": false,
-		"scale": 0.85,
-		"flipX": false,
-		"id": "sniper"
-	},
 	"atlasSettings": {
+		"swfMode": true,
 		"applyStageMatrix": false,
 		"useRenderTexture": false,
 		"filterQuality": 1,
-		"cacheOnLoad": false,
-		"swfMode": true
+		"cacheOnLoad": false
 	},
 	"animations": [
 		{
-			"flipY": false,
 			"offsets": [
 				-5,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "sniper idle",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "idle",
 			"looped": false,
-			"name": "idle"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				87,
-				3
+				-8,
+				-2
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "sniper left",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singLEFT",
 			"looped": false,
-			"name": "singLEFT"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				14,
-				-112
-			],
-			"frameRate": 24,
-			"prefix": "sniper down",
-			"animType": "framelabel",
-			"flipX": false,
-			"looped": false,
-			"name": "singDOWN"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				-39,
-				87
-			],
-			"frameRate": 24,
-			"prefix": "sniper up",
-			"animType": "framelabel",
-			"flipX": false,
-			"looped": false,
-			"name": "singUP"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				-82,
-				21
-			],
-			"frameRate": 24,
-			"prefix": "sniper right",
-			"animType": "framelabel",
-			"flipX": false,
-			"looped": false,
-			"name": "singRIGHT"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				90,
-				9
-			],
-			"frameRate": 24,
-			"prefix": "sniper miss left",
-			"animType": "framelabel",
-			"flipX": false,
-			"looped": false,
-			"name": "singLEFTmiss"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				14,
-				-112
-			],
-			"frameRate": 24,
-			"prefix": "sniper miss down",
-			"animType": "framelabel",
-			"flipX": false,
-			"looped": false,
-			"name": "singDOWNmiss"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				-44,
-				106
-			],
-			"frameRate": 24,
-			"prefix": "sniper miss up",
-			"animType": "framelabel",
-			"flipX": false,
-			"looped": false,
-			"name": "singUPmiss"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				-70,
-				-14
-			],
-			"frameRate": 24,
-			"prefix": "sniper miss right",
-			"animType": "framelabel",
-			"flipX": false,
-			"looped": false,
-			"name": "singRIGHTmiss"
-		},
-		{
-			"flipY": false,
-			"offsets": [
-				35,
+				-8,
 				0
 			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "sniper down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-9,
+				-3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "sniper up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				18,
+				4
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "sniper right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-15,
+				4
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "sniper miss left",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-1,
+				-2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "sniper miss down",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-4,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "sniper miss up",
+			"name": "singUPmiss",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				5,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "sniper miss right",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-5,
+				0
+			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "sniper hey",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "hey",
 			"looped": false,
-			"name": "hey"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
-			"flipY": false,
 			"offsets": [
-				453,
-				41
+				18,
+				-19
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "sniper die",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "firstDeath",
 			"looped": false,
-			"name": "firstDeath"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
-				453,
-				41
+				18,
+				-19
 			],
 			"frameIndices": [
 				33,
@@ -205,25 +202,25 @@
 				42
 			],
 			"prefix": "sniper die",
-			"animType": "framelabel",
-			"flipX": false,
-			"name": "deathLoop",
 			"looped": true,
+			"name": "deathLoop",
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-4,
-				2
+				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "sniper wtf",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "pmo",
 			"looped": false,
-			"name": "pmo"
+			"flipX": false,
+			"animType": "framelabel"
 		}
 	]
 }

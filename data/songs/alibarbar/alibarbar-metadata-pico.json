@@ -1,0 +1,54 @@
+{
+ "version": "2.2.4",
+ "songName": "ALIBARBAR (Pico Mix)",
+ "artist": "xerovgm",
+ "charter": "[whos.eli]",
+ "divisions": 96,
+ "looped": false,
+ "offsets": {
+  "instrumental": 0,
+  "altInstrumentals": {  },
+  "vocals": {  },
+  "altVocals": {  }
+ },
+ "playData": {
+  "songVariations": ["pico"],
+  "difficulties": [
+   "normal"
+  ],
+  "characters": {
+   "player": "pico-geek",
+   "girlfriend": "nene-geek",
+   "opponent": "acid-pico",
+   "instrumental": "pico",
+   "altInstrumentals": [],
+   "opponentVocals": [
+    "acid"
+   ],
+   "playerVocals": [
+    "pico"
+   ]
+  },
+  "stage": "restroom",
+  "noteStyle": "funkin",
+  "album": "volume1",
+  "stickerPack": "default",
+  "ratings": {
+   "normal": 0
+  },
+  "previewStart": 0,
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.1",
+ "timeFormat": "ms",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 180,
+   "n": 4,
+   "d": 4,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

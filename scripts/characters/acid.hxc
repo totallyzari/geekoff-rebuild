@@ -1,5 +1,4 @@
-import funkin.play.character.SparrowCharacter;
-import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.character.MultiAnimateAtlasCharacter;
 import funkin.play.character.CharacterType;
 import flixel.util.FlxTimer;
 import flixel.tweens.FlxEase;
@@ -10,7 +9,7 @@ import funkin.play.GameOverSubState;
 import flixel.tweens.FlxTween;
 import flixel.effects.FlxFlicker;
 
-class AcidCharacter extends SparrowCharacter
+class Acid extends MultiAnimateAtlasCharacter
 {
   function new()
   {

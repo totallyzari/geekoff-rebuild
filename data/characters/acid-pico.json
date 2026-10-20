@@ -1,0 +1,449 @@
+{
+	"version": "1.0.0",
+	"renderType": "multianimateatlas",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Acid",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "shared:characters/geekacidpmix/basic",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"shouldBop": true,
+		"scale": 1,
+		"flipX": false,
+		"id": "acid"
+	},
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "acid idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				11,
+				12
+			],
+			"prefix": "acid idle",
+			"flipX": false,
+			"name": "idle-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-9,
+				1
+			],
+			"frameRate": 24,
+			"prefix": "acid left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-9,
+				1
+			],
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "acid left",
+			"flipX": false,
+			"name": "singLEFT-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "acid down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "acid down",
+			"flipX": false,
+			"name": "singDOWN-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				1,
+				1
+			],
+			"frameRate": 24,
+			"prefix": "acid up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				1,
+				1
+			],
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "acid up",
+			"flipX": false,
+			"name": "singUP-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				1,
+				1
+			],
+			"frameRate": 24,
+			"prefix": "acid right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				1,
+				1
+			],
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "acid right",
+			"flipX": false,
+			"name": "singRIGHT-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-9,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "acid alt left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT-alt",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-9,
+				1
+			],
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "acid alt left",
+			"flipX": false,
+			"name": "singLEFT-alt-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				2,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "acid alt down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN-alt",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				2,
+				-1
+			],
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "acid alt down",
+			"flipX": false,
+			"name": "singDOWN-alt-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-5,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "acid alt up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP-alt",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-5,
+				-1
+			],
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "acid alt up",
+			"flipX": false,
+			"name": "singUP-alt-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				1,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "acid alt right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT-alt",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"prefix": "acid alt right",
+			"flipX": false,
+			"name": "singRIGHT-alt-hold",
+			"looped": true,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-41,
+				-67
+			],
+			"prefix": "acid brap",
+			"flipX": false,
+			"looped": false,
+			"animType": "framelabel",
+			"name": "burp",
+			"flipY": false,
+			"assetPath": "shared:characters/geekacidpmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-42,
+				-68
+			],
+			"prefix": "acid giggle",
+			"flipX": false,
+			"looped": false,
+			"animType": "framelabel",
+			"name": "giggle",
+			"flipY": false,
+			"assetPath": "shared:characters/geekacidpmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-1,
+				0
+			],
+			"prefix": "acid hey",
+			"flipX": false,
+			"looped": false,
+			"animType": "framelabel",
+			"name": "hey",
+			"flipY": false,
+			"assetPath": "shared:characters/geekacidpmix/basic",
+			"frameRate": 24
+		}
+	]
+}

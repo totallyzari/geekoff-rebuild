@@ -18,36 +18,37 @@
 	"isPixel": false,
 	"singTime": 8,
 	"healthIcon": {
+		"shouldBop": true,
+		"isPixel": false,
 		"offsets": [
 			0,
 			15
 		],
-		"isPixel": false,
 		"scale": 1,
-		"flipX": false,
-		"id": "eli"
+		"id": "eli",
+		"flipX": false
 	},
-	"assetPath": "shared:characters/eli/basic",
+	"assetPath": "shared:characters/geekeli/basic",
 	"atlasSettings": {
-		"applyStageMatrix": false,
 		"swfMode": true,
+		"applyStageMatrix": false,
 		"useRenderTexture": false,
-		"cacheOnLoad": false,
-		"filterQuality": 1
+		"filterQuality": 1,
+		"cacheOnLoad": false
 	},
 	"animations": [
 		{
-			"flipY": false,
 			"offsets": [
 				0,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli idle",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "idle",
 			"looped": false,
-			"name": "idle"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -61,25 +62,25 @@
 				12,
 				13
 			],
-			"animType": "framelabel",
-			"flipX": false,
+			"looped": true,
 			"name": "idle-hold",
-			"looped": true,
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-12,
 				1
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli left",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singLEFT",
 			"looped": false,
-			"name": "singLEFT"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -101,25 +102,25 @@
 				14,
 				15
 			],
-			"animType": "framelabel",
-			"flipX": false,
+			"looped": true,
 			"name": "singLEFT-hold",
-			"looped": true,
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				3,
 				2
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli down",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singDOWN",
 			"looped": false,
-			"name": "singDOWN"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -140,25 +141,25 @@
 				13,
 				14
 			],
-			"animType": "framelabel",
-			"flipX": false,
-			"name": "singDOWN-hold",
 			"looped": true,
+			"name": "singDOWN-hold",
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-2,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli up",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singUP",
 			"looped": false,
-			"name": "singUP"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -178,25 +179,25 @@
 				12,
 				13
 			],
-			"animType": "framelabel",
-			"flipX": false,
-			"name": "singUP-hold",
 			"looped": true,
+			"name": "singUP-hold",
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				6,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli right",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singRIGHT",
 			"looped": false,
-			"name": "singRIGHT"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -218,25 +219,25 @@
 				14,
 				15
 			],
-			"animType": "framelabel",
-			"flipX": false,
+			"looped": true,
 			"name": "singRIGHT-hold",
-			"looped": true,
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-13,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli alt left",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singLEFT-alt",
 			"looped": false,
-			"name": "singLEFT-alt"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -257,25 +258,25 @@
 				13,
 				14
 			],
-			"animType": "framelabel",
-			"flipX": false,
+			"looped": true,
 			"name": "singLEFT-alt-hold",
-			"looped": true,
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				4,
 				4
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli alt down",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singDOWN-alt",
 			"looped": false,
-			"name": "singDOWN-alt"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -296,25 +297,25 @@
 				13,
 				14
 			],
-			"animType": "framelabel",
-			"flipX": false,
-			"name": "singDOWN-alt-hold",
 			"looped": true,
+			"name": "singDOWN-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				2,
 				2
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli alt up",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singUP-alt",
 			"looped": false,
-			"name": "singUP-alt"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -334,25 +335,25 @@
 				12,
 				13
 			],
-			"animType": "framelabel",
-			"flipX": false,
-			"name": "singUP-alt-hold",
 			"looped": true,
+			"name": "singUP-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				9,
 				1
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli alt right",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "singRIGHT-alt",
 			"looped": false,
-			"name": "singRIGHT-alt"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
@@ -373,114 +374,114 @@
 				13,
 				14
 			],
-			"animType": "framelabel",
-			"flipX": false,
-			"name": "singRIGHT-alt-hold",
 			"looped": true,
+			"name": "singRIGHT-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
 			"frameRate": 24
 		},
 		{
 			"offsets": [
-				29,
-				9
+				30,
+				41
 			],
 			"prefix": "eli cough",
-			"animType": "framelabel",
-			"flipX": false,
 			"name": "cough",
 			"looped": false,
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "shared:characters/eli/extra"
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
 		},
 		{
-			"flipY": false,
 			"offsets": [
 				-3,
 				0
 			],
+			"flipY": false,
 			"frameRate": 24,
 			"prefix": "eli hey",
-			"animType": "framelabel",
-			"flipX": false,
+			"name": "hey",
 			"looped": false,
-			"name": "hey"
+			"flipX": false,
+			"animType": "framelabel"
 		},
 		{
 			"offsets": [
-				33,
-				8
+				32,
+				38
 			],
 			"prefix": "eli end song anim",
-			"animType": "framelabel",
-			"flipX": false,
 			"name": "endsong",
 			"looped": false,
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "shared:characters/eli/extra"
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
 				33,
-				8
+				40
 			],
 			"prefix": "eli uhhh",
-			"animType": "framelabel",
-			"flipX": false,
 			"name": "uhh",
 			"looped": false,
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "shared:characters/eli/extra"
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
-				34,
-				8
+				33,
+				40
 			],
 			"prefix": "eli confused",
-			"animType": "framelabel",
-			"flipX": false,
 			"name": "confused",
 			"looped": false,
+			"flipX": false,
+			"animType": "framelabel",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "shared:characters/eli/extra"
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
 				6,
-				8
+				43
 			],
 			"prefix": "eli dance fr",
-			"animType": "framelabel",
-			"flipX": false,
 			"name": "jam",
 			"looped": false,
-			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "shared:characters/eli/extra"
-		},
-		{
-			"offsets": [
-				33,
-				8
-			],
-			"prefix": "eli kill",
 			"flipX": false,
 			"animType": "framelabel",
-			"name": "kill",
-			"looped": false,
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "shared:characters/eli/extra"
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
 				33,
-				8
+				40
+			],
+			"prefix": "eli kill",
+			"name": "kill",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				33,
+				40
 			],
 			"frameIndices": [
 				53,
@@ -502,13 +503,83 @@
 				69
 			],
 			"prefix": "eli kill",
+			"name": "kill-hold",
+			"looped": true,
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				33,
+				40
+			],
+			"prefix": "eli wtfbro",
+			"looped": false,
+			"name": "damnbruh",
 			"animType": "framelabel",
 			"flipX": false,
-			"looped": true,
-			"name": "kill-hold",
 			"flipY": false,
-			"frameRate": 24,
-			"assetPath": "shared:characters/eli/extra"
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				26,
+				36
+			],
+			"prefix": "eli miss left",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				27,
+				36
+			],
+			"prefix": "eli miss down",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-1,
+				32
+			],
+			"prefix": "eli miss up",
+			"name": "singUPmiss",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				27,
+				36
+			],
+			"prefix": "eli miss right",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekeli/extra",
+			"frameRate": 24
 		}
 	]
 }

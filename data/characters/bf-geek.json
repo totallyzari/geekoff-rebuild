@@ -1,224 +1,280 @@
 {
-	"version": "1.0.0",
-	"renderType": "multisparrow",
+	"renderType": "multianimateatlas",
 	"offsets": [
-		0,
-		0
+		26,
+		10
 	],
-	"danceEvery": 1,
-	"scale": 0.95,
-	"name": "Boyfriend (GEEK OFF)",
-	"flipX": true,
-	"cameraOffsets": [
-		0,
-		0
-	],
-	"singTime": 8,
+	"applyStageMatrix": false,
+	"death": {
+		"cameraZoom": 0.7,
+		"cameraOffsets": [
+			-200,
+			90
+		],
+		"preTransitionDelay": 0
+	},
 	"startingAnimation": "idle",
-	"isPixel": false,
-	"assetPath": "characters/geek_bf",
 	"healthIcon": {
-		"isPixel": false,
+		"shouldBop": true,
 		"offsets": [
 			0,
 			0
 		],
+		"isPixel": false,
 		"scale": 1,
-		"id": "bf",
-		"flipX": false
+		"flipX": false,
+		"id": "bf"
+	},
+	"assetPath": "shared:characters/bf-geek/play",
+	"version": "1.0.0",
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Boyfriend (Geek Off)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		100
+	],
+	"singTime": 8,
+	"isPixel": false,
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"swfMode": true,
+		"useRenderTexture": false,
+		"cacheOnLoad": false,
+		"filterQuality": 1
 	},
 	"animations": [
 		{
+			"flipY": false,
 			"offsets": [
-				-5,
+				0,
 				0
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "bf idle",
-			"name": "idle",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "idle"
 		},
 		{
-			"offsets": [
-				-18,
-				3
-			],
 			"flipY": false,
+			"offsets": [
+				-4,
+				1
+			],
 			"frameRate": 24,
 			"prefix": "bf left",
-			"name": "singLEFT",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singLEFT"
 		},
 		{
-			"offsets": [
-				-70,
-				-30
-			],
 			"flipY": false,
+			"offsets": [
+				3,
+				-3
+			],
 			"frameRate": 24,
 			"prefix": "bf down",
-			"name": "singDOWN",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singDOWN"
 		},
 		{
-			"offsets": [
-				-79,
-				62
-			],
 			"flipY": false,
+			"offsets": [
+				5,
+				1
+			],
 			"frameRate": 24,
 			"prefix": "bf up",
-			"name": "singUP",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singUP"
 		},
 		{
-			"offsets": [
-				-106,
-				2
-			],
 			"flipY": false,
+			"offsets": [
+				8,
+				0
+			],
 			"frameRate": 24,
 			"prefix": "bf right",
-			"name": "singRIGHT",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singRIGHT"
 		},
 		{
-			"offsets": [
-				-5,
-				4
-			],
 			"flipY": false,
+			"offsets": [
+				-7,
+				1
+			],
 			"frameRate": 24,
 			"prefix": "bf miss left",
-			"name": "singLEFTmiss",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singLEFTmiss"
 		},
 		{
-			"offsets": [
-				-71,
-				-34
-			],
 			"flipY": false,
+			"offsets": [
+				14,
+				1
+			],
 			"frameRate": 24,
 			"prefix": "bf miss down",
-			"name": "singDOWNmiss",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singDOWNmiss"
 		},
 		{
-			"offsets": [
-				-99,
-				76
-			],
 			"flipY": false,
+			"offsets": [
+				-4,
+				1
+			],
 			"frameRate": 24,
 			"prefix": "bf miss up",
-			"name": "singUPmiss",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singUPmiss"
 		},
 		{
+			"flipY": false,
 			"offsets": [
-				-10,
+				10,
 				-4
 			],
-			"flipY": false,
 			"frameRate": 24,
 			"prefix": "bf miss right",
-			"name": "singRIGHTmiss",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "singRIGHTmiss"
 		},
 		{
-			"offsets": [
-				-3,
-				12
-			],
 			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
 			"frameRate": 24,
 			"prefix": "bf hey",
-			"name": "hey",
+			"animType": "framelabel",
+			"flipX": false,
 			"looped": false,
-			"flipX": false
+			"name": "hey"
 		},
 		{
 			"offsets": [
-				13,
-				11
+				33,
+				21
 			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "bf dead",
+			"prefix": "bf die",
 			"name": "firstDeath",
 			"looped": false,
-			"flipX": false
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/bf-geek/dieboy",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
-				-167,
-				-165
+				33,
+				21
 			],
-			"flipY": false,
-			"frameRate": 24,
-			"prefix": "bf death loop",
+			"prefix": "bf die",
+			"frameIndices": [
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78
+			],
 			"looped": true,
 			"name": "deathLoop",
-			"flipX": false
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/bf-geek/dieboy"
 		},
 		{
 			"offsets": [
-				-5,
-				-1
+				88,
+				-77
 			],
-			"flipY": false,
-			"frameRate": 24,
 			"prefix": "bf confirm death",
 			"name": "deathConfirm",
 			"looped": false,
-			"flipX": false
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/bf-geek/dieboy",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
-				25,
-				0
+				416,
+				-50
 			],
-			"flipY": false,
-			"frameRate": 24,
 			"prefix": "bf smash hit",
 			"name": "smashhit",
 			"looped": false,
-			"flipX": false
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/bf-geek/extras",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
-				381,
-				22
+				417,
+				-50
 			],
-			"flipY": false,
-			"frameRate": 24,
 			"prefix": "bf yeah",
 			"name": "yeah",
 			"looped": false,
-			"flipX": false
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/bf-geek/extras",
+			"frameRate": 24
 		},
 		{
 			"offsets": [
-				20,
-				0
+				417,
+				-49
 			],
-			"flipY": false,
-			"frameRate": 24,
 			"prefix": "bf grossed out",
 			"name": "ewww",
 			"looped": false,
-			"flipX": false
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/bf-geek/extras",
+			"frameRate": 24
 		}
 	]
 }

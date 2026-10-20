@@ -1,0 +1,58 @@
+package geekoff;
+
+import funkin.modding.module.Module;
+import funkin.play.GameOverSubState;
+import funkin.modding.module.Module;
+import funkin.play.Countdown;
+import funkin.play.notes.SustainTrail;
+import funkin.play.PlayState;
+import funkin.modding.events.ScriptEvent;
+import flixel.FlxG;
+import flixel.tweens.FlxTween;
+import flixel.math.FlxBasePoint;
+import funkin.Paths;
+import funkin.graphics.FunkinSprite;
+import funkin.util.Constants;
+import funkin.graphics.shaders.AdjustColorShader;
+import flixel.addons.display.FlxRuntimeShader;
+import flixel.util.FlxTimer;
+import flixel.math.FlxMath;
+
+class GeekGameOver extends Module
+{
+  var SONG_LIST:Array<String> = ['jeeter-juice', 'boof'];
+  var finishedCountdown = false;
+
+  override public function onCountdownEnd(event:CountdownScriptEvent):Void
+  {
+    super.onCountdownEnd(event);
+    finishedCountdown = true;
+  }
+
+  override public function onSubStateOpenEnd(event:SubStateScriptEvent)
+  {
+    if (!(event.targetState is GameOverSubState)) return;
+    if (!SONG_LIST.contains(PlayState.instance.currentSong.id)) return;
+    var state:GameOverSubState = GameOverSubState.instance;
+
+    if (!finishedCountdown) Countdown.stopCountdown();
+    FlxG.camera.flash(0x80FF0000, 0.3);
+    FlxG.camera.shake(0.01, 0.2);
+    state.remove(state.members[2]);
+    state.parentPlayState.persistentDraw = true;
+    state.parentPlayState.camHUD.visible = false;
+    if (finishedCountdown) {
+      state.parentPlayState.persistentUpdate = true;
+      finishedCountdown = false;
+    }
+  }
+
+  public function onSongRetry(event:SongRetryEvent)
+  {
+    super.onSongRetry(event);
+    if (!SONG_LIST.contains(PlayState.instance.currentSong.id)) return;
+    PlayState.instance.currentStage.getDad().visible = true;
+    PlayState.instance.currentStage.refresh();
+    PlayState.instance.camHUD.visible = true;
+  }
+}

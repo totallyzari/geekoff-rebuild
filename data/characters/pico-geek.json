@@ -1,0 +1,284 @@
+{
+	"version": "1.0.0",
+	"renderType": "multianimateatlas",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 0.95,
+	"name": "Pico (Geek Off)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"death": {
+		"cameraZoom": 0.85,
+		"cameraOffsets": [
+			-50,
+			-40
+		]
+	},
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "pico"
+	},
+	"assetPath": "shared:characters/geekpico/basic",
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico idle dance",
+			"name": "idle",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-156,
+				5
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				84,
+				-52
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-44,
+				68
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				54,
+				-7
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				63,
+				-10
+			],
+			"flipY": false,
+			"assetPath": "shared:characters/geekpico/playable",
+			"frameRate": 24,
+			"prefix": "pico miss left",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				85,
+				-65
+			],
+			"flipY": false,
+			"assetPath": "shared:characters/geekpico/playable",
+			"frameRate": 24,
+			"prefix": "pico miss down",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-66,
+				85
+			],
+			"flipY": false,
+			"assetPath": "shared:characters/geekpico/playable",
+			"frameRate": 24,
+			"prefix": "pico miss up",
+			"name": "singUPmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-165,
+				5
+			],
+			"flipY": false,
+			"assetPath": "shared:characters/geekpico/playable",
+			"frameRate": 24,
+			"prefix": "pico miss right",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				75,
+				165
+			],
+			"prefix": "pico die",
+			"frameIndices": [
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47
+			],
+			"name": "firstDeath",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/death"
+		},
+		{
+			"offsets": [
+				75,
+				165
+			],
+			"frameIndices": [
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63
+			],
+			"prefix": "pico die",
+			"looped": true,
+			"name": "deathLoop",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/death"
+		},
+		{
+			"offsets": [
+				0,
+				15
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico hey",
+			"name": "hey",
+			"looped": false,
+			"flipX": false,
+			"assetPath": "shared:characters/geekpico/basic"
+		},
+		{
+			"offsets": [
+				45,
+				9
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico grab blunt",
+			"name": "match",
+			"looped": false,
+			"flipX": false,
+			"assetPath": "shared:characters/geekpico/extra"
+		},
+		{
+			"offsets": [
+				55,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico burp",
+			"name": "burpuh",
+			"looped": false,
+			"flipX": false,
+			"assetPath": "shared:characters/geekpico/extra"
+		}
+	]
+}

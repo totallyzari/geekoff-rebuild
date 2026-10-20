@@ -11,7 +11,7 @@
     "altVocals": {    }
   },
   "playData": {
-    "songVariations": [],
+    "songVariations": ["pico"],
     "difficulties": [
       "normal"
     ],
@@ -29,7 +29,7 @@
     },
     "stage": "restroom",
     "noteStyle": "funkin",
-     "album": "volume1",
+    "album": "volume1",
     "stickerPack": "default",
     "ratings": {
       "easy": 0,

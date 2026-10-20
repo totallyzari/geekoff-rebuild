@@ -1,0 +1,125 @@
+import funkin.play.character.MultiAnimateAtlasCharacter;
+import funkin.play.PlayState;
+import flixel.FlxG;
+
+class NeneTarcenCharacter extends MultiAnimateAtlasCharacter
+{
+    function new()
+    {
+        super('nene-geek');
+    }
+
+    var VULTURE_THRESHOLD = 0.25 * 2;
+
+    var STATE_DEFAULT = 0;
+    var STATE_PRE_RAISE = 1;
+    var STATE_RAISE = 2;
+    var STATE_READY = 3;
+    var STATE_LOWER = 4;
+
+    var MIN_BLINK_DELAY:Int = 3;
+    var MAX_BLINK_DELAY:Int = 7;
+    var blinkCountdown:Int = MIN_BLINK_DELAY;
+
+    var currentState:Int = STATE_DEFAULT;
+    
+    function dance(forceRestart:Bool)
+    {
+        switch (currentState)
+        {
+            case STATE_DEFAULT:
+                var dirAnim:String = hasDanced ? "idle" : "idle";
+                playAnimation('idle', forceRestart);
+                hasDanced = !hasDanced;
+            case STATE_PRE_RAISE:
+                playAnimation('idle', false);
+                hasDanced = false;
+            case STATE_READY:
+                if (blinkCountdown == 0)
+                {
+                    playAnimation('idleKnife', false);
+                    blinkCountdown = FlxG.random.int(MIN_BLINK_DELAY, MAX_BLINK_DELAY);
+                }
+                else
+                {
+                    blinkCountdown--;
+                }
+            case STATE_LOWER:
+                if (getCurrentAnimation() != 'lowerKnife')
+                    playAnimation('lowerKnife');
+            default:
+        }
+    }
+
+    function onUpdate(event)
+    {
+        super.onUpdate(event);
+
+        transitionState();
+    }
+
+    var animationFinished:Bool = false;
+
+    function onAnimationFinished(name:String)
+    {
+        switch (currentState)
+        {
+            case STATE_RAISE, STATE_LOWER:
+                animationFinished = true;
+                transitionState();
+            default:
+                
+        }
+    }
+
+    function onAnimationFrame(name:String, frameNumber:Int, frameIndex:Int)
+    {
+        super.onAnimationFrame(name, frameNumber, frameIndex);
+
+        switch (currentState)
+        {
+            case STATE_PRE_RAISE:
+                if (name == "idle" && frameNumber == 1)
+                {
+                    animationFinished = true;
+                    transitionState();
+                }
+            default:
+        }
+    }
+
+    function transitionState()
+    {
+        switch (currentState)
+        {
+            case STATE_DEFAULT:
+                currentState = (PlayState.instance.health <= VULTURE_THRESHOLD) ? STATE_PRE_RAISE : STATE_DEFAULT;
+            case STATE_PRE_RAISE:
+                if (PlayState.instance.health > VULTURE_THRESHOLD)
+                    currentState = STATE_DEFAULT;
+                else if (animationFinished)
+                {
+                    currentState = STATE_RAISE;
+                    playAnimation('raiseKnife');
+                    animationFinished = false;
+                }
+            case STATE_RAISE:
+                if (animationFinished)
+                {
+                    currentState = STATE_READY;
+                    animationFinished = false;
+                }
+            case STATE_READY:
+                if (PlayState.instance.health > VULTURE_THRESHOLD)
+                    currentState = STATE_LOWER;
+            case STATE_LOWER:
+                if (animationFinished)
+                {
+                    currentState = STATE_DEFAULT;
+                    animationFinished = false;
+                }
+            default:
+                currentState = STATE_DEFAULT;
+        }
+    }
+}

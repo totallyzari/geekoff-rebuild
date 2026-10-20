@@ -1,75 +1,94 @@
-import funkin.play.song.Song;
-import funkin.modding.module.Module;
-import funkin.play.PlayState;
 import flixel.FlxG;
-import funkin.modding.events.ScriptEvent;
-import flixel.util.FlxTimer;
-import flixel.FlxSprite;
-import flixel.math.FlxBasePoint;
-import funkin.play.GameOverSubState;
-import flixel.tweens.FlxEase;
-import funkin.modding.events.ScriptEvent;
+import flixel.text.FlxText;
+import flixel.text.FlxTextBorderStyle;
 import flixel.tweens.FlxTween;
-import funkin.graphics.FunkinSprite;
+import flixel.util.FlxColor;
+import flixel.util.FlxTimer;
 import funkin.Paths;
+import funkin.Preferences;
+import funkin.audio.FunkinSound;
+import funkin.play.PlayState;
 import funkin.play.cutscene.VideoCutscene;
 import funkin.play.cutscene.VideoCutscene.CutsceneType;
-import funkin.graphics.video.FunkinVideoSprite;
-import funkin.play.PlayStatePlaylist;
-import flixel.text.FlxText;
-import flixel.text.FlxTextFormat;
-import flixel.text.FlxTextBorderStyle;
-import flixel.util.FlxColor;
-import funkin.Preferences;
-import funkin.ui.options.PreferencesMenu;
-import funkin.graphics.video.FlxVideo;
+import funkin.play.song.Song;
 
 class JeeterJuiceSong extends Song {
+	var hasPlayedCutscene:Bool;
+	var hasPlayedGameOverAnim:Bool;
+	var wasInGameOver:Bool;
+	var lastHitNote:String;
+	var dadWasSinging:Bool;
+	var isCopyrightEnabled:Bool = false; // TODO: Make this a togglable option
+	var copyrightNotice:FlxText;
+	var songRestarted:Bool;
+	var timey:FlxTimer;
+
 	public function new() {
 		super("jeeter-juice");
+
+		hasPlayedCutscene = false;
+		hasPlayedGameOverAnim = false;
+		songRestarted = false;
+		wasInGameOver = false; // Turns true when the player visits the GameOverSubState, then false again when they leave it.
+		lastHitNote = null; // The last note hit by the opponent.
+		dadWasSinging = false; // Turns true when the opponent (aka the "dad") is currently in a singing animation.
 	}
 
 	public override function onCreate(event:ScriptEvent) {
 		super.onCreate(event);
+		hasPlayedCutscene = false;
 
-		var isCopyrightEnabled:Bool = false; // find a way to re-implement options menu
 		PlayState.instance.currentStage.getNamedProp("eli bg").visible = false;
 
 		if (isCopyrightEnabled) {
 			trace('Replacing instrumental...');
 			PlayState.instance.currentInstrumental = "copyrightfree";
 
-			// below is the code for the disclaimer for when you enter the song with copyrightOption on.
-
-			//controls the y value of the text based of if you're on upscroll or downscroll
-			var Yvalue;
+			var yValue:Int; // The Y value of the copyright notice, based off of if you're in upscroll or downscroll
 			if (Preferences.downscroll) {
-				Yvalue = 130;
+				yValue = 130;
 			} else {
-				Yvalue = 550;
+				yValue = 550;
 			}
 
-			copyrightNotice = new FlxText(0, Yvalue, FlxG.width, "Copyright Friendly Mode is enabled for this song.", 15);
+			copyrightNotice = new FlxText(0, yValue, FlxG.width, "Copyright Friendly mode is on!", 15);
 			copyrightNotice.zIndex = 100000;
 			copyrightNotice.cameras = [PlayState.instance.camHUD];
 			copyrightNotice.scrollFactor.set(0, 0);
 			copyrightNotice.setFormat(Paths.font("vcr.ttf"), 15.9, FlxColor.YELLOW, "center", FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 			FlxG.state.add(copyrightNotice);
-
-			//tweening it to disappear after a couple seconds
 		}
+	}
+
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		super.onCountdownStart(event);
+
+		if (!hasPlayedCutscene) {
+			trace('Pausing countdown to play a video cutscene (`ugh`)');
+
+			hasPlayedCutscene = true;
+
+			event.cancel(); // CANCEL THE COUNTDOWN!
+
+			VideoCutscene.play(Paths.videos("bumper-jeeterjuice.mp4"));
+		}
+	}
+
+	function onSongStart(e) {
+		super.onSongStart(e);
+		fadeNotice();
 	}
 
 	public function onStepHit(event:ScriptEvent) {
 		super.onStepHit(event);
-		var random:Int = FlxG.random.int(0, 90000);  // lowered for testing | 90000
+		var random:Int = FlxG.random.int(0, 90000);
 
 		if (random == 0) {
 			PlayState.instance.health -= 100;
 		}
 
 		if (event.step == 1008) {
-			// mandatory jersey club section
+			// cutscene - put all hud elements on camCutscene for a little bit
 			VideoCutscene.play(Paths.videos('mandatoryjcsection-jeeterjuice.mp4'), CutsceneType.MIDSONG);
 			PlayState.instance.isInCutscene = false;
 			PlayState.instance.playerStrumline.camera = PlayState.instance.camCutscene;
@@ -84,8 +103,9 @@ class JeeterJuiceSong extends Song {
 		}
 
 		if (event.step == 1024) {
-			// after MJCS video ends !!
-			if (VideoCutscene.isPlaying) VideoCutscene.destroyVideo;
+			// after the video ends !!
+			if (VideoCutscene.isPlaying)
+				VideoCutscene.destroyVideo();
 		}
 
 		if (event.step == 1148) {
@@ -101,21 +121,70 @@ class JeeterJuiceSong extends Song {
 
 		if (event.step == 1568) {
 			// end cutscene
-			VideoCutscene.play(Paths.videos('endcutscene-jeeterjuice.mp4'), CutsceneType.ENDING);
+			VideoCutscene.play(Paths.videos('endcutscene-jeeterjuice.mp4'), CutsceneType.MIDSONG);
 		}
 
-		if (event.step == 1552) FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 0.1);
+		if (event.step == 1552)
+			FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 0.1);
+	}
+
+	function playPostGameOverAnim() {
+		hasPlayedGameOverAnim = true;
+		PlayState.instance.currentStage.getDad().playAnimation('damnbruh', 24, false, false, true);
+	}
+
+	function fadeNotice() {
+		if (isCopyrightEnabled) {
+			timey = new FlxTimer().start(3, _ -> {
+				FlxTween.tween(copyrightNotice, {alpha: 0}, 3);
+			});
+		} else
+			return;
 	}
 
 	function onGameOver(e) {
 		super.onGameOver(e);
+		PlayState.instance.isInCutscene = true;
+		wasInGameOver = true;
+
 		PlayState.instance.currentStage.getDad().playAnimation('kill', 24, false, false, true);
+		new FlxTimer().start(1.75, _ -> {
+			PlayState.instance.currentStage.getDad().playAnimation('kill-loop', 24, false, false, true);
+		});
 		PlayState.instance.currentStage.getGirlfriend().playAnimation('shock', 24, false, false, true);
+	}
+
+	function onNoteHit(event:HitNoteScriptEvent) {
+		super.onNoteHit(event);
+
+		if (!event.note.noteData.getMustHitNote()) {
+			dadWasSinging = true;
+			lastHitNote = event.note.noteData.getDirectionName().toUpperCase();
+		}
+	}
+
+	function onUpdate(event:UpdateScriptEvent):Void {
+		super.onUpdate(event);
+		if (!PlayState.instance.currentStage.getDad().isSinging())
+			dadWasSinging = false;
 	}
 
 	public function onSongRetry(event:ScriptEvent) {
 		super.onSongRetry(event);
-
+		hasPlayedCutscene = true;
+		songRestarted = true;
+		PlayState.instance.isInCutscene = false;
+		if (wasInGameOver) {
+			playPostGameOverAnim();
+			wasInGameOver = false;
+		} else {
+			if (dadWasSinging) {
+				trace('The song restarted from the pause menu. Last hit note: $lastHitNote');
+				PlayState.instance.currentStage.getDad().playAnimation('sing${lastHitNote}miss', 24, false, false, true);
+				FunkinSound.playOnce(Paths.soundRandom('missnote', 1, 3), FlxG.random.float(0.5, 0.6));
+			} else
+				trace('The song restarted from the pause menu. Eli was NOT singing.');
+		}
 		FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.1);
 	}
 }

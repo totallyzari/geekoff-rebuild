@@ -1,5 +1,5 @@
 {
-	"renderType": "multisparrow",
+	"renderType": "animateatlas",
 	"offsets": [
 		-160,
 		0
@@ -13,7 +13,7 @@
 			-40
 		]
 	},
-	"assetPath": "characters/dashee_fried",
+	"assetPath": "shared:characters/dasheefried",
 	"healthIcon": {
 		"isPixel": false,
 		"offsets": [
@@ -29,10 +29,6 @@
 	"scale": 1,
 	"name": "Dashee (Fried)",
 	"flipX": true,
-	"cameraOffsets": [
-		0,
-		0
-	],
 	"isPixel": false,
 	"singTime": 8,
 	"atlasSettings": {
@@ -45,10 +41,6 @@
 	"animations": [
 		{
 			"flipY": false,
-			"offsets": [
-				0,
-				0
-			],
 			"frameRate": 24,
 			"prefix": "dashee idle",
 			"flipX": false,
@@ -58,10 +50,7 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-16,
-				10
-			],
+		
 			"frameRate": 24,
 			"prefix": "dashee right",
 			"flipX": false,
@@ -71,10 +60,6 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-1,
-				-20
-			],
 			"frameRate": 24,
 			"prefix": "dashee down",
 			"flipX": false,
@@ -84,10 +69,6 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-24,
-				31
-			],
 			"frameRate": 24,
 			"prefix": "dashee up",
 			"flipX": false,
@@ -97,10 +78,6 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				64,
-				12
-			],
 			"frameRate": 24,
 			"prefix": "dashee left",
 			"flipX": false,
@@ -110,10 +87,6 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				83,
-				4
-			],
 			"frameRate": 24,
 			"prefix": "dashee miss left",
 			"flipX": false,
@@ -123,10 +96,6 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				34,
-				-24
-			],
 			"frameRate": 24,
 			"prefix": "dashee miss down",
 			"flipX": false,
@@ -136,10 +105,6 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				19,
-				42
-			],
 			"frameRate": 24,
 			"prefix": "dashee miss up",
 			"flipX": false,
@@ -149,10 +114,6 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				-30,
-				9
-			],
 			"frameRate": 24,
 			"prefix": "dashee miss right",
 			"flipX": false,
@@ -161,10 +122,6 @@
 			"animType": "framelabel"
 		},
 		{
-			"offsets": [
-				143,
-				-10
-			],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "dashee die",
@@ -175,10 +132,6 @@
 		},
 		{
 			"flipY": false,
-			"offsets": [
-				78,
-				-306
-			],
 			"frameRate": 24,
 			"prefix": "dashee death loop",
 			"looped": true,
@@ -187,10 +140,6 @@
 			"animType": "framelabel"
 		},
 		{
-			"offsets": [
-				90,
-				-245
-			],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "dashee confirm death",

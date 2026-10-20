@@ -1,0 +1,379 @@
+{
+	"renderType": "multianimateatlas",
+	"offsets": [
+		0,
+		0
+	],
+	"applyStageMatrix": false,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraZoom": 0.9,
+		"cameraOffsets": [
+			-420,
+			-170
+		]
+	},
+	"assetPath": "shared:characters/geekpico/basic",
+	"healthIcon": {
+		"shouldBop": true,
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "pico"
+	},
+	"version": "1.0.0",
+	"danceEvery": 1,
+	"scale": 0.95,
+	"name": "Pico (For Jeeter Juice)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"isPixel": false,
+	"singTime": 8,
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico idle dance",
+			"name": "idle",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				14,
+				3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				19,
+				-2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-9,
+				-2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-6,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-10,
+				0
+			],
+			"prefix": "pico miss left",
+			"looped": false,
+			"name": "singLEFTmiss",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/playable"
+		},
+		{
+			"offsets": [
+				10,
+				-2
+			],
+			"prefix": "pico miss down",
+			"looped": false,
+			"name": "singDOWNmiss",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/playable"
+		},
+		{
+			"offsets": [
+				-4,
+				-4
+			],
+			"prefix": "pico miss up",
+			"looped": false,
+			"name": "singUPmiss",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/playable"
+		},
+		{
+			"offsets": [
+				9,
+				-1
+			],
+			"prefix": "pico miss right",
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/playable"
+		},
+		{
+			"offsets": [
+				-236,
+				65
+			],
+			"prefix": "pico shot dead",
+			"name": "die",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/pico killdie"
+		},
+		{
+			"offsets": [
+				-257,
+				15
+			],
+			"prefix": "pico speed dance",
+			"name": "wSpeed",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/extra"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "pico hey",
+			"name": "hey",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/basic"
+		},
+		{
+			"offsets": [
+				-261,
+				15
+			],
+			"prefix": "pico grab blunt",
+			"name": "match",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/extra"
+		},
+		{
+			"offsets": [
+				-262,
+				14
+			],
+			"prefix": "pico burp",
+			"name": "burpuh",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/extra"
+		},
+		{
+			"offsets": [
+				-266,
+				15
+			],
+			"prefix": "pico burleft",
+			"name": "leftburp",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/extra"
+		},
+		{
+			"offsets": [
+				-266,
+				15
+			],
+			"prefix": "pico shitleft",
+			"name": "leftshit",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/extra"
+		},
+		{
+			"offsets": [
+				4,
+				15
+			],
+			"prefix": "pico alt right",
+			"name": "singRIGHT-alt",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/basic"
+		},
+		{
+			"offsets": [
+				34,
+				13
+			],
+			"prefix": "pico alt down",
+			"name": "singDOWN-alt",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/basic"
+		},
+		{
+			"offsets": [
+				-19,
+				-17
+			],
+			"prefix": "pico alt up",
+			"name": "singUP-alt",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/basic"
+		},
+		{
+			"offsets": [
+				39,
+				-12
+			],
+			"prefix": "pico alt left",
+			"name": "singLEFT-alt",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/basic"
+		},
+		{
+			"offsets": [
+				-36,
+				20
+			],
+			"prefix": "pico miss alt right",
+			"name": "singRIGHTmiss-alt",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/playable"
+		},
+		{
+			"offsets": [
+				34,
+				13
+			],
+			"prefix": "pico miss alt down",
+			"name": "singDOWNmiss-alt",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/playable"
+		},
+		{
+			"offsets": [
+				-19,
+				-17
+			],
+			"prefix": "pico miss alt up",
+			"name": "singUPmiss-alt",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/playable"
+		},
+		{
+			"offsets": [
+				39,
+				-12
+			],
+			"prefix": "pico miss alt left",
+			"name": "singLEFTmiss-alt",
+			"looped": false,
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekpico/playable"
+		}
+	]
+}

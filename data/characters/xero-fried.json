@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"renderType": "sparrow",
+	"renderType": "animateatlas",
 	"offsets": [
 		77,
 		10
@@ -17,7 +17,7 @@
 	"singTime": 8,
 	"startingAnimation": "idle",
 	"isPixel": false,
-	"assetPath": "characters/xero_fried",
+	"assetPath": "shared:characters/xerofried",
 	"healthIcon": {
 		"isPixel": false,
 		"offsets": [
@@ -67,10 +67,6 @@
 			"frameRate": 24
 		},
 		{
-			"offsets": [
-				22,
-				-7
-			],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "xero left",
@@ -80,10 +76,6 @@
 			"animType": "framelabel"
 		},
 		{
-			"offsets": [
-				22,
-				-7
-			],
 			"prefix": "xero left",
 			"frameIndices": [
 				3,
@@ -109,10 +101,6 @@
 			"frameRate": 24
 		},
 		{
-			"offsets": [
-				0,
-				-31
-			],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "xero down",
@@ -122,10 +110,6 @@
 			"animType": "framelabel"
 		},
 		{
-			"offsets": [
-				0,
-				-31
-			],
 			"prefix": "xero down",
 			"frameIndices": [
 				3,
@@ -151,10 +135,6 @@
 			"frameRate": 24
 		},
 		{
-			"offsets": [
-				5,
-				54
-			],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "xero up",
@@ -164,10 +144,6 @@
 			"animType": "framelabel"
 		},
 		{
-			"offsets": [
-				5,
-				54
-			],
 			"prefix": "xero up",
 			"frameIndices": [
 				3,
@@ -193,10 +169,6 @@
 			"frameRate": 24
 		},
 		{
-			"offsets": [
-				-2,
-				12
-			],
 			"flipY": false,
 			"frameRate": 24,
 			"prefix": "xero right",
@@ -206,10 +178,6 @@
 			"animType": "framelabel"
 		},
 		{
-			"offsets": [
-				-2,
-				12
-			],
 			"prefix": "xero right",
 			"frameIndices": [
 				3,

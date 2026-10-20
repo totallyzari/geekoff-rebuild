@@ -10,7 +10,7 @@ import funkin.play.GameOverSubState;
 import flixel.tweens.FlxTween;
 import flixel.effects.FlxFlicker;
 
-class EliCharacter extends MultiAnimateAtlasCharacter
+class Eli extends MultiAnimateAtlasCharacter
 {
   function new()
   {

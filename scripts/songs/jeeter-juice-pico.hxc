@@ -1,0 +1,97 @@
+import funkin.play.song.Song;
+import funkin.modding.module.Module;
+import funkin.play.PlayState;
+import flixel.FlxG;
+import funkin.modding.events.ScriptEvent;
+import flixel.util.FlxTimer;
+import flixel.FlxSprite;
+import flixel.math.FlxBasePoint;
+import funkin.play.GameOverSubState;
+import flixel.tweens.FlxEase;
+import funkin.modding.events.ScriptEvent;
+import flixel.tweens.FlxTween;
+import funkin.graphics.FunkinSprite;
+import funkin.Paths;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.VideoCutscene.CutsceneType;
+import funkin.graphics.video.FunkinVideoSprite;
+import funkin.play.PlayStatePlaylist;
+import flixel.text.FlxText;
+import flixel.text.FlxTextFormat;
+import flixel.text.FlxTextBorderStyle;
+import flixel.util.FlxColor;
+import funkin.Preferences;
+import funkin.ui.options.PreferencesMenu;
+import funkin.graphics.video.FlxVideo;
+
+class JeeterJuicePicoSong extends Song {
+	public function new() {
+		super("jeeter-juice", {variation: "pico"});
+	}
+
+	public override function onCreate(event:ScriptEvent) {
+		super.onCreate(event);
+
+		PlayState.instance.currentStage.getNamedProp("eli bg").visible = false;
+	}
+
+	public function onStepHit(event:ScriptEvent) {
+		super.onStepHit(event);
+		var random:Int = FlxG.random.int(0, 90000);  // lowered for testing | 90000
+
+		if (random == 0) {
+			PlayState.instance.health -= 100;
+		}
+
+		if (event.step == 1264) {
+			// mandatory jersey club section
+			VideoCutscene.play(Paths.videos('mandatoryjcsection-jeeterjuice-pico.mp4'), CutsceneType.MIDSONG);
+			PlayState.instance.isInCutscene = false;
+			PlayState.instance.playerStrumline.camera = PlayState.instance.camCutscene;
+			PlayState.instance.opponentStrumline.camera = PlayState.instance.camCutscene;
+			PlayState.instance.healthBar.camera = PlayState.instance.camCutscene;
+			PlayState.instance.healthBarBG.camera = PlayState.instance.camCutscene;
+			PlayState.instance.scoreText.camera = PlayState.instance.camCutscene;
+			PlayState.instance.iconP1.camera = PlayState.instance.camCutscene;
+			PlayState.instance.iconP2.camera = PlayState.instance.camCutscene;
+
+			PlayState.instance.remove(VideoCutscene.blackScreen);
+		}
+
+		if (event.step == 1280) {
+			// after MJCS video ends !!
+			if (VideoCutscene.isPlaying) VideoCutscene.destroyVideo;
+		}
+
+		if (event.step == 1281) {
+			// put the hud elements back on camHUD
+			PlayState.instance.playerStrumline.camera = PlayState.instance.camHUD;
+			PlayState.instance.opponentStrumline.camera = PlayState.instance.camHUD;
+			PlayState.instance.healthBar.camera = PlayState.instance.camHUD;
+			PlayState.instance.healthBarBG.camera = PlayState.instance.camHUD;
+			PlayState.instance.scoreText.camera = PlayState.instance.camHUD;
+			PlayState.instance.iconP1.camera = PlayState.instance.camHUD;
+			PlayState.instance.iconP2.camera = PlayState.instance.camHUD;
+		}
+
+		if (event.step == 1824) {
+			// end cutscene
+			VideoCutscene.play(Paths.videos('endcutscene-jeeterjuice-pico.mp4'), CutsceneType.MIDSONG);
+		}
+
+		if (event.step == 1816) FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 0.1);
+	}
+
+	function onGameOver(e) {
+		super.onGameOver(e);
+		PlayState.instance.currentStage.getDad().playAnimation('kill', 24, false, false, true);
+		PlayState.instance.currentStage.getGirlfriend().playAnimation('ohwow', 24, false, false, true);
+		PlayState.instance.currentStage.getBoyfriend().playAnimation('die', 24, false, false, true);
+	}
+
+	public function onSongRetry(event:ScriptEvent) {
+		super.onSongRetry(event);
+
+		FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.1);
+	}
+}

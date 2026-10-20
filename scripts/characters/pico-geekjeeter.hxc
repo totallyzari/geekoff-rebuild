@@ -1,0 +1,65 @@
+import funkin.play.character.MultiAnimateAtlasCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+import funkin.play.GameOverSubState;
+import flixel.tweens.FlxEase;
+import flixel.tweens.FlxTween;
+import funkin.graphics.adobeanimate.FlxAtlasSprite;
+import flixel.util.FlxTimer;
+import flixel.util.FlxColor;
+import funkin.graphics.FunkinSprite;
+import funkin.audio.FunkinSound;
+import funkin.Paths;
+import flixel.FlxSprite;
+import flixel.FlxG;
+import funkin.modding.base.ScriptedFunkinSprite;
+import flixel.group.FlxTypedSpriteGroup;
+import flixel.effects.FlxFlicker;
+import funkin.play.PauseSubState;
+import funkin.modding.module.ModuleHandler;
+import flixel.tweens.FlxTween;
+import funkin.play.stage.StageProp;
+
+class PicoJeeterJuiceCharacter extends MultiAnimateAtlasCharacter {
+
+	function new() {
+		super('pico-geekjeeter');
+	}
+
+	function onCreate(event:ScriptEvent) {
+		super.onCreate(event);
+
+		GameOverSubState.musicSuffix = '-pico';
+		GameOverSubState.blueBallSuffix = '-picojeeter';
+
+		PauseSubState.musicSuffix = '-geek';
+	}
+
+	function onNoteHit(event:HitNoteScriptEvent)
+  {
+    // Override the hit note animation.
+    switch (event.note.kind)
+    {
+      case "pico-alt":
+        holdTimer = 0;
+        this.playSingAnimation(event.note.noteData.getDirection(), false, 'alt');
+        return;
+    }
+
+    super.onNoteHit(event);
+  }
+
+  function onNoteMiss(event:HitNoteScriptEvent)
+  {
+    // Override the hit note animation.
+    switch (event.note.kind)
+    {
+      case "pico-alt":
+        holdTimer = 0;
+        this.playSingAnimation(event.note.noteData.getDirection(), false, 'alt');
+        return;
+    }
+
+    super.onNoteMiss(event);
+  }
+}

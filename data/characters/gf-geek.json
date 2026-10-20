@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"renderType": "sparrow",
+	"renderType": "animateatlas",
 	"offsets": [
 		0,
 		0
@@ -8,32 +8,33 @@
 	"danceEvery": 1,
 	"applyStageMatrix": false,
 	"scale": 1,
-	"name": "Girlfriend (GEEK OFF)",
+	"name": "Girlfriend Geek",
 	"cameraOffsets": [
 		0,
-		0
+		100
 	],
 	"flipX": false,
 	"singTime": 8,
 	"startingAnimation": "idle",
 	"isPixel": false,
-	"assetPath": "characters/geek_gf",
+	"assetPath": "shared:characters/gf-geek",
 	"healthIcon": {
 		"offsets": [
 			0,
 			0
 		],
 		"isPixel": false,
+		"shouldBop": true,
 		"scale": 1,
 		"flipX": false,
 		"id": "gf"
 	},
 	"atlasSettings": {
 		"applyStageMatrix": false,
+		"swfMode": true,
 		"useRenderTexture": false,
-		"filterQuality": 1,
 		"cacheOnLoad": false,
-		"swfMode": true
+		"filterQuality": 1
 	},
 	"animations": [
 		{
@@ -52,7 +53,7 @@
 		{
 			"flipY": false,
 			"offsets": [
-				70,
+				-1,
 				0
 			],
 			"frameRate": 24,
@@ -65,8 +66,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				13,
-				2
+				-1,
+				-1
 			],
 			"frameRate": 24,
 			"prefix": "gf cheer",
@@ -78,8 +79,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				5,
-				5
+				-1,
+				0
 			],
 			"frameRate": 24,
 			"prefix": "gf stop hollup",
@@ -91,8 +92,8 @@
 		{
 			"flipY": false,
 			"offsets": [
-				5,
-				15
+				-7,
+				0
 			],
 			"frameRate": 24,
 			"prefix": "gf grossed out",
@@ -103,23 +104,23 @@
 		},
 		{
 			"offsets": [
-				3,
-				14
+				-7,
+				0
 			],
-			"prefix": "gf shock",
-			"animType": "framelabel",
-			"flipX": false,
-			"looped": false,
-			"name": "shock",
 			"flipY": false,
-			"frameRate": 24
+			"frameRate": 24,
+			"prefix": "gf shocked",
+			"flipX": false,
+			"animType": "framelabel",
+			"looped": false,
+			"name": "shock"
 		},
 		{
 			"offsets": [
-				3,
-				14
+				-7,
+				0
 			],
-			"prefix": "gf shock",
+			"prefix": "gf shocked",
 			"frameIndices": [
 				15,
 				16,

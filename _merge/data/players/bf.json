@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/ownedChars/-",
+		"value": "bf-geek"
+	},
+	{
+		"op": "add",
+		"path": "/ownedChars/-",
+		"value": "bf-geekjeeter"
+	},
+	{
+		"op": "add",
+		"path": "/ownedChars/-",
+		"value": "bf-geekh2r"
+	}
+]

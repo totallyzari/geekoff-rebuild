@@ -1,4 +1,4 @@
-import funkin.play.character.MultiSparrowCharacter;
+import funkin.play.character.MultiAnimateAtlasCharacter;
 import funkin.play.character.CharacterType;
 import funkin.play.PlayState;
 import funkin.play.GameOverSubState;
@@ -20,7 +20,7 @@ import funkin.modding.module.ModuleHandler;
 import flixel.tweens.FlxTween;
 import funkin.play.stage.StageProp;
 
-class BoyfriendGeekJeeterCharacter extends MultiSparrowCharacter {
+class BoyfriendJeeterJuiceCharacter extends MultiAnimateAtlasCharacter {
 
 	function new() {
 		super('bf-geekjeeter');
@@ -31,7 +31,6 @@ class BoyfriendGeekJeeterCharacter extends MultiSparrowCharacter {
 
 		GameOverSubState.musicSuffix = '-geek';
 		GameOverSubState.blueBallSuffix = '-bfjeeter';
-
 		PauseSubState.musicSuffix = '-geek';
 	}
 }

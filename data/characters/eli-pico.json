@@ -1,0 +1,529 @@
+{
+	"version": "1.0.0",
+	"renderType": "multianimateatlas",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Eli",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"shouldBop": true,
+		"isPixel": false,
+		"offsets": [
+			0,
+			15
+		],
+		"scale": 1,
+		"id": "eli",
+		"flipX": false
+	},
+	"assetPath": "shared:characters/geekelipmix/basic",
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli idle",
+			"name": "idle",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"prefix": "eli idle",
+			"frameIndices": [
+				10,
+				11,
+				12,
+				13
+			],
+			"looped": true,
+			"name": "idle-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-12,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-12,
+				1
+			],
+			"prefix": "eli left",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"looped": true,
+			"name": "singLEFT-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				3,
+				2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				3,
+				2
+			],
+			"prefix": "eli down",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"looped": true,
+			"name": "singDOWN-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-2,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-2,
+				0
+			],
+			"prefix": "eli up",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"looped": true,
+			"name": "singUP-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				6,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				6,
+				0
+			],
+			"prefix": "eli right",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"looped": true,
+			"name": "singRIGHT-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-13,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli alt left",
+			"name": "singLEFT-alt",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-13,
+				0
+			],
+			"prefix": "eli alt left",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"looped": true,
+			"name": "singLEFT-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				4,
+				4
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli alt down",
+			"name": "singDOWN-alt",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				4,
+				-1
+			],
+			"prefix": "eli alt down",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"looped": true,
+			"name": "singDOWN-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				2,
+				2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli alt up",
+			"name": "singUP-alt",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				2,
+				2
+			],
+			"prefix": "eli alt up",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"looped": true,
+			"name": "singUP-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				4,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli alt right",
+			"name": "singRIGHT-alt",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				9,
+				1
+			],
+			"prefix": "eli alt right",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"looped": true,
+			"name": "singRIGHT-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				31,
+				37
+			],
+			"prefix": "eli cough",
+			"looped": false,
+			"name": "cough",
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekelipmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-3,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli hey",
+			"name": "hey",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				32,
+				37
+			],
+			"prefix": "eli end song anim",
+			"looped": false,
+			"name": "endsong",
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekelipmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				33,
+				38
+			],
+			"prefix": "eli uhhh",
+			"looped": false,
+			"name": "uhh",
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekelipmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				33,
+				37
+			],
+			"prefix": "eli confused",
+			"looped": false,
+			"name": "confused",
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekelipmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				16,
+				38
+			],
+			"prefix": "eli dance fr",
+			"looped": false,
+			"name": "jam",
+			"animType": "framelabel",
+			"flipX": false,
+			"flipY": false,
+			"assetPath": "shared:characters/geekelipmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				33,
+				37
+			],
+			"prefix": "eli kill",
+			"looped": false,
+			"name": "kill",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"assetPath": "shared:characters/geekelipmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				33,
+				37
+			],
+			"frameIndices": [
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69
+			],
+			"prefix": "eli kill",
+			"name": "kill-hold",
+			"looped": true,
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"assetPath": "shared:characters/geekelipmix/extra",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				34,
+				37
+			],
+			"prefix": "eli speed dance",
+			"animType": "framelabel",
+			"name": "wSpeed",
+			"looped": false,
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24,
+			"assetPath": "shared:characters/geekelipmix/extra"
+		}
+	]
+}

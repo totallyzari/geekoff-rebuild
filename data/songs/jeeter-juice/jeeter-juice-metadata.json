@@ -5,6 +5,7 @@
  "charter": "[whos.eli]",
  "offsets": { },
  "playData": {
+  "songVariations": ["pico"],
   "difficulties": [
    "normal"
   ],

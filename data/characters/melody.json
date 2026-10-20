@@ -17,7 +17,7 @@
 	"singTime": 8,
 	"startingAnimation": "idle",
 	"isPixel": false,
-	"assetPath": "characters/melody",
+	"assetPath": "characters/geek_melody",
 	"healthIcon": {
 		"isPixel": false,
 		"offsets": [
