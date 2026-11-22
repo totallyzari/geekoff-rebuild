@@ -1,0 +1,207 @@
+{
+	"version": "1.0.0",
+	"renderType": "multisparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Cassandra (how2roll)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"death": {
+		"cameraZoom": 1,
+		"cameraOffsets": [
+			10,
+			-40
+		]
+	},
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"offsets": [
+			-10,
+			25
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "cass"
+	},
+	"assetPath": "characters/cass_h2r",
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass idle",
+			"name": "idle",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				14,
+				5
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass right",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				114,
+				-25
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass down",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-9,
+				16
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass up",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				19,
+				12
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass left",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				28,
+				14
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass miss left",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				124,
+				-19
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass miss down",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				4,
+				27
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass miss up",
+			"name": "singUPmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				15,
+				19
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass miss right",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-7,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "cass die",
+			"name": "firstDeath",
+			"flipX": false,
+			"looped": false
+		},
+		{
+			"offsets": [
+				-46,
+				-387
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass death loop",
+			"flipX": false,
+			"name": "deathLoop",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-10,
+				-5
+			],
+			"frameRate": 24,
+			"prefix": "cass confirm death",
+			"name": "deathConfirm",
+			"flipX": false,
+			"looped": false
+		},
+		{
+			"offsets": [
+				150,
+				55
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass intro anim",
+			"name": "intro",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				195,
+				15
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "cass end anim",
+			"name": "end",
+			"looped": false,
+			"flipX": false
+		}
+	]
+}

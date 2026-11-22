@@ -1,0 +1,851 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="cass_h2r.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="cass confirm death0000" x="0" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0001" x="477" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0002" x="954" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0003" x="1431" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0004" x="1908" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0005" x="2385" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0006" x="2862" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0007" x="3339" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0008" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0009" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0010" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0011" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0012" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0013" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0014" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0015" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0016" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0017" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0018" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0019" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0020" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0021" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0022" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0023" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0024" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0025" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0026" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0027" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0028" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0029" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0030" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0031" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0032" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0033" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0034" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0035" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0036" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0037" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0038" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0039" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0040" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0041" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0042" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0043" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0044" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0045" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0046" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0047" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0048" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0049" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0050" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0051" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0052" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0053" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0054" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0055" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0056" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0057" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0058" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0059" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0060" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0061" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0062" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0063" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0064" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0065" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0066" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0067" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0068" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0069" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0070" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0071" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0072" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0073" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0074" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0075" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0076" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0077" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0078" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0079" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0080" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0081" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0082" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0083" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0084" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0085" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0086" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0087" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0088" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0089" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0090" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0091" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0092" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0093" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0094" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0095" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0096" x="3816" y="0" width="477" height="579"/>
+	<SubTexture name="cass confirm death0097" x="4293" y="0" width="477" height="579"/>
+	<SubTexture name="cass death loop0000" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0001" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0002" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0003" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0004" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0005" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0006" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0007" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0008" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0009" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0010" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0011" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0012" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0013" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0014" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0015" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0016" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0017" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0018" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0019" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0020" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0021" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0022" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0023" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0024" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0025" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0026" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0027" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0028" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0029" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0030" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0031" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0032" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0033" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0034" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0035" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0036" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0037" x="5113" y="0" width="343" height="172"/>
+	<SubTexture name="cass death loop0038" x="4770" y="0" width="343" height="172"/>
+	<SubTexture name="cass die0000" x="5456" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0001" x="5456" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0002" x="5952" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0003" x="5952" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0004" x="6448" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0005" x="6448" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0006" x="6944" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0007" x="6944" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0008" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0009" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0010" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0011" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0012" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0013" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0014" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0015" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0016" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0017" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0018" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0019" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0020" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0021" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0022" x="7440" y="0" width="496" height="584"/>
+	<SubTexture name="cass die0023" x="0" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0024" x="0" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0025" x="496" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0026" x="496" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0027" x="992" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0028" x="992" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0029" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0030" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0031" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0032" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0033" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0034" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0035" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0036" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0037" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0038" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0039" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0040" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0041" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0042" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0043" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0044" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0045" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0046" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0047" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0048" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0049" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0050" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0051" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0052" x="1984" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0053" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0054" x="1488" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0055" x="2480" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0056" x="2976" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0057" x="3472" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0058" x="3968" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0059" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0060" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0061" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0062" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0063" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0064" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0065" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0066" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0067" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0068" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0069" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0070" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0071" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0072" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0073" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0074" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0075" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0076" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0077" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0078" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0079" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0080" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0081" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0082" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0083" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0084" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0085" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0086" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0087" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0088" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0089" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0090" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0091" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0092" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0093" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0094" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0095" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0096" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass die0097" x="4464" y="584" width="496" height="584"/>
+	<SubTexture name="cass down0000" x="4960" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0001" x="4960" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0002" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0003" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0004" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0005" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0006" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0007" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0008" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0009" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0010" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0011" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0012" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0013" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0014" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0015" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0016" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0017" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0018" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0019" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0020" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0021" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0022" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0023" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0024" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0025" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0026" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0027" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0028" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0029" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0030" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0031" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0032" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0033" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0034" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0035" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0036" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0037" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0038" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0039" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0040" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0041" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0042" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0043" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass down0044" x="5560" y="584" width="600" height="561"/>
+	<SubTexture name="cass end anim0000" x="6160" y="584" width="755" height="599"/>
+	<SubTexture name="cass end anim0001" x="6160" y="584" width="755" height="599"/>
+	<SubTexture name="cass end anim0002" x="6160" y="584" width="755" height="599"/>
+	<SubTexture name="cass end anim0003" x="6915" y="584" width="755" height="599"/>
+	<SubTexture name="cass end anim0004" x="0" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0005" x="755" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0006" x="755" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0007" x="1510" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0008" x="1510" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0009" x="2265" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0010" x="2265" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0011" x="3020" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0012" x="3020" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0013" x="3775" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0014" x="3775" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0015" x="4530" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0016" x="4530" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0017" x="5285" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0018" x="5285" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0019" x="6040" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0020" x="6040" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0021" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0022" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0023" x="0" y="1782" width="755" height="599"/>
+	<SubTexture name="cass end anim0024" x="0" y="1782" width="755" height="599"/>
+	<SubTexture name="cass end anim0025" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0026" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0027" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0028" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0029" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0030" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0031" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0032" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0033" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0034" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0035" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0036" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0037" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass end anim0038" x="6795" y="1183" width="755" height="599"/>
+	<SubTexture name="cass idle0000" x="755" y="1782" width="484" height="585"/>
+	<SubTexture name="cass idle0001" x="755" y="1782" width="484" height="585"/>
+	<SubTexture name="cass idle0002" x="755" y="1782" width="484" height="585"/>
+	<SubTexture name="cass idle0003" x="1239" y="1782" width="484" height="585"/>
+	<SubTexture name="cass idle0004" x="1239" y="1782" width="484" height="585"/>
+	<SubTexture name="cass idle0005" x="1239" y="1782" width="484" height="585"/>
+	<SubTexture name="cass idle0006" x="1723" y="1782" width="484" height="585"/>
+	<SubTexture name="cass idle0007" x="1723" y="1782" width="484" height="585"/>
+	<SubTexture name="cass idle0008" x="1723" y="1782" width="484" height="585"/>
+	<SubTexture name="cass intro anim0000" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0001" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0002" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0003" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0004" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0005" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0006" x="4208" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0007" x="4208" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0008" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0009" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0010" x="4208" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0011" x="4208" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0012" x="4875" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0013" x="4875" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0014" x="5542" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0015" x="5542" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0016" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0017" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0018" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0019" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0020" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0021" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0022" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0023" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0024" x="6876" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0025" x="6876" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0026" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0027" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0028" x="0" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0029" x="0" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0030" x="667" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0031" x="667" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0032" x="667" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0033" x="667" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0034" x="5542" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0035" x="5542" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0036" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0037" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0038" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0039" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0040" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0041" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0042" x="2668" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0043" x="2668" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0044" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0045" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0046" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0047" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0048" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0049" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0050" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0051" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0052" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0053" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0054" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0055" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0056" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0057" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0058" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0059" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0060" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0061" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0062" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0063" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0064" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0065" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0066" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0067" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0068" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0069" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0070" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0071" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0072" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0073" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0074" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0075" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0076" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0077" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0078" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0079" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0080" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0081" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0082" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0083" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0084" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0085" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0086" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0087" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0088" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0089" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0090" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0091" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0092" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0093" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0094" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0095" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0096" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0097" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0098" x="4208" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0099" x="4208" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0100" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0101" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0102" x="4208" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0103" x="4208" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0104" x="4875" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0105" x="4875" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0106" x="5542" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0107" x="5542" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0108" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0109" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0110" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0111" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0112" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0113" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0114" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0115" x="2207" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0116" x="6876" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0117" x="6876" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0118" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0119" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0120" x="0" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0121" x="0" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0122" x="667" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0123" x="667" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0124" x="667" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0125" x="667" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0126" x="5542" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0127" x="5542" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0128" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0129" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0130" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0131" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0132" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0133" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0134" x="2668" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0135" x="2668" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0136" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0137" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0138" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0139" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0140" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0141" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0142" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0143" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0144" x="6209" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0145" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0146" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0147" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0148" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0149" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0150" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0151" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0152" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0153" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0154" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0155" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0156" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0157" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0158" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0159" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0160" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0161" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0162" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0163" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0164" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0165" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0166" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0167" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0168" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0169" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0170" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0171" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0172" x="1334" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0173" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0174" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0175" x="4669" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0176" x="4669" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0177" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0178" x="3335" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0179" x="2668" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0180" x="2668" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0181" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0182" x="3541" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0183" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0184" x="4002" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0185" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0186" x="2001" y="2424" width="667" height="642"/>
+	<SubTexture name="cass intro anim0187" x="6876" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0188" x="6876" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0189" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0190" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0191" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0192" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0193" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0194" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0195" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0196" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0197" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0198" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0199" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0200" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0201" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass intro anim0202" x="2874" y="1782" width="667" height="642"/>
+	<SubTexture name="cass left0000" x="5336" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0001" x="5336" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0002" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0003" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0004" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0005" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0006" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0007" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0008" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0009" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0010" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0011" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0012" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0013" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0014" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0015" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0016" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0017" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0018" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0019" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0020" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0021" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0022" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0023" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0024" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0025" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0026" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0027" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0028" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0029" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0030" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0031" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0032" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0033" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0034" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0035" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0036" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0037" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0038" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0039" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0040" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0041" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0042" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0043" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass left0044" x="5844" y="2424" width="508" height="594"/>
+	<SubTexture name="cass miss down0000" x="6352" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0001" x="6957" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0002" x="6957" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0003" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0004" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0005" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0006" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0007" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0008" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0009" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0010" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0011" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0012" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0013" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0014" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0015" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0016" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0017" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0018" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0019" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0020" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0021" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0022" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0023" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0024" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0025" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0026" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0027" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0028" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0029" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0030" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0031" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0032" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0033" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0034" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0035" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0036" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0037" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0038" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0039" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0040" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0041" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0042" x="0" y="3066" width="605" height="562"/>
+	<SubTexture name="cass miss down0043" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss down0044" x="7562" y="2424" width="605" height="562"/>
+	<SubTexture name="cass miss left0000" x="605" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0001" x="1108" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0002" x="1108" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0003" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0004" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0005" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0006" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0007" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0008" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0009" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0010" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0011" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0012" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0013" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0014" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0015" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0016" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0017" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0018" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0019" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0020" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0021" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0022" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0023" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0024" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0025" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0026" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0027" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0028" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0029" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0030" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0031" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0032" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0033" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0034" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0035" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0036" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0037" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0038" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0039" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0040" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0041" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0042" x="2114" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0043" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss left0044" x="1611" y="3066" width="503" height="597"/>
+	<SubTexture name="cass miss right0000" x="2617" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0001" x="3133" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0002" x="3133" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0003" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0004" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0005" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0006" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0007" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0008" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0009" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0010" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0011" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0012" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0013" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0014" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0015" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0016" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0017" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0018" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0019" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0020" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0021" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0022" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0023" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0024" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0025" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0026" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0027" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0028" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0029" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0030" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0031" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0032" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0033" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0034" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0035" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0036" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0037" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0038" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0039" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0040" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0041" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0042" x="4165" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0043" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss right0044" x="3649" y="3066" width="516" height="602"/>
+	<SubTexture name="cass miss up0000" x="4681" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0001" x="5172" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0002" x="5172" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0003" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0004" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0005" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0006" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0007" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0008" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0009" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0010" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0011" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0012" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0013" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0014" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0015" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0016" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0017" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0018" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0019" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0020" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0021" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0022" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0023" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0024" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0025" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0026" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0027" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0028" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0029" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0030" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0031" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0032" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0033" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0034" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0035" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0036" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0037" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0038" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0039" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0040" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0041" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0042" x="6154" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0043" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass miss up0044" x="5663" y="3066" width="491" height="609"/>
+	<SubTexture name="cass right0000" x="6645" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0001" x="6645" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0002" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0003" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0004" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0005" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0006" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0007" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0008" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0009" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0010" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0011" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0012" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0013" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0014" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0015" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0016" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0017" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0018" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0019" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0020" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0021" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0022" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0023" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0024" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0025" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0026" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0027" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0028" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0029" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0030" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0031" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0032" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0033" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0034" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0035" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0036" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0037" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0038" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0039" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0040" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0041" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0042" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0043" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass right0044" x="7151" y="3066" width="506" height="590"/>
+	<SubTexture name="cass up0000" x="7657" y="3066" width="486" height="600"/>
+	<SubTexture name="cass up0001" x="7657" y="3066" width="486" height="600"/>
+	<SubTexture name="cass up0002" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0003" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0004" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0005" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0006" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0007" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0008" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0009" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0010" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0011" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0012" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0013" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0014" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0015" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0016" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0017" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0018" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0019" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0020" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0021" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0022" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0023" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0024" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0025" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0026" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0027" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0028" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0029" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0030" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0031" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0032" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0033" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0034" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0035" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0036" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0037" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0038" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0039" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0040" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0041" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0042" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0043" x="0" y="3675" width="486" height="600"/>
+	<SubTexture name="cass up0044" x="0" y="3675" width="486" height="600"/>
+</TextureAtlas>

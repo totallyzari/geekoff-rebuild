@@ -18,9 +18,28 @@ import funkin.graphics.video.FunkinVideoSprite;
 import funkin.play.PlayStatePlaylist;
 
 class AfterTheGeekSong extends Song {
+
+  var video1:FunkinVideoSprite;
+  var hasPlayedCutscene:Bool;
   
   public function new() {
 		super('afterthegeek');
+  }
+
+  function queryAssets(type:AssetType):Array<AssetPath>
+  {
+    var results = super.queryAssets(type);
+
+    switch (type)
+    {
+      case "VIDEO":
+        results = results.concat([
+          Paths.videos('weedbg-afterthegeek.mp4'),
+          Paths.videos('cutscene-afterthegeek.mp4')
+        ]);
+      default:
+        // nothing
+    }
   }
 
   function onSongLoaded(e) {
@@ -40,7 +59,7 @@ class AfterTheGeekSong extends Song {
   }
 
   function onSongStart(e:Dynamic)
-    {
+  {
         super.onSongStart(e);
 
         VideoCutscene.play(Paths.videos('cutscene-afterthegeek.mp4'), CutsceneType.MIDSONG);
@@ -48,7 +67,7 @@ class AfterTheGeekSong extends Song {
         PlayState.instance.camHUD.visible = false;
 
         FlxG.camera.fade(0xFF000000, 1, true);
-    }
+  }
 
   public function onStepHit(event:ScriptEvent)
   {

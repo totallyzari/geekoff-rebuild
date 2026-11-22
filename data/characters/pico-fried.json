@@ -1,0 +1,211 @@
+{
+	"renderType": "multisparrow",
+	"offsets": [
+		-160,
+		0
+	],
+	"applyStageMatrix": false,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraZoom": 1,
+		"cameraOffsets": [
+			10,
+			-40
+		]
+	},
+	"assetPath": "characters/friedpico",
+	"healthIcon": {
+		"isPixel": false,
+		"offsets": [
+			0,
+			0
+		],
+		"scale": 1,
+		"id": "pico",
+		"flipX": false
+	},
+	"version": "1.0.0",
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Pico (Fried)",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"isPixel": false,
+	"singTime": 8,
+	"atlasSettings": {
+		"swfMode": true,
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "pico idle",
+			"flipX": false,
+			"looped": true,
+			"name": "idle",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-56,
+				-4
+			],
+			"frameRate": 24,
+			"prefix": "pico right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-18,
+				-37
+			],
+			"frameRate": 24,
+			"prefix": "pico down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				31,
+				66
+			],
+			"frameRate": 24,
+			"prefix": "pico up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				52,
+				-2
+			],
+			"frameRate": 24,
+			"prefix": "pico left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				63,
+				-11
+			],
+			"frameRate": 24,
+			"prefix": "pico miss left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFTmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-1,
+				-44
+			],
+			"frameRate": 24,
+			"prefix": "pico miss down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWNmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				24,
+				137
+			],
+			"frameRate": 24,
+			"prefix": "pico miss up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUPmiss",
+			"animType": "framelabel"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-75,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "pico miss right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHTmiss",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				151,
+				-193
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico die",
+			"looped": false,
+			"flipX": false,
+			"name": "firstDeath",
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				154,
+				-193
+			],
+			"prefix": "pico die",
+			"frameIndices": [
+				23,
+				24,
+				25,
+				26,
+				27,
+				28
+			],
+			"looped": true,
+			"name": "deathLoop",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				90,
+				-245
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "pico confirm death",
+			"looped": false,
+			"flipX": false,
+			"name": "deathConfirm",
+			"animType": "framelabel"
+		}
+	]
+}

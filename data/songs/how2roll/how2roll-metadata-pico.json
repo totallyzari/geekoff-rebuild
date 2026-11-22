@@ -1,0 +1,63 @@
+{
+  "version": "2.2.4",
+  "songName": "HOW2ROLL (Pico Mix)",
+  "artist": "xerovgm",
+  "charter": "[whos.eli]",
+  "divisions": 96,
+  "looped": false,
+  "offsets": {
+    "instrumental": 0,
+    "altInstrumentals": {    },
+    "vocals": {    },
+    "altVocals": {    }
+  },
+  "playData": {
+    "songVariations": [
+      "pico"
+    ],
+    "difficulties": [
+      "normal"
+    ],
+    "characters": {
+      "player": "cassandra",
+      "girlfriend": "",
+      "opponent": "pico-h2r",
+      "instrumental": "pico",
+      "altInstrumentals": [      ],
+      "opponentVocals": [
+        "pico"
+      ],
+      "playerVocals": [
+        "cass"
+      ]
+    },
+    "stage": "alleyway",
+    "noteStyle": "funkin",
+    "album": "how2rollPico",
+    "stickerPack": "geek",
+    "ratings": {
+      "easy": 0,
+      "hard": 0,
+      "normal": 0
+    },
+    "previewStart": 0,
+    "previewEnd": 0
+  },
+  "generatedBy": "Friday Night Funkin' - v0.7.5",
+  "timeFormat": "ms",
+  "timeChanges": [
+    {
+      "t": 0,
+      "b": 0,
+      "bpm": 100,
+      "n": 4,
+      "d": 4,
+      "bt": [
+        4,
+        4,
+        4,
+        4
+      ]
+    }
+  ]
+}

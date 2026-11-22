@@ -1,0 +1,220 @@
+{
+	"renderType": "multianimateatlas",
+	"offsets": [
+		0,
+		0
+	],
+	"applyStageMatrix": false,
+	"startingAnimation": "idle",
+	"death": {
+		"cameraZoom": 1,
+		"cameraOffsets": [
+			10,
+			-5
+		]
+	},
+	"assetPath": "shared:characters/vivi/basic",
+	"healthIcon": {
+		"shouldBop": true,
+		"offsets": [
+			-10,
+			6
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "vivi"
+	},
+	"version": "1.0.0",
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "vivi",
+	"flipX": true,
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"isPixel": false,
+	"singTime": 8,
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"swfMode": true,
+		"useRenderTexture": false,
+		"cacheOnLoad": false,
+		"filterQuality": 1
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi idle",
+			"animType": "framelabel",
+			"name": "idle",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				11,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi right",
+			"animType": "framelabel",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-11,
+				-5
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi down",
+			"animType": "framelabel",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-3,
+				-7
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi up",
+			"animType": "framelabel",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi left",
+			"animType": "framelabel",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-12,
+				-1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi miss left",
+			"animType": "framelabel",
+			"name": "singLEFTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-16,
+				-4
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi miss down",
+			"animType": "framelabel",
+			"name": "singDOWNmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-7,
+				-8
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi miss up",
+			"animType": "framelabel",
+			"name": "singUPmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				10,
+				-1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi miss right",
+			"animType": "framelabel",
+			"name": "singRIGHTmiss",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				356,
+				-80
+			],
+			"prefix": "vivi die",
+			"animType": "framelabel",
+			"name": "firstDeath",
+			"flipX": false,
+			"looped": false,
+			"flipY": false,
+			"assetPath": "shared:characters/vivi/death",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				321,
+				-83
+			],
+			"prefix": "vivi death loop",
+			"animType": "framelabel",
+			"flipX": false,
+			"name": "deathLoop",
+			"looped": true,
+			"flipY": false,
+			"assetPath": "shared:characters/vivi/death",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				356,
+				-81
+			],
+			"prefix": "vivi confirm death",
+			"animType": "framelabel",
+			"name": "deathConfirm",
+			"flipX": false,
+			"looped": false,
+			"flipY": false,
+			"assetPath": "shared:characters/vivi/death",
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "vivi hey",
+			"animType": "framelabel",
+			"name": "hey",
+			"looped": false,
+			"flipX": false
+		}
+	]
+}

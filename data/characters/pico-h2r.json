@@ -1,0 +1,228 @@
+{
+	"version": "1.0.0",
+	"renderType": "sparrow",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Pico (HOW2ROLL)",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "characters/pico_h2r",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "pico"
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "pico idle",
+			"flipX": false,
+			"looped": false,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				11,
+				1
+			],
+			"frameRate": 24,
+			"prefix": "pico left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				12,
+				1
+			],
+			"frameRate": 24,
+			"prefix": "pico left",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singLEFT-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-19,
+				-11
+			],
+			"frameRate": 24,
+			"prefix": "pico down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-21,
+				-14
+			],
+			"frameRate": 24,
+			"prefix": "pico down",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singDOWN-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-11,
+				25
+			],
+			"frameRate": 24,
+			"prefix": "pico up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-11,
+				25
+			],
+			"frameRate": 24,
+			"prefix": "pico up",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singUP-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-25,
+				-3
+			],
+			"frameRate": 24,
+			"prefix": "pico right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-21,
+				-5
+			],
+			"frameRate": 24,
+			"prefix": "pico right",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singRIGHT-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				-1
+			],
+			"frameRate": 24,
+			"prefix": "pico intro anim",
+			"flipX": false,
+			"looped": false,
+			"name": "intro"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				8
+			],
+			"frameRate": 24,
+			"prefix": "pico end anim",
+			"flipX": false,
+			"looped": false,
+			"name": "end"
+		}
+	]
+}

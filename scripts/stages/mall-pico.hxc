@@ -1,0 +1,194 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import flixel.math.FlxAngle;
+import flixel.addons.display.FlxRuntimeShader;
+import funkin.Conductor;
+import funkin.Paths;
+import funkin.play.song.Song;
+import flixel.tweens.FlxTween;
+import flixel.tweens.FlxEase;
+import flixel.FlxObject;
+import flixel.util.FlxColor;
+import funkin.play.PlayState;
+import funkin.graphics.shaders.AdjustColorShader;
+import funkin.play.stage.Stage;
+import funkin.graphics.FunkinSprite;
+import funkin.play.PlayStatePlaylist;
+import funkin.modding.base.ScriptedFlxSpriteGroup;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.character.CharacterType;
+import flixel.util.FlxTimer;
+
+class MallPicoStage extends Stage
+{
+
+	var wilson:FlxSprite;
+	var blas:FlxSprite;
+	var komelice:FlxSprite;
+	var astigned:FlxSprite;
+	var ferxs:FlxSprite;
+	var pcgrevvie:FlxSprite;
+
+
+	function new()
+	{
+		super('mall-pico');
+	}
+
+		override public function onSongLoaded(ev) 
+		{
+		super.onSongLoaded(ev);
+		PlayState.instance.comboPopUps.offsets = [500, 300];
+	
+    	}
+
+	override function buildStage()
+    {
+        super.buildStage();
+
+        // 2. Initialize the sprite
+        // We set the initial X to FlxG.width so it starts just off-screen to the right
+        wilson = new FlxSprite(2500, 700); 
+        wilson.frames = Paths.getSparrowAtlas("stages/mall/walkers/wilson");
+		wilson.animation.addByPrefix("idle", "wilsonbg", 24, true);
+        wilson.scrollFactor.set(1, 1);
+		wilson.scale.set(1.15, 1.15);
+		wilson.zIndex = 170;
+        add(wilson);
+
+		blas = new FlxSprite(2500, 700); 
+        blas.frames = Paths.getSparrowAtlas("stages/mall/walkers/blas");
+		blas.animation.addByPrefix("idle", "blasbg", 24, true);
+        blas.scrollFactor.set(1, 1);
+		blas.scale.set(1.15, 1.15);
+		blas.zIndex = 170;
+        add(blas);
+
+		komelice = new FlxSprite(2500, 700); 
+        komelice.frames = Paths.getSparrowAtlas("stages/mall/walkers/komelice");
+		komelice.animation.addByPrefix("idle", "komelicebg", 24, true);
+        komelice.scrollFactor.set(1, 1);
+		komelice.scale.set(1.15, 1.15);
+		komelice.zIndex = 170;
+        add(komelice);
+
+		astigned = new FlxSprite(2500, 600); 
+        astigned.frames = Paths.getSparrowAtlas("stages/mall/walkers/astigned");
+		astigned.animation.addByPrefix("idle", "astigned bg", 24, true);
+        astigned.scrollFactor.set(1, 1);
+		astigned.scale.set(1.15, 1.15);
+		astigned.zIndex = 170;
+        add(astigned);
+
+		ferxs = new FlxSprite(2500, 700); 
+        ferxs.frames = Paths.getSparrowAtlas("stages/mall/walkers/ferxs");
+		ferxs.animation.addByPrefix("idle", "ferxsbg", 24, true);
+        ferxs.scrollFactor.set(1, 1);
+		ferxs.scale.set(1.15, 1.15);
+		ferxs.zIndex = 170;
+        add(ferxs);
+
+		pcgrevvie = new FlxSprite(2500, 700); 
+        pcgrevvie.frames = Paths.getSparrowAtlas("stages/mall/walkers/pcgrevvie");
+		pcgrevvie.animation.addByPrefix("idle", "revviepcgbg", 24, true);
+        pcgrevvie.scrollFactor.set(1, 1);
+		pcgrevvie.scale.set(1.15, 1.15);
+		pcgrevvie.zIndex = 170;
+        add(pcgrevvie);
+    }
+
+	override function resetStage()
+	{
+		// sorry eli for this shi
+		if ('${PlayState.instance.currentSong}' == "PolymodScriptClass<ToTheMoonPicoMixSong>")
+		{
+			PlayState.instance.currentSong.onResetStage();
+		}
+
+		super.resetStage();
+	}
+
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		super.onCountdownStart(event);
+		if (FlxG.width > 1280) {
+			FlxG.camera.zoom = PlayState.instance.currentCameraZoom = (PlayState.instance.stageZoom * 1.06);
+		}
+	}
+
+	override function onStepHit(event:SongTimeScriptEvent)
+    {
+        super.onStepHit(event);
+
+        if (event.step == 290)
+        {
+            FlxTween.tween(wilson, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 570)
+        {
+            FlxTween.tween(blas, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 950)
+        {
+            FlxTween.tween(komelice, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 1379)
+        {
+            FlxTween.tween(astigned, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 1582)
+        {
+            FlxTween.tween(ferxs, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+
+		if (event.step == 1776)
+        {
+            FlxTween.tween(pcgrevvie, {x: -1500}, 10.0, {ease: FlxEase.linearInOut});
+        }
+    }
+
+	public override function onSongRetry(event:ScriptEvent):Void {
+		super.onSongRetry(event);
+
+		wilson.x = 2500;
+		astigned.x = 2500;
+		komelice.x = 2500;
+		blas.x = 2500;
+		ferxs.x = 2500;
+		FlxTween.cancelTweensOf(wilson);
+		FlxTween.cancelTweensOf(ferxs);
+		FlxTween.cancelTweensOf(blas);
+		FlxTween.cancelTweensOf(komelice);
+		FlxTween.cancelTweensOf(astigned);
+		if (FlxG.width > 1280) {
+			new FlxTimer().start(0.000001, _ -> { // Technically not needed, just makes the zoom increase less obvious
+				FlxG.camera.zoom = PlayState.instance.currentCameraZoom = (PlayState.instance.stageZoom * 1.06);
+			});
+		}
+	} 
+
+	public override function onSongEvent(scriptEvent:SongEventScriptEvent) {
+		super.onSongEvent(scriptEvent);
+		if (scriptEvent.eventData.eventKind == "ZoomCamera") {
+			var eventProps = scriptEvent.eventData.value;
+			if (FlxG.width > 1280) {
+				if (eventProps.zoom == PlayState.instance.stageZoom && eventProps.mode == 'direct')
+					eventProps.zoom = PlayState.instance.stageZoom * 1.06;
+				else if (eventProps.zoom == 1 && eventProps.mode == 'stage') 
+					eventProps.zoom = 1.06;
+					
+			}
+		}
+	}	
+
+	override public function onSubStateOpenEnd(event:SubStateScriptEvent) {
+    if (!(event.targetState is GameOverSubState)) return;
+    var state:GameOverSubState = GameOverSubState.instance;
+    state.remove(state.members[2]);
+    state.parentPlayState.persistentDraw = true;
+    state.parentPlayState.camHUD.visible = false;
+  }
+}

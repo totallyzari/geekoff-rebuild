@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="crowd-pico.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bg chars pico0000" x="0" y="0" width="3333" height="872"/>
+	<SubTexture name="bg chars pico0001" x="0" y="0" width="3333" height="872"/>
+	<SubTexture name="bg chars pico0002" x="0" y="872" width="3333" height="872"/>
+	<SubTexture name="bg chars pico0003" x="0" y="872" width="3333" height="872"/>
+</TextureAtlas>

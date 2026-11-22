@@ -1,6 +1,6 @@
 {
 	"version": "1.0.0",
-	"renderType": "sparrow",
+	"renderType": "animateatlas",
 	"offsets": [
 		0,
 		0
@@ -17,7 +17,7 @@
 	"singTime": 8,
 	"startingAnimation": "idle",
 	"isPixel": false,
-	"assetPath": "characters/geek_melody",
+	"assetPath": "shared:characters/geekmelody",
 	"healthIcon": {
 		"isPixel": false,
 		"offsets": [

@@ -1,0 +1,20 @@
+import funkin.play.character.MultiAnimateAtlasCharacter;
+
+class ViviOpponentCharacter extends MultiAnimateAtlasCharacter
+{
+  function new()
+  {
+    super('vivi-opponent');
+  }
+
+  override function applyAnimationOffsets(name:String):Void
+	{
+		if (this.flipX)
+		{
+			var offsets = animationOffsets.get(name);
+			this.animOffsets = [(-offsets[0]) + (frameWidth - width), offsets[1]];
+		}
+		else
+			super.applyAnimationOffsets(name);
+	}
+}

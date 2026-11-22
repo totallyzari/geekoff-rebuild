@@ -1,0 +1,55 @@
+{
+ "version": "2.2.4",
+ "songName": "AFTERTHEGEEK (Pico Mix)",
+ "artist": "observed",
+ "charter": "observed",
+ "offsets": { },
+ "playData": {
+    "songVariations": [
+   "pico"
+  ],
+  "difficulties": [
+   "normal"
+  ],
+  "characters": {
+   "player": "pico-geek",
+   "girlfriend": "nene-geek",
+   "opponent": "xero",
+   "instrumental": "pico",
+   "opponentVocals": [
+    "xero"
+   ],
+   "playerVocals": [
+    "pico-geek"
+   ]
+  },
+  "stage": "chilis",
+  "noteStyle": "funkin",
+  "ratings": {
+   "normal": 0
+  },
+  "album": "volume1",
+  "previewEnd": 0
+ },
+ "generatedBy": "Friday Night Funkin' - v0.8.3",
+ "timeChanges": [
+  {
+   "t": 0,
+   "b": 0,
+   "bpm": 170,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 28299.7059,
+   "b": 80.1825,
+   "bpm": 190,
+   "bt": [4, 4, 4, 4]
+  },
+  {
+   "t": 99014.6332,
+   "b": 304.1131,
+   "bpm": 91,
+   "bt": [4, 4, 4, 4]
+  }
+ ]
+}

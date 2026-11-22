@@ -22,7 +22,6 @@ import flixel.text.FlxTextBorderStyle;
 import flixel.util.FlxColor;
 import funkin.Preferences;
 import funkin.ui.options.PreferencesMenu;
-import funkin.graphics.video.FlxVideo;
 
 class JeeterJuicePicoSong extends Song {
 	public function new() {

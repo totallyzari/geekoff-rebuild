@@ -1,0 +1,284 @@
+import funkin.data.character.CharacterDataParser;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.VideoCutscene.CutsceneType;
+import funkin.graphics.FunkinSprite;
+import funkin.graphics.video.FunkinVideoSprite;
+import funkin.play.character.CharacterType;
+import funkin.play.notes.Strumline;
+import flixel.util.FlxTimer;
+import funkin.util.GRhythmUtil;
+import funkin.play.PlayState;
+import flixel.tweens.FlxTween;
+import funkin.play.song.Song;
+import funkin.play.GameOverSubState;
+
+class ToTheMoonPicoMixSong extends Song
+{
+  public function new()
+  {
+    super("2themoon", { variation: 'pico' });
+  }
+
+  var video1:FunkinVideoSprite;
+  var bg:FunkinSprite;
+  private var pico:BaseCharacter;
+  private var darnell:BaseCharacter;
+
+  private var melody:BaseCharacter;
+  private var vivi:BaseCharacter;
+
+  private var viviStrumline:Strumline = null;
+  private var viviNoteData:Array<SongNoteData> = null;
+
+  override function onCreate(event:ScriptEvent)
+  {
+    GameOverSubState.blueBallSuffix = "-silence";
+    GameOverSubState.musicSuffix = '-fuckyou';
+    super.onCreate();
+    
+    viviStrumline = new Strumline(PlayState.instance.noteStyle, false, PlayState.instance.currentChart?.scrollSpeed);
+    viviStrumline.onNoteIncoming.add(PlayState.instance.onStrumlineNoteIncoming);
+
+    PlayState.instance.add(viviStrumline);
+
+    viviStrumline.zIndex = 1500;
+
+    if (viviNoteData != null) viviStrumline.applyNoteData(viviNoteData);
+
+    viviStrumline.visible = false;
+  }
+
+  override function onDestroy(event:ScriptEvent):Void
+  {
+    viviStrumline = null;
+    viviNoteData = null;
+  }
+
+  override function onSongStart(event:ScriptEvent):Void
+  {
+    if (PlayState.instance.startTimestamp > 0)
+    {
+      viviStrumline.handleSkippedNotes();
+    }
+  }
+
+  override function onUpdate(event:UpdateScriptEvent):Void
+  {
+    if (PlayState.instance == null || PlayState.instance.isInCutscene) return;
+
+    if (viviStrumline?.notes?.members == null) return;
+
+    for (note in viviStrumline.notes.members)
+    {
+      if (note == null) continue;
+
+      var r = GRhythmUtil.processWindow(note, false);
+      if (r.botplayHit)
+      {
+        if (vivi != null)
+        {
+          switch (note.noteData.kind)
+          {
+            case "noanim":
+
+            default:
+              vivi.playSingAnimation(note.noteData.getDirection(), false);
+              vivi.holdTimer = 0;
+          }
+        }
+
+        viviStrumline.hitNote(note);
+
+        if (note.holdNoteSprite != null)
+        {
+          viviStrumline.playNoteHoldCover(note.holdNoteSprite);
+        }
+      }
+    }
+
+    for (holdNote in viviStrumline.notes.members)
+    {
+      if (holdNote != null || !holdNote.alive || holdNote.noteData == null) continue;
+
+      if (holdNote.hitNote && !holdNote.missedNote && holdNote.sustainLength > 0)
+      {
+        if (vivi != null && vivi.isSinging()) vivi.holdTimer = 0;
+      }
+
+      if (holdNote.missedNote && !holdNote.handledMiss)
+      {
+        holdNote.handledMiss = true;
+
+        if (vivi != null) vivi.playSingAnimation(holdNote.noteData.getDirection(), true);
+      }
+    }
+  }
+
+  override function onSongLoaded(event:SongLoadScriptEvent)
+  {
+    if (PlayState.instance.needsReset)
+    {
+      viviStrumline?.clean();
+    }
+
+    new FlxTimer().start(0.5, function(tmr:FlxTimer)
+    {
+      trace("RESET VWOOSH");
+      if (viviStrumline.notes.length == 0) viviStrumline.updateNotes();
+      viviStrumline.vwooshInNotes();
+    });
+
+    viviNoteData = PlayState.instance.currentSong.getDifficulty("vivising", "pico").notes;
+
+    if (viviStrumline != null && viviNoteData != null)
+    {
+      viviStrumline.applyNoteData(viviNoteData);
+    }
+
+    if (pico == null) pico = PlayState.instance.currentStage.getPlayer();
+    if (melody == null) melody = PlayState.instance.currentStage.getOpponent();
+
+    // positions 1
+    pico.x += 0;
+    melody.x -= 200;
+
+    @:privateAccess
+    if (PlayState.instance.generatedMusic)
+    {
+      {
+        var stageCharData = PlayState.instance.currentStage._data.characters.bf;
+        var finalScale:Float = darnell.getBaseScale() * stageCharData.scale;
+        darnell.setScale(finalScale);
+        darnell.resetCharacter(true);
+
+        darnell.cameraFocusPoint.x += stageCharData.cameraOffsets[0];
+        darnell.cameraFocusPoint.y += stageCharData.cameraOffsets[1];
+      }
+      {
+        var stageCharData = PlayState.instance.currentStage._data.characters.dad;
+        var finalScale:Float = vivi.getBaseScale() * stageCharData.scale;
+        vivi.setScale(finalScale);
+        vivi.resetCharacter(true);
+
+        vivi.cameraFocusPoint.x += stageCharData.cameraOffsets[0];
+        vivi.cameraFocusPoint.y += stageCharData.cameraOffsets[1];
+      }
+      return;
+    }
+
+    darnell = CharacterDataParser.fetchCharacter("darnell-geek");
+    
+    PlayState.instance.currentStage.addCharacter(darnell, CharacterType.BF);
+    darnell.zIndex = pico.zIndex - 1;
+
+    vivi = CharacterDataParser.fetchCharacter("vivi-opponent");
+    PlayState.instance.currentStage.addCharacter(vivi, CharacterType.DAD);
+    vivi.zIndex = melody.zIndex - 1;
+
+    switchPlayer(false);
+
+    // positions 2
+    darnell.x -= 120;
+    darnell.y -= 100;
+
+    vivi.x += 120;
+    vivi.y -= 100;
+
+    darnell.originalPosition.x = darnell.x;
+    darnell.originalPosition.y = darnell.y;
+    vivi.originalPosition.x = vivi.x;
+    vivi.originalPosition.y = vivi.y;
+
+    {
+      vivi.characterType = CharacterType.OTHER;
+      melody.characterType = CharacterType.DAD;
+
+      @:privateAccess
+      {
+        PlayState.instance.currentStage.characters.set("dad", melody);
+        PlayState.instance.currentStage.characters.set("dad2", vivi);
+      }
+
+      melody.initHealthIcon(true);
+    }
+
+    PlayState.instance.currentStage.refresh();
+  }
+
+  function switchPlayer(toDarnell:Bool)
+  {
+    darnell.characterType = toDarnell ? CharacterType.BF : CharacterType.OTHER;
+    pico.characterType = !toDarnell ? CharacterType.BF : CharacterType.OTHER;
+
+    @:privateAccess
+    {
+      PlayState.instance.currentStage.characters.set("bf", toDarnell ? darnell : pico);
+      PlayState.instance.currentStage.characters.set("bf2", !toDarnell ? darnell : pico);
+    }
+
+    (toDarnell ? darnell : pico).initHealthIcon(false);
+  }
+
+  function onResetStage():Void
+  {
+    switchPlayer(false);
+  }
+
+  override function onStepHit(event:SongTimeScriptEvent)
+  {
+    switch (event.step)
+    {
+      case 852, 1043, 1488, 1584:
+        switchPlayer(true);
+      case 975, 1168, 1520, 1648:
+        switchPlayer(false);
+      case 1936:
+        FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 1);
+      case 1944:
+        VideoCutscene.play(Paths.videos('endcutscene-2themoon-pico.mp4'), CutsceneType.MIDSONG);
+    }
+  }
+  
+  function onGameOver(e) {
+    super.onGameOver(e);
+
+    bg = new FunkinSprite();
+    bg.makeSolidColor(30000, 25000, 0xFFFFFFFF);
+    bg.zIndex = 1400;
+    
+    video1 = new FunkinVideoSprite();
+    video1.zIndex = 1500;
+    video1.bitmap.volumeAdjust = 100;
+    video1.load(Paths.videos('gameover-2themoon-pico.mp4'));
+    video1.scrollFactor.set(0, 0);
+    video1.bitmap.onEndReached.add(GameOverSubState.resetPlaying);
+    video1.play();
+
+    
+
+    FlxTimer.wait(0.001, ()->{
+      video1.bitmap.onFormatSetup.add(function():Void {
+        if (video1.bitmap != null && video1.bitmap.bitmapData != null) {
+            video1.setGraphicSize(FlxG.width, FlxG.height);
+            video1.updateHitbox();
+            video1.screenCenter();
+        }
+    });
+
+    
+
+    GameOverSubState.instance.add(bg);
+    GameOverSubState.instance.add(video1);
+    GameOverSubState.instance.boyfriend.visible = false;
+    });
+  }
+
+   public function onSongRetry(event:ScriptEvent)
+      {
+      super.onSongRetry(event);
+      PlayState.instance.currentStage.getBoyfriend().visible = true;
+
+    FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.1);
+     }
+
+}
