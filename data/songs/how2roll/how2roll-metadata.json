@@ -34,8 +34,8 @@
     "album": "volume1",
     "stickerPack": "default",
     "ratings": {
-      "easy": 2,
-      "normal": 0,
+      "easy": 0,
+      "normal": 4,
       "hard": 0
     },
     "previewStart": 0,
