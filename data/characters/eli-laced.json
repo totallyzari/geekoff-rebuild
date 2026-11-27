@@ -1,0 +1,411 @@
+{
+	"version": "1.0.0",
+	"renderType": "animateatlas",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"applyStageMatrix": false,
+	"scale": 1,
+	"name": "Eli-Minator",
+	"cameraOffsets": [
+		0,
+		20
+	],
+	"flipX": false,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"singTime": 8,
+	"healthIcon": {
+		"shouldBop": true,
+		"isPixel": false,
+		"offsets": [
+			0,
+			15
+		],
+		"scale": 1,
+		"id": "eli",
+		"flipX": false
+	},
+	"assetPath": "shared:characters/lacedeli",
+	"atlasSettings": {
+		"applyStageMatrix": false,
+		"useRenderTexture": false,
+		"filterQuality": 1,
+		"cacheOnLoad": false,
+		"swfMode": true
+	},
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli idle",
+			"animType": "framelabel",
+			"name": "idle",
+			"looped": true,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"frameIndices": [
+				10,
+				11,
+				12,
+				13
+			],
+			"prefix": "eli idle",
+			"animType": "framelabel",
+			"looped": true,
+			"name": "idle-hold",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-26,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli left",
+			"animType": "framelabel",
+			"name": "singLEFT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-26,
+				0
+			],
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"prefix": "eli left",
+			"animType": "framelabel",
+			"looped": true,
+			"name": "singLEFT-hold",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				3,
+				-3
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli down",
+			"animType": "framelabel",
+			"name": "singDOWN",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				3,
+				-3
+			],
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"prefix": "eli down",
+			"animType": "framelabel",
+			"looped": true,
+			"name": "singDOWN-hold",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				3,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli up",
+			"animType": "framelabel",
+			"name": "singUP",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				3,
+				0
+			],
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"prefix": "eli up",
+			"animType": "framelabel",
+			"looped": true,
+			"name": "singUP-hold",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli right",
+			"animType": "framelabel",
+			"name": "singRIGHT",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				0,
+				-1
+			],
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15
+			],
+			"prefix": "eli right",
+			"animType": "framelabel",
+			"looped": true,
+			"name": "singRIGHT-hold",
+			"flipX": false,
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-5,
+				-1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli shocked",
+			"animType": "framelabel",
+			"name": "animthing",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-3,
+				0
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli die",
+			"animType": "framelabel",
+			"name": "death",
+			"looped": false,
+			"flipX": false
+		},
+		{
+			"offsets": [
+				-2,
+				2
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli alt left",
+			"name": "singLEFT-alt",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-2,
+				2
+			],
+			"prefix": "eli alt left",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"looped": true,
+			"name": "singLEFT-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				-11,
+				-1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli alt down",
+			"name": "singDOWN-alt",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				-11,
+				-1
+			],
+			"prefix": "eli alt down",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"looped": true,
+			"name": "singDOWN-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				2,
+				-1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli alt up",
+			"name": "singUP-alt",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				2,
+				-1
+			],
+			"prefix": "eli alt up",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13
+			],
+			"looped": true,
+			"name": "singUP-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		},
+		{
+			"offsets": [
+				9,
+				1
+			],
+			"flipY": false,
+			"frameRate": 24,
+			"prefix": "eli alt right",
+			"name": "singRIGHT-alt",
+			"looped": false,
+			"flipX": false,
+			"animType": "framelabel"
+		},
+		{
+			"offsets": [
+				9,
+				1
+			],
+			"prefix": "eli alt right",
+			"frameIndices": [
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14
+			],
+			"looped": true,
+			"name": "singRIGHT-alt-hold",
+			"flipX": false,
+			"animType": "framelabel",
+			"flipY": false,
+			"frameRate": 24
+		}
+	]
+}

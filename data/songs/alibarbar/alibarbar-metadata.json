@@ -11,7 +11,7 @@
     "altVocals": {    }
   },
   "playData": {
-    "songVariations": ["pico"],
+    "songVariations": ["pico", "laced"],
     "difficulties": [
       "normal"
     ],

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="minerva_bg.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="minerva_bg instance 10000" x="0" y="0" width="474" height="610"/>
+	<SubTexture name="minerva_bg instance 10001" x="0" y="0" width="474" height="610"/>
+	<SubTexture name="minerva_bg instance 10002" x="474" y="0" width="474" height="610"/>
+	<SubTexture name="minerva_bg instance 10003" x="474" y="0" width="474" height="610"/>
+</TextureAtlas>

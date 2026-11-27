@@ -1,0 +1,107 @@
+import funkin.play.song.Song;
+
+import funkin.play.PlayState;
+import funkin.Paths;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.VideoCutscene.CutsceneType;
+import flixel.tweens.FlxTween;
+import funkin.play.PlayStatePlaylist;
+import funkin.play.Countdown;
+import flixel.util.FlxTimer;
+import funkin.graphics.FunkinSprite;
+import funkin.graphics.video.FunkinVideoSprite;
+import funkin.play.Countdown;
+import flixel.util.FlxTimer;
+import flixel.FlxG;
+import funkin.play.GameOverSubState;
+
+class JeeterJuiceLacedMixSong extends Song {
+  
+  public static var blueBallSuffix:String = '-fuckyou';
+  
+  var transitionSprite:FunkinSprite;
+  var bg:FunkinSprite;
+  var video1:FunkinVideoSprite;
+  var lxTween:FlxTween;
+
+ public function new(){
+  super("jeeter-juice", {variation: 'laced'});
+ }
+
+ function onSongLoaded(e) {
+  super.onSongLoaded(e);
+
+  transitionSprite = new FunkinSprite();
+  transitionSprite.makeSolidColor(2000, 2500, 0xFF000000);
+  transitionSprite.cameras = [PlayState.instance.camHUD];
+  transitionSprite.zIndex = 100000;
+
+  for (i in [PlayState.instance.playerStrumline, PlayState.instance.opponentStrumline, PlayState.instance.iconP1, PlayState.instance.iconP2, PlayState.instance.healthBarBG, PlayState.instance.healthBar]) {
+    if (i != null && transitionSprite != null) PlayState.instance.insert(PlayState.instance.members.indexOf(i) + 1, transitionSprite);
+  }
+
+  PlayState.instance.refresh();
+ }
+
+  public function onStepHit(event:ScriptEvent) {
+    super.onStepHit(event);
+    if (event.step == 0) {
+      PlayState.instance.remove(transitionSprite);
+      PlayState.instance.refresh();
+    }
+
+    if (event.step == 111) {
+      FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.1);
+    }
+    if (event.step == 1269) FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 0.1);
+
+    if (event.step == 1283) VideoCutscene.play(Paths.videos('cutscene-jeeterjuice-laced.mp4'), CutsceneType.MIDSONG);
+  }
+  
+  function onCreate(e) {
+    super.onCreate(e);
+
+    GameOverSubState.musicSuffix = '-fuckyou';
+    GameOverSubState.blueBallSuffix = '-fuckyou';
+    
+  }
+
+  function onGameOver(e) {
+    super.onGameOver(e);
+
+    bg = new FunkinSprite();
+    bg.makeSolidColor(20000, 25000, 0xFFFFFFFF);
+    bg.zIndex = 1400;
+
+     video1 = new FunkinVideoSprite();
+    video1.zIndex = 1500;
+    video1.bitmap.volumeAdjust = 100;
+    video1.load(Paths.videos('gameover-laced.mp4'));
+    video1.scrollFactor.set(0, 0);
+    video1.play();
+
+    FlxG.keys.enabled = false;
+    
+    FlxTimer.wait(0.001, ()->{
+      video1.bitmap.onFormatSetup.add(function():Void {
+        if (video1.bitmap != null && video1.bitmap.bitmapData != null) {
+            video1.setGraphicSize(FlxG.width, FlxG.height);
+            video1.updateHitbox();
+            video1.screenCenter();
+        }
+    });
+
+    FlxG.state.subState.add(video1);
+    GameOverSubState.instance.boyfriend.visible = false;
+    });
+
+    video1.bitmap.onEndReached.removeAll();
+    video1.bitmap.onEndReached.add(function() {
+        if (video1 != null && video1.bitmap != null) {
+            video1.bitmap.stop();
+            video1.bitmap.time = 0;
+            video1.bitmap.play();
+        }
+    });
+    }
+}

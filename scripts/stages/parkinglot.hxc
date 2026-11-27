@@ -1,0 +1,55 @@
+import flixel.FlxG;
+import flixel.FlxSprite;
+import funkin.Conductor;
+import funkin.Paths;
+import funkin.play.PlayState;
+import funkin.play.stage.Stage;
+import funkin.play.character.CharacterType;
+import flixel.util.FlxTimer;
+
+class ParkingLotStage extends Stage
+{
+	function new()
+	{
+		super('parkinglot');
+	}
+  	
+	public override function onCountdownStart(event:CountdownScriptEvent):Void {
+		super.onCountdownStart(event);
+		if (FlxG.width > 1280) {
+			FlxG.camera.zoom = PlayState.instance.currentCameraZoom = (PlayState.instance.stageZoom * 1.06);
+		}
+	}
+
+	public override function onSongRetry(event:ScriptEvent):Void {
+		super.onSongRetry(event);
+		if (FlxG.width > 1280) {
+			new FlxTimer().start(0.000001, _ -> { // Technically not needed, just makes the zoom increase less obvious
+				FlxG.camera.zoom = PlayState.instance.currentCameraZoom = (PlayState.instance.stageZoom * 1.06);
+			});
+		}
+	}
+	override public function onSongLoaded(ev) {
+    // super.buildStage(); why its build stage when function is getGirlfriend!?!? 😭 - Mlaofmd
+		super.onSongLoaded(ev);
+
+		PlayState.instance.currentStage.getGirlfriend().x = 600;
+		PlayState.instance.currentStage.getGirlfriend().y = 200;
+		PlayState.instance.comboPopUps.offsets = [500, 300];
+	
+    }
+
+	public override function onSongEvent(scriptEvent:SongEventScriptEvent) {
+		super.onSongEvent(scriptEvent);
+		if (scriptEvent.eventData.eventKind == "ZoomCamera") {
+			var eventProps = scriptEvent.eventData.value;
+			if (FlxG.width > 1280) {
+				if (eventProps.zoom == PlayState.instance.stageZoom && eventProps.mode == 'direct')
+					eventProps.zoom = PlayState.instance.stageZoom * 1.06;
+				else if (eventProps.zoom == 1 && eventProps.mode == 'stage') 
+					eventProps.zoom = 1.06;
+					
+			}
+		}
+	}	
+}

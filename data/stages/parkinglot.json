@@ -1,0 +1,218 @@
+{
+  "version": "1.0.2",
+  "name": "PARKING LOT",
+  "props": [
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [      ],
+      "assetPath": "stages/parkinglot/parkinglot",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "parkinglot",
+      "position": [
+        -891,
+        -1900
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 0
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [      ],
+      "assetPath": "overlays/thegrain",
+      "blend": "overlay",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "thegrain",
+      "position": [
+        -992,
+        -977
+      ],
+      "scale": 1,
+      "scroll": [
+        0,
+        0
+      ],
+      "startingAnimation": "",
+      "zIndex": 99
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [      ],
+      "assetPath": "stages/parkinglot/weirdthing",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "weirdthing",
+      "position": [
+        -992,
+        -1600
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 99
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [
+        {
+          "assetPath": "stages/parkinglot/bigahhweedster",
+          "flipX": false,
+          "flipY": false,
+          "frameIndices": [          ],
+          "frameRate": 24,
+          "looped": true,
+          "name": "bigahhweedster",
+          "offsets": [
+            0,
+            0
+          ],
+          "prefix": "weedster bg"
+        }
+      ],
+      "assetPath": "stages/parkinglot/bigahhweedster",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "bigahhweedster",
+      "position": [
+        298,
+        -1600
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "bigahhweedster",
+      "zIndex": 21
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [
+        {
+          "assetPath": "stages/parkinglot/minerva_bg",
+          "flipX": false,
+          "flipY": false,
+          "frameIndices": [          ],
+          "frameRate": 24,
+          "looped": true,
+          "name": "minerva_bg",
+          "offsets": [
+            0,
+            0
+          ],
+          "prefix": "minerva_bg"
+        }
+      ],
+      "assetPath": "stages/parkinglot/minerva_bg",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "minerva_bg",
+      "position": [
+        190,
+        227
+      ],
+      "scale": 0.9,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "minerva_bg",
+      "zIndex": 21
+    }
+  ],
+  "characters": {
+    "bf": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        -100,
+        -100
+      ],
+      "position": [
+        1048.775,
+        911.3
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 51
+    },
+    "dad": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        150,
+        -100
+      ],
+      "position": [
+        69.5,
+        927
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 52
+    },
+    "gf": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        0,
+        0
+      ],
+      "position": [
+        528.8,
+        762.2
+      ],
+      "scale": 0.95,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 50
+    }
+  },
+  "cameraZoom": 0.7
+}

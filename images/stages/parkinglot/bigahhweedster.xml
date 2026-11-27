@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="bigahhweedster.png">
+	<!-- Created with Adobe Animate version 21.0.0.35450 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="weedster bg0000" x="0" y="0" width="784" height="817"/>
+	<SubTexture name="weedster bg0001" x="0" y="0" width="784" height="817"/>
+	<SubTexture name="weedster bg0002" x="0" y="0" width="784" height="817"/>
+	<SubTexture name="weedster bg0003" x="784" y="0" width="784" height="817"/>
+	<SubTexture name="weedster bg0004" x="784" y="0" width="784" height="817"/>
+	<SubTexture name="weedster bg0005" x="784" y="0" width="784" height="817"/>
+</TextureAtlas>

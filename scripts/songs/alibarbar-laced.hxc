@@ -1,0 +1,117 @@
+import funkin.play.song.Song;
+
+import funkin.play.PlayState;
+import funkin.Paths;
+import funkin.play.cutscene.VideoCutscene;
+import funkin.play.cutscene.VideoCutscene.CutsceneType;
+import flixel.tweens.FlxTween;
+import funkin.play.PlayStatePlaylist;
+import funkin.play.Countdown;
+import flixel.util.FlxTimer;
+import funkin.graphics.FunkinSprite;
+import funkin.graphics.video.FunkinVideoSprite;
+import funkin.play.Countdown;
+import flixel.util.FlxTimer;
+import flixel.FlxG;
+import funkin.play.GameOverSubState;
+
+class AlibarbarLacedMixSong extends Song {
+  
+  public static var blueBallSuffix:String = '-fuckyou';
+  
+  var video1:FunkinVideoSprite;
+  var lxTween:FlxTween;
+  var acidZombie:Bool;
+  var GHOST_STRUMLINE_TRANSPARENCY:Float = 0.5;
+
+ public function new(){
+  super("alibarbar", {variation: 'laced'});
+ }
+
+  public function onNoteIncoming(event:NoteScriptEvent) {
+    if (!event.note.noteData.getMustHitNote()) {
+      if (!acidZombie) {
+        PlayState.instance.opponentStrumline.alpha = GHOST_STRUMLINE_TRANSPARENCY;
+        event.note.alpha = GHOST_STRUMLINE_TRANSPARENCY;
+        if (event.note.isHoldNote) event.note.holdNoteSprite.alpha = GHOST_STRUMLINE_TRANSPARENCY;
+      } else {
+        PlayState.instance.opponentStrumline.alpha = 1;
+        event.note.alpha = 1;
+        if (event.note.isHoldNote) event.note.holdNoteSprite.alpha = 1;
+      }
+    }
+  }
+
+  public function onStepHit(event:ScriptEvent) {
+    super.onStepHit(event);
+    if (event.step == 74) {
+      FlxTween.tween(PlayState.instance.camHUD, {alpha: 0}, 0.3);
+    }
+
+     if (event.step == 256) {
+      acidZombie = false;
+      FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.3);
+    }
+
+    if (event.step == 1825) {
+      PlayState.instance.playerStrumline.camera = PlayState.instance.camCutscene;
+      VideoCutscene.play(Paths.videos('zedcid-alibarbar-laced.mp4'), CutsceneType.MIDSONG);
+      PlayState.instance.isInCutscene = false;
+    }
+
+     if (event.step == 1841) {
+      FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.3);
+    }
+
+    if (event.step == 1888) {
+      acidZombie = true;
+      PlayState.instance.playerStrumline.camera = PlayState.instance.camHUD;
+    }
+
+     if (event.step == 1891) {
+      FlxTween.tween(PlayState.instance.camHUD, {alpha: 1}, 0.3);
+    }
+  }
+  
+  function onCreate(e) {
+    super.onCreate(e);
+
+    GameOverSubState.musicSuffix = '-fuckyou';
+    GameOverSubState.blueBallSuffix = '-fuckyou';
+    
+  }
+
+  function onGameOver(e) {
+    super.onGameOver(e);
+
+    FlxG.keys.enabled = false;
+    
+    video1 = new FunkinVideoSprite();
+    video1.zIndex = 1500;
+    video1.bitmap.volumeAdjust = 100;
+    video1.load(Paths.videos('gameover-laced.mp4'));
+    video1.scrollFactor.set(0, 0);
+    video1.play();
+    FlxTimer.wait(0.001, ()->{
+      video1.bitmap.onFormatSetup.add(function():Void {
+        if (video1.bitmap != null && video1.bitmap.bitmapData != null) {
+            video1.setGraphicSize(FlxG.width, FlxG.height);
+            video1.updateHitbox();
+            video1.screenCenter();
+        }
+    });
+
+    FlxG.state.subState.add(video1);
+    GameOverSubState.instance.boyfriend.visible = false;
+    });
+
+    video1.bitmap.onEndReached.removeAll();
+    video1.bitmap.onEndReached.add(function() {
+        if (video1 != null && video1.bitmap != null) {
+            video1.bitmap.stop();
+            video1.bitmap.time = 0;
+            video1.bitmap.play();
+        }
+    });
+    }
+}

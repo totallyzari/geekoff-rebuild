@@ -1,0 +1,204 @@
+{
+	"version": "1.0.0",
+	"renderType": "animateatlas",
+	"offsets": [
+		0,
+		0
+	],
+	"danceEvery": 1,
+	"scale": 1,
+	"name": "Zed-Cid",
+	"cameraOffsets": [
+		0,
+		0
+	],
+	"flipX": false,
+	"singTime": 8,
+	"startingAnimation": "idle",
+	"isPixel": false,
+	"assetPath": "shared:characters/zedcid",
+	"healthIcon": {
+		"offsets": [
+			0,
+			0
+		],
+		"isPixel": false,
+		"scale": 1,
+		"flipX": false,
+		"id": "acid"
+	},
+	"animations": [
+		{
+			"flipY": false,
+			"offsets": [
+				0,
+				0
+			],
+			"frameRate": 24,
+			"prefix": "zedcid idle",
+			"flipX": false,
+			"looped": true,
+			"name": "idle"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				91,
+				-24
+			],
+			"frameRate": 24,
+			"prefix": "zedcid left",
+			"flipX": false,
+			"looped": false,
+			"name": "singLEFT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				91,
+				-25
+			],
+			"frameRate": 24,
+			"prefix": "zedcid left",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singLEFT-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-40,
+				-61
+			],
+			"frameRate": 24,
+			"prefix": "zedcid down",
+			"flipX": false,
+			"looped": false,
+			"name": "singDOWN"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-40,
+				-61
+			],
+			"frameRate": 24,
+			"prefix": "zedcid down",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singDOWN-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				66,
+				44
+			],
+			"frameRate": 24,
+			"prefix": "zedcid up",
+			"flipX": false,
+			"looped": false,
+			"name": "singUP"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				66,
+				44
+			],
+			"frameRate": 24,
+			"prefix": "zedcid up",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singUP-hold",
+			"looped": true
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-65,
+				-34
+			],
+			"frameRate": 24,
+			"prefix": "zedcid right",
+			"flipX": false,
+			"looped": false,
+			"name": "singRIGHT"
+		},
+		{
+			"flipY": false,
+			"offsets": [
+				-65,
+				-34
+			],
+			"frameRate": 24,
+			"prefix": "zedcid right",
+			"frameIndices": [
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16
+			],
+			"flipX": false,
+			"name": "singRIGHT-hold",
+			"looped": true
+		}
+	]
+}

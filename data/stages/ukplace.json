@@ -1,0 +1,113 @@
+{
+  "version": "1.0.2",
+  "name": "Random Spot in the United Kingdom",
+  "props": [
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [      ],
+      "assetPath": "stages/randomspot",
+      "blend": "",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "bgthing",
+      "position": [
+        -1294,
+        -916
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 0
+    },
+    {
+      "alpha": 1,
+      "angle": 0,
+      "animType": "sparrow",
+      "animations": [      ],
+      "assetPath": "overlays/lacedlay",
+      "blend": "overlay",
+      "color": "#FFFFFF",
+      "danceEvery": 0,
+      "flipX": false,
+      "flipY": false,
+      "isPixel": false,
+      "name": "lacedlay",
+      "position": [
+        -965,
+        -486
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "startingAnimation": "",
+      "zIndex": 80
+    }
+  ],
+  "characters": {
+    "bf": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        -100,
+        -100
+      ],
+      "position": [
+        1100,
+        918
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 40
+    },
+    "dad": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        150,
+        -100
+      ],
+      "position": [
+        302,
+        949
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 50
+    },
+    "gf": {
+      "alpha": 1,
+      "angle": 0,
+      "cameraOffsets": [
+        0,
+        0
+      ],
+      "position": [
+        809,
+        789
+      ],
+      "scale": 1,
+      "scroll": [
+        1,
+        1
+      ],
+      "zIndex": 30
+    }
+  },
+  "cameraZoom": 0.85
+}

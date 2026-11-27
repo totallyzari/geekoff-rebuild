@@ -5,7 +5,7 @@
  "charter": "[whos.eli]",
  "offsets": { },
  "playData": {
-  "songVariations": ["pico"],
+  "songVariations": ["pico", "laced"],
   "difficulties": [
    "normal"
   ],
@@ -21,7 +21,7 @@
    ]
   },
   "stage": "restroom",
-  "noteStyle": "funkintemple",
+  "noteStyle": "funkin",
   "ratings": {
    "easy": 0,
    "normal": 5,
