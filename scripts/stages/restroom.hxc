@@ -44,8 +44,8 @@ class RestroomStage extends Stage
 
 		var stage = PlayState.instance.currentStage;
 
-		stage.getGirlfriend().x = 600;
-		stage.getGirlfriend().y = 200;
+		//stage.getGirlfriend().x = 600;
+		//stage.getGirlfriend().y = 200;
 		PlayState.instance.comboPopUps.offsets = [500, 300];	
     }
 

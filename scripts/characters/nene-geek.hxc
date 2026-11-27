@@ -1,0 +1,67 @@
+import funkin.play.character.MultiAnimateAtlasCharacter;
+import funkin.play.character.CharacterType;
+import funkin.play.PlayState;
+import flixel.addons.effects.FlxTrail;
+
+/**
+ * One of a few states that Nene can be looking in.
+ */
+enum NeneLookState
+{
+  LEFT;
+  RIGHT;
+}
+
+class NeneGeekCharacter extends MultiAnimateAtlasCharacter
+{
+  var lastState:NeneLookState = NeneLookState.RIGHT;
+
+  function new() super('nene-geek');
+
+  override function onUpdate(event:UpdateScriptEvent):Void {
+      super.onUpdate(event);
+    }
+
+  override function onSongEvent(scriptEvent:SongEventScriptEvent) {
+    super.onSongEvent(scriptEvent);
+    if (scriptEvent.eventData.eventKind == "FocusCamera")
+    {
+      var value = scriptEvent.eventData.getInt("char");
+      switch (value)
+      {
+        case 0:
+          lookRight();
+        case 1:
+          lookLeft();
+        case 2:
+          lookCenter();
+        default:
+      }
+    }
+  }
+
+  function lookLeft():Void
+  {
+    lastState = NeneLookState.LEFT;
+    this.playAnimation("leftlook", true);
+    trace('Nene looks left, last known state: $lastState');
+  }
+
+  function lookRight():Void
+  {
+    lastState = NeneLookState.RIGHT;
+    this.playAnimation("rightlook", true);
+    trace('Nene looks right, last known state: $lastState');
+  }
+
+  function lookCenter():Void
+  {
+    if (lastState == NeneLookState.LEFT) {
+      this.playAnimation("leftreturn", true);
+      trace('Nene looks to the center, previously looking left');
+    } else {
+      this.playAnimation("rightreturn", true);
+      trace('Nene looks to the center, previously looking right');
+    }
+  }
+}

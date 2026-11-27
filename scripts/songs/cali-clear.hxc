@@ -40,7 +40,7 @@ class CaliClearSong extends Song {
 
       event.cancel(); // CANCEL THE COUNTDOWN!
 
-      VideoCutscene.play(Paths.videos('story-cutscene.mkv'));
+      VideoCutscene.play(Paths.videos('story-cutscene.mp4'));
     }
 	}
 
